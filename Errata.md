@@ -2,7 +2,7 @@
 
 > 适用版本：1.3.2（Steam BuildID 10870473，2026-11-24）
 
-本表列出游戏简体中文文本中需要更正的 2,380 条字符串，每条附建议译文。其中 1,930 条只是省略号或问叹号的写法，批量替换即可，见文末“标点”一节；其余 450 条按类别逐条列出。
+本表列出游戏简体中文文本中需要更正的 2,441 条字符串，每条附建议译文。其中 1,930 条只是省略号或问叹号的写法，批量替换即可，见文末“标点”一节；其余 511 条按类别逐条列出。
 
 **范围**：每条都对照了英文，必要时也对照了繁中、日、法、德版本。只收简中独有的错误；与英文不一致、但与繁中意思相同的（多半依据了配音台本）不在此列。
 
@@ -18,12 +18,12 @@
 | 类别 | 条数 | 说明 |
 | --- | --- | --- |
 | 标签或按键提示错误 | 7 | 格式标签或按键占位符与英文不一致，导致显示异常或提示了错误的按键。 |
-| 错译 | 186 | 意思与英文不符，多因缺少上下文：多义词（armed、handler、commander、tank、Roger、recruit、No shit 等）、邦德自言自语被译成对别人说、车内台词、菜单短词（Back、Campaign、Buy），以及生造难懂的译名（Knightfall 译作“骑陨”）。 |
-| 漏译或残留旧稿 | 12 | 英文的一部分没有译出、残留旧版台本的文字，或显示成了另一条字符串的内容。 |
+| 错译 | 215 | 意思与英文不符，多因缺少上下文：多义词（armed、handler、commander、tank、Roger、recruit、No shit 等）、邦德自言自语被译成对别人说、车内台词、菜单短词（Back、Campaign、Buy），以及生造难懂的译名（Knightfall 译作“骑陨”）。 |
+| 漏译或残留旧稿 | 19 | 英文的一部分没有译出、残留旧版台本的文字，或显示成了另一条字符串的内容。 |
 | 人称性别错误 | 3 | 人称代词“他”“她”用错。 |
-| 人名、术语不统一 | 65 | 同一人名或术语有多种译法，或译名会造成误解（如 Takedown 译作“处决”，教程说明却是击晕敌人）。 |
+| 人名、术语不统一 | 87 | 同一人名或术语有多种译法，或译名会造成误解（如 Takedown 译作“处决”，教程说明却是击晕敌人）。 |
 | 音效标注未翻译 | 24 | 方括号里的音效描述保留了英文。 |
-| 错别字与繁体字 | 7 | 错别字和混入的繁体字。 |
+| 错别字与繁体字 | 10 | 错别字和混入的繁体字。 |
 | 字幕说话人名 | 129 | 说话人名译错或不统一，如 MI6 Handler 应为“军情六处联络员”，不是“指挥官”。 |
 | 标点 | 1,947 | 省略号和问叹号的写法（1,930 条，批量替换即可，见文末），以及半角标点、引号方向、多余空格等。都以 GB/T 15834-2011 为准。 |
 
@@ -39,7 +39,7 @@
 | `LOCR 01C60F7F0A636F7D / 86D50E2C` |  | Gadgets Online | ['Ivy_Setpieces_ExoDamien_GadgetsOnline_D'] | 装置已上线 | 译文是内部字符串 ID |
 | `LOCR 01F66B96654B7259 / 8DC570D6` |  | Authority | 官方 | 官员 | Authority 是 NPC 身份标签，指当权人员，不是“官方” |
 
-## 错译（186）
+## 错译（215）
 
 | ID | 说话人 | 英文原文 | 现有译文 | 建议译文 | 说明 |
 | --- | --- | --- | --- | --- | --- |
@@ -106,9 +106,19 @@
 | `DLGE 01F7E680D52E6B52 / 0` | 邦德 | Roger. He wasn't needing it. | 收到，反正他也用不着了 | 罗杰的，反正他也用不着了 | Roger 指罗杰·芬奇（门禁卡是他的；日文作“ロジャーのだ”），不是“收到” |
 | `LOCR 01016CE7AFD99CDA / 5423389F` |  | Bond travels to Vietnam on a covert solo operation. THEIA, it appears, has detected another big data “phantom pattern”, mistaking the statistically un… | 邦德受命单兵潜入越南展开调查。目前看起来，THEIA再一次在大数据中识别出了所谓的“幽灵模式”——将两位绿色能源先驱在统计上极为罕见、而又毫无关联的死亡事件，误判为神秘恐怖分子卡利班所为。然而，国际刑警组织的最新报告早已确认卡利班数月前就已身亡。为了掩盖这场算法误判，达米安正悄然前往海岸的豪华度假村“珍珠酒店”，策划一起模仿杀人案，以“证明”卡利班依然在行动。 | 邦德受命独自潜入越南展开调查。目前看起来，THEIA再一次在大数据中识别出了所谓的“幽灵模式”——将两位绿色能源先驱在统计上极为罕见、而又毫无关联的死亡事件，误判为神秘恐怖分子卡利班所为。然而，国际刑警组织的最新报告早已确认卡利班数月前就已身亡。为了掩盖这场算法误判，达米安正悄然前往海岸的豪华度假村“珍珠酒店”，策划一起模仿杀人案，以“证明”卡利班依然在行动。 | solo 指独自行动，不是士兵 |
 | `LOCR 01016CE7AFD99CDA / 56176FE3` |  | Bond goes on a covert solo operation at The Pearl, a luxury resort in Vietnam, to stop Damien Webb from covering up another of THEIA’s mistakes and re… | 邦德单兵前往越南豪华度假村“珍珠酒店”展开调查，以阻止达米安·韦伯掩盖THEIA的另一项错误，并获取韦伯家族不当行为的确凿证据。 | 邦德独自前往越南豪华度假村“珍珠酒店”展开调查，以阻止达米安·韦伯掩盖THEIA的另一项错误，并获取韦伯家族不当行为的确凿证据。 | solo 指独自行动，不是士兵 |
+| `LOCR 0102E49C3D7707C6 / 74CD176D` |  | Complete "The garden party" operation without discharging a firearm. | 在不伤害任何人的情况下完成“花园派对”行动。 | 在不开一枪的情况下完成“花园派对”行动。 | 误译：without discharging a firearm 是“不开一枪”（同类“和平主义者”挑战都这样译），不是“不伤害任何人” |
+| `LOCR 0102E49C3D7707C6 / FFBF8023` |  | Crush 5 enemies with an object. | 用一个物体砸死5名敌人 | 用物体砸死5名敌人 | 误译：an object 泛指物体，原译“用一个物体”像是要一次砸死5人 |
+| `LOCR 01031B2E6CC6A7E3 / 1FBCF19D` |  | Hit a heavily staggered enemy near the rail to slam | 在滑轨附近对严重踉跄的敌人进行猛击 | 在缆绳附近对严重踉跄的敌人进行猛击 | 误译：擂台的 rail / railing 指四周的围绳，与同组“撞向缆绳”“扔过缆绳”统一，不是“滑轨” |
+| `LOCR 01031B2E6CC6A7E3 / E8E22A99` |  | Throw an enemy near the railing to slam | 将敌人扔到滑轨附近进行猛击 | 将敌人扔到缆绳附近进行猛击 | 误译：擂台的 rail / railing 指四周的围绳，与同组“撞向缆绳”“扔过缆绳”统一，不是“滑轨” |
+| `LOCR 010A962C5D1FE762 / 2B223C06` |  | Get to the CCTV room without getting spotted. | 在不被发现的情况下穿过监控室。 | 在不被发现的情况下抵达监控室。 | 误译：Get to 是“抵达”，不是“穿过” |
+| `LOCR 010A962C5D1FE762 / 9C5E5435` |  | Eliminate 15 guards in the courtyard. | 在安保室消灭15名守卫。 | 在庭院消灭15名守卫。 | 误译：courtyard 是“庭院”，原译照抄上一条写成了“安保室” |
 | `LOCR 010D87B96C8BC0BF / 6B6C072D` |  | How you dune? | 我名声臭了 | 沙丘狂飙 | 挑战名（毛里塔尼亚海滩越野驾驶，谐音 How you doin'），原译“我名声臭了”与内容无关 |
 | `LOCR 0119FDF6FA06C404 / 48E05D3F` |  | The recruits accompany Greenway on an undercover mission to apprehend the rogue 009 during the World Chess Championship in Slovakia. But Greenway, who… | 新兵们跟随格林威执行一项卧底任务，目标是在斯洛伐克举行的世界国际象棋锦标赛期间抓捕叛逃的009。但格林威不信任邦德，不想让他参与行动，于是安排他担任司机。 | 学员们跟随格林威执行一项卧底任务，目标是在斯洛伐克举行的世界国际象棋锦标赛期间抓捕叛逃的009。但格林威不信任邦德，不想让他参与行动，于是安排他担任司机。 | recruit 指 00 计划学员，不是军队新兵 |
 | `LOCR 0119FDF6FA06C404 / 787D46DD` |  | 009, a rogue MI6 operative guilty of high treason, has resurfaced after years off the grid. He claims to hold evidence of a conspiracy against the sta… | 009是一名犯了叛国罪的叛变军情六处特工，在脱离监控多年后重新出现。<br>他声称掌握证据，指向一起针对国内的阴谋，并打算将其交给约翰·格林威以换取赦免。<br>会面将在斯洛伐克大喀尔巴阡酒店的世界国际象棋锦标赛期间举行，M派遣00新兵作为卧底后援。<br>然而格林威并不信任邦德，想让他远离行动场地，派他担任司机这个平平无奇的角色。<br>看来邦德的第一次外勤任务将受限于停车场。 | 009是一名犯了叛国罪的叛变军情六处特工，在脱离监控多年后重新出现。<br>他声称掌握证据，指向一起针对国内的阴谋，并打算将其交给约翰·格林威以换取赦免。<br>会面将在斯洛伐克大喀尔巴阡酒店的世界国际象棋锦标赛期间举行，M派遣00学员作为卧底后援。<br>然而格林威并不信任邦德，想让他远离行动场地，派他担任司机这个平平无奇的角色。<br>看来邦德的第一次外勤任务将受限于停车场。 | recruit 指 00 计划学员，不是军队新兵 |
+| `LOCR 011B8BA546DF6F29 / 05ED6BD9` |  | Eliminate all hostiles, be aware of reinforcement as this time all of them pack a harder punch. All enemies do more damage. | 消灭所有敌人，注意援军，但这次所有敌人的攻击力都更强。所有敌人造成的伤害都更高。 | 消灭所有敌人，注意援军，因为这次所有敌人的攻击力都更强。所有敌人造成的伤害都更高。 | 误译：as 是“因为”，原译“但”与前文不连贯 |
+| `LOCR 011E1D540ED7C499 / 524EBDE4` |  | Use Wreckie to destroy 10 androids in one roll during "Wreaking havoc" or "A daring escape". | 在“大肆破坏”和“大胆逃亡”中，使用破坏王一次滚动摧毁10个机器人。 | 在“大肆破坏”或“大胆逃亡”中，使用破坏王一次滚动摧毁10个仿生人。 | 误译：or 是“或”，不是“和”；android 统一为“仿生人” |
+| `LOCR 011E1D540ED7C499 / D4DACF4A` |  | Use Wreckie to destroy 15 androids without taking any damage during "Wreaking havoc" or "A daring escape". | 在“大肆破坏”和“大胆逃亡”中，且自身未受到任何伤害的情况下，使用破坏王一次滚动摧毁15个机器人。 | 在“大肆破坏”或“大胆逃亡”中，使用破坏王摧毁15个仿生人，且自身不受任何伤害。 | 误译：英文没有“一次滚动”（那是上一个挑战的条件）；or 是“或”；android 统一为“仿生人” |
+| `LOCR 011E1D540ED7C499 / F837E56F` |  | Takedown 3 Webb guards from above in the Utility space. | 从上方公用区击倒3名韦伯警卫。 | 在公用区从上方击倒3名韦伯警卫。 | 误译：from above 是击倒方式，原译“从上方公用区”把方式和地点混在一起 |
 | `LOCR 011E219C785493F4 / 3C6AC1B8` |  | Complete "Knightfall". | 完成“骑陨”。 | 完成“骑士陨落”。 | Knightfall 是行动代号，“骑陨”不是现成词语，容易误读；繁中版译作“騎士隕落” |
 | `LOCR 011E219C785493F4 / B9D3299D` |  | Knightfall | 骑陨 | 骑士陨落 | Knightfall 是行动代号，“骑陨”不是现成词语，容易误读；繁中版译作“騎士隕落” |
 | `LOCR 0120ADA8FBD3074E / D2E37A17` |  | M has called the recruits to MI6. She’s suspending exams to send them on a mission. Rogue agent 009 is coming in from the cold. | M暂停了新兵的考核，召集他们前往军情六处执行新任务。叛变特工009再次现身，开始行动。 | M暂停了学员的考核，召集他们前往军情六处执行新任务。叛变特工009再次现身，开始行动。 | recruit 指 00 计划学员，不是军队新兵 |
@@ -116,12 +126,17 @@
 | `LOCR 012A22CFB455E37C / 7C294EAB` |  | Adjust the speed of the smooth snap rotation. | 调节平滑吸附旋转的速度。 | 调节平滑分段转向的速度。 | VR 的 snap rotation 是分段转向，不是“吸附”（瞄准辅助的 aim snap 才是吸附） |
 | `LOCR 012A22CFB455E37C / 91F0AFAC` |  | Adjust the rotation degree per snap. | 调节每次吸附旋转的角度。 | 调节每次分段转向的角度。 | VR 的 snap rotation 是分段转向，不是“吸附”（瞄准辅助的 aim snap 才是吸附） |
 | `LOCR 012A22CFB455E37C / CB2D562F` |  | Smooth snap | 平滑吸附 | 平滑分段 | VR 的 snap rotation 是分段转向，不是“吸附”（瞄准辅助的 aim snap 才是吸附） |
+| `LOCR 012B2BCE40B783D2 / 25F9A1D7` |  | Get through the laundry without getting spotted. | 在不被发现的情况下，进入洗衣房。 | 在不被发现的情况下，通过洗衣房。 | 误译：Get through 是“通过”，不是“进入” |
+| `LOCR 012B2BCE40B783D2 / 9967B209` |  | Reach top speed during the car chase. | 在追车戏中达到最高速度。 | 在追车过程中达到最高速度。 | 误译：car chase 指游戏里的追车段落，“追车戏”是影视用语 |
 | `LOCR 0133F8407AD41C5B / 5DEB62E8` |  | Bond impersonates Pike and successfully makes her call her handler. The recruits are informed that extraction will take place outside the club in 2 mi… | 在派克被成功制伏后，邦德只得假冒派克与指挥官会面。会面结束时，新晋特工们已掌握全部所需情报。任务完成之际，新晋特工们收到指令，2分钟后于夜店外进行撤离。 | 在派克被成功制伏后，邦德只得假冒派克联系其上线。会面结束时，新晋特工们已掌握全部所需情报。任务完成之际，新晋特工们收到指令，2分钟后于夜店外进行撤离。 | handler 指派克的上线，不是指挥官 |
 | `LOCR 01404AF21B80A07E / 752604DC` |  | In Iceland Bond defied the advice of his impromptu MI6 handler and, against all odds, saved an MI6 retrieval team. But his actions caused the destruct… | 在冰岛，邦德不顾临时军情六处指挥官的劝告，冒险救出了一个回收小组。但他的行为却导致任务目标——一枚具有战略价值的敌方卫星被毁，使英国错失重大情报优势。<br>如今重返伦敦总部，等待他的不知是嘉奖还是审判。 | 在冰岛，邦德不顾临时军情六处联络员的劝告，冒险救出了一个回收小组。但他的行为却导致任务目标——一枚具有战略价值的敌方卫星被毁，使英国错失重大情报优势。<br>如今重返伦敦总部，等待他的不知是嘉奖还是审判。 | handler 指联络员 |
 | `LOCR 0143C985A773BFA7 / 9EE22280` |  | Jump railing | 翻越滑轨 | 翻越栏杆 | railing 是栏杆，不是“滑轨” |
+| `LOCR 014DF438F45FCCF3 / 58AD7F1C` |  | Defeat Omar by throwing him over the railing. | 将奥马尔扔出滑轨以击败他。 | 将奥马尔扔过栏杆以击败他。 | 误译：railing 是“栏杆”，不是“滑轨” |
+| `LOCR 014DF438F45FCCF3 / 8516E7EC` |  | Eliminate 6 enemies with one pistol magazine during the last stand. | 在最后防线阶段，用最后一弹夹的子弹消灭6名敌人。 | 在最后防线阶段，用一个手枪弹匣消灭6名敌人。 | 误译：one pistol magazine 是“一个手枪弹匣”，不是“最后一弹夹” |
+| `LOCR 014DF438F45FCCF3 / B4FEFD71` |  | Use a disguise inside the Scorpius hideout. | 用伪装进入天蝎座据点。 | 在天蝎座据点内使用伪装。 | 误译：是在据点内使用伪装，不是用伪装进入据点 |
 | `LOCR 014DF8359D8104B3 / 6D67C33B` |  | Photo of recruits | 新兵合影 | 学员合影 | recruit 指 00 计划学员，不是军队新兵 |
-| `LOCR 0168051CBBE7A893 / 45F7B242` |  | Find a way inside and plant the Q-Trak on Ramon. | 想办法潜入内部，将Q追踪器植入拉蒙身上。 | 想办法潜入内部，把Q追踪器放到拉蒙身上。 | plant on 是“放到…身上”，原译“植入拉蒙身上”不通 |
-| `LOCR 0168051CBBE7A893 / B31D0A4D` |  | Find a way inside and plant the Q-Trak on Theresa Lorca. | 想办法进去并把Q追踪器植入洛尔卡体内。 | 想办法进去，把Q追踪器放到特蕾莎·洛尔卡身上。 | plant on 是“放到…身上”，不是“植入体内”（Q追踪器是贴在皮肤上的凝胶胶囊） |
+| `LOCR 015FCF054DF3FE72 / 496713B2` |  | Social engineering | 社交工程学 | 社会工程学 | 误译：social engineering 的通行译名是“社会工程学” |
+| `LOCR 016A34D8F646BA50 / 1A4B2A88` |  | Museum security | 肯辛顿 | 博物馆安保区 | 误译：Museum security 原译成了“肯辛顿” |
 | `LOCR 017019D55AFCAD6F / 4C8CA079` |  | Pacifist: Knightfall | 和平主义者：骑陨 | 和平主义者：骑士陨落 | Knightfall 是行动代号，“骑陨”不是现成词语，容易误读；繁中版译作“騎士隕落” |
 | `LOCR 017019D55AFCAD6F / 7D64BAE4` |  | Ghost: Knightfall | 幽灵：骑陨 | 幽灵：骑士陨落 | Knightfall 是行动代号，“骑陨”不是现成词语，容易误读；繁中版译作“騎士隕落” |
 | `LOCR 017019D55AFCAD6F / A77BA14A` |  | Complete all challenges in "Knightfall" to unlock the white tux for TacSim. | 完成“骑陨”的所有挑战，即可解锁战术模拟系统的白色礼服。 | 完成“骑士陨落”的所有挑战，即可解锁战术模拟系统的白色礼服。 | Knightfall 是行动代号，“骑陨”不是现成词语，容易误读；繁中版译作“騎士隕落” |
@@ -135,25 +150,39 @@
 | `LOCR 018D94E35C8F5183 / 273E4F6C` |  | A uniform and dress cap belonging to a Royal Navy Commander. | 皇家海军指挥官的制服和礼帽。 | 皇家海军中校的制服和礼帽。 | Commander 是海军军衔“中校” |
 | `LOCR 018D94E35C8F5183 / 97179838` |  | A special edition Royal Navy Commander uniform and dress cap with yellow stripes on the hems. | 一套皇家海军指挥官特别版制服和礼帽，帽檐饰有黄色条纹。 | 一套皇家海军中校特别版制服和礼帽，帽檐饰有黄色条纹。 | Commander 是海军军衔“中校” |
 | `LOCR 018D94E35C8F5183 / 996FCB63` |  | Obsidian Gold Suit | 黑曜金西装 | 黑曜金服装 | 这套是黑色战术服配金色面具（见描述），不是西装；与繁中“黑曜金服裝”一致 |
+| `LOCR 0192B79AAABA4790 / 25F5693D` |  | Complete all exercises; eliminate all dummies | 完成所有练习，消灭所有对战对手 | 完成所有练习，消灭所有假人 | 误译：dummies 是“假人” |
+| `LOCR 01943AA090EC58E6 / 3E621F02` |  | Throw 3 enemies over a railing. | 将3名敌人扔过滑轨 | 将3名敌人扔过栏杆 | 误译：railing 是“栏杆”，不是“滑轨” |
 | `LOCR 0196341B19836B90 / 3CE8A154` |  | KNIGHTFALL, WEBB INDUSTRIES | 骑陨，韦伯工业 | 骑士陨落，韦伯工业 | Knightfall 是行动代号，“骑陨”不是现成词语，容易误读；繁中版译作“騎士隕落” |
 | `LOCR 0196341B19836B90 / C6D1542B` |  | KNIGHTFALL | 骑陨 | 骑士陨落 | Knightfall 是行动代号，“骑陨”不是现成词语，容易误读；繁中版译作“騎士隕落” |
+| `LOCR 0198A36A63C5750B / 202F24F6` |  | Not only will you have to avoid taking damage, this time the clock will be ticking down until you get someone over the edge. | 你不仅要避免受到伤害，而且这次时间紧迫，你必须在最后一刻将某人推下边缘。 | 你不仅要避免受到伤害，这次还会开始倒计时，必须在倒计时结束前把敌人推下边缘。 | 误译：倒计时一直走到你把人推下边缘为止（推下即重置），不是“在最后一刻”推下 |
+| `LOCR 0198A36A63C5750B / 50BBC771` |  | Throw the enemies over the edge into the mountains. | 将守卫从边缘扔进山里。 | 将敌人从边缘扔进山里。 | 误译：enemies 是“敌人”，不是“守卫” |
+| `LOCR 0198A36A63C5750B / A7D2800B` |  | Throw enemies over the edge and survive. | 将守卫扔下边缘并存活下来。 | 将敌人扔下边缘并存活下来。 | 误译：enemies 是“敌人”，不是“守卫” |
+| `LOCR 0198A36A63C5750B / AEEE3E17` |  | Throw enemies off the platform using setpieces only | 仅用场景装置将守卫扔下平台 | 仅用场景装置将敌人扔下平台 | 误译：enemies 是“敌人”，不是“守卫” |
+| `LOCR 0198A36A63C5750B / D36A82A2` |  | Throw enemies off the platform | 将守卫扔下平台 | 将敌人扔下平台 | 误译：enemies 是“敌人”，不是“守卫” |
 | `LOCR 019ACD7BF6EEE5FD / 1D50C41D`<br>`LOCR 01F66B96654B7259 / 76202997` |  | Tank | 坦克 | 重装兵 | Tank 是敌人类型（重甲精英雇佣兵），不是坦克 |
 | `LOCR 019ACD7BF6EEE5FD / 74154357` |  | Tanks are heavy armoured elite mercenaries that know no fear and will advance relentlessly to eliminate any threat. | 坦克是重甲精英雇佣兵，无所畏惧，会无情地推进以消灭任何威胁。 | 重装兵是重甲精英雇佣兵，无所畏惧，会无情地推进以消灭任何威胁。 | Tank 是敌人类型（重甲精英雇佣兵），不是坦克 |
 | `LOCR 01AB1EEECEA509BF / 28079E47` |  | Group photo of the recruits | 新兵合照 | 学员合照 | recruit 指 00 计划学员，不是军队新兵 |
 | `LOCR 01AE4D67D3D72FCE / 04B3D04C` |  | Buy | 升级 | 购买 | 商城按钮 Buy 应为“购买”，原译“升级”与下一条 Upgrade 重复 |
 | `LOCR 01AE4D67D3D72FCE / 0B20DCD1` |  | Campaign | 活动 | 战役 | 主菜单进入“故事”后顶部的层级名，Campaign 指战役（剧情模式）；原译“活动”与 Activities 撞名 |
 | `LOCR 01AFE843D8688CA8 / 6A7CB2C5` |  | What is Operation Knightfall? | 什么是“骑陨行动”？ | 什么是“骑士陨落行动”？ | Knightfall 是行动代号，“骑陨”不是现成词语，容易误读；繁中版译作“騎士隕落” |
+| `LOCR 01B39390AE998B76 / 53D6FEE4` |  | Gadget resources will be removed at mission start and will not passively regenerate during this mission. Resources can still be located within the mis… | 任务开始时，所有装置资源将被移除，且在任务过程中不会自动恢复。但其他资源仍然可以在任务中找到。 | 任务开始时，所有装置资源将被移除，且在任务过程中不会自动恢复。但仍可在任务中找到资源。 | 误译：任务中能找到的就是这些资源，不是“其他资源” |
 | `LOCR 01B83ECB108C9A33 / 1A7C1121` |  | Eye to eye | 违规者 | 当面对质 | 对话选项按现行英文 Eye to eye（繁中正面交锋、日、德同）；原译“违规者”对应旧版英文（法语 Fauteurs de troubles 同） |
 | `LOCR 01C907E04C9A964E / 0BE75A4A` |  | No setpieces | 戒骄戒躁 | 不碰场景装置 | 挑战说明是不与场景装置互动；原译“戒骄戒躁”与内容无关 |
+| `LOCR 01C907E04C9A964E / 634BDD1C` |  | Destroy all bags with the ultra clean washing powder. | 用超洁净洗衣粉毁掉所有袋子。 | 毁掉所有装有超洁净洗衣粉的袋子。 | 误译：是毁掉装超洁净洗衣粉的袋子，不是用洗衣粉毁掉袋子 |
+| `LOCR 01C907E04C9A964E / B5123E01` |  | Don't interact or use gadgets on any setpiece. | 不与任何场景装置互动，也不使用任何道具。 | 不与任何场景装置互动，也不对其使用装置。 | 误译：use gadgets on any setpiece 是不对场景装置使用装置，不是完全不用道具 |
 | `LOCR 01CF5B1F67C9AC83 / 87885B2E` |  | Back | 后退 | 返回 | 菜单按钮 Back 应为“返回”，不是“后退” |
 | `LOCR 01D9E3EC689A6B6E / 38BFFFE6` |  | Deflect | 转向 | 格开 | 互动提示 Deflect（格开、拨开），不是“转向” |
 | `LOCR 01DBF9AE296DD042 / ADB5BCFE` |  | Poisoned | 感染者 | 中毒 | Poisoned 是“中毒”，不是“感染者” |
+| `LOCR 01EA4C1B4215A6E3 / 4B7C7D9A` |  | Throw the Webb merc over the railing of the mining truck. | 将韦伯雇佣兵从采矿车的滑轨上扔下去。 | 将韦伯雇佣兵从采矿车的栏杆上扔下去。 | 误译：railing 是“栏杆”，不是“滑轨” |
+| `LOCR 01EA4C1B4215A6E3 / B0735681` |  | Wraith | 幽灵 | 幽魂 | 挑战名 Wraith 原译“幽灵”，与“幽灵”类挑战（Ghost）重名，改为“幽魂” |
+| `LOCR 01F2A4226E95C932 / 1D2A1118` |  | Push 2 enemies over the edge at the same time using a wind fan. | 使用风扇将3名敌人同时推下边缘 | 使用风扇将2名敌人同时推下边缘 | 误译：英文是2名，原译写成3名 |
+| `LOCR 01F2A4226E95C932 / 347295C6` |  | Complete tier 1 of the Arctic skies mission. | 完成极地天空任务的第一级 | 完成极地天空任务的第二级 | 英文原文误作 tier 1（这是“极地天空2”的说明），应为第二级 |
 | `LOCR 01F66B96654B7259 / 5B113302` |  | Disorient | 迷失 | 迷乱 | 状态效果 Disorient（失去方向感），与眩晕、踉跄并列，不是“迷失” |
 | `LOCR 01F66B96654B7259 / 9D27F085` |  | Resistant | 抵抗军 | 抗性 | Resistant 是敌人状态（有抗性），不是“抵抗军” |
 | `LOCR 01F66B96654B7259 / E4C6DEEC` |  | Sick | 生病 | 不适 | Sick 是麻醉针手机造成的负面状态（恶心、头晕），不是“生病” |
 | `LOCR 01FF73FDDFA54DC7 / 859873E3` |  | MI6 Handler | 军情六处指挥官 | 军情六处联络员 | Handler 指特工的联络员 |
 
-## 漏译或残留旧稿（12）
+## 漏译或残留旧稿（19）
 
 | ID | 说话人 | 英文原文 | 现有译文 | 建议译文 | 说明 |
 | --- | --- | --- | --- | --- | --- |
@@ -163,10 +192,17 @@
 | `DLGE 018046A2F49A5C01 / 7` | 安保 | I need you to step out from behind that. | 请你从出来 | 请你从那后面出来 | 漏译：漏了“那后面”，句子不通 |
 | `DLGE 01C2648297F7C28C / 0` | 邦德 | Oh no you don't!<br>Not without me! | 你别想跑！ | 休想！别想丢下我！ | 漏译后半句 Not without me（繁中/日/德均译出）；Oh no you don’t 是“休想”，不是“别想跑” |
 | `LOCR 01179467BC0E9F2F / 755FDDD7` |  | In this game you will encounter a variety of visual effects (including but not limited to: strobing light effects, red flashing lights, contrasting pa… | …致少数人出现癫痫发作或失去意识。&lt;br&gt;&lt;br&gt;如果您或您的… …br&gt;&lt;br&gt;如果您在玩游戏时以下任何症状：头晕、视力改变、… …或抽搐，请立即停止游戏并就医。以下提示可能有助于减少癫痫发作… | …致少数人出现癫痫发作或失去意识。即使是从未有过癫痫发作史或癫痫病史的人，这些效果也可能引发癫痫发作。&lt;br&gt;&lt;br&gt;如果您或您的… …br&gt;&lt;br&gt;如果您在玩游戏时出现以下任何症状：头晕、视力改变、… …或抽搐，请立即停止游戏并就医。&lt;br&gt;&lt;br&gt;以下提示可能有助于减少癫痫发作… | 补译漏掉的一句安全提示；补“出现”；恢复段落换行 |
+| `LOCR 011E1D540ED7C499 / B5FF4464` |  | Complete Gantries and Utility Floor without shooting anyone. | 在起重机平台和公用设施层中不向任何人开枪。 | 在不向任何人开枪的情况下完成门架和公用设施层。 | 漏译“Complete”；Gantries 统一为“门架”（任务目标的译名） |
 | `LOCR 018D94E35C8F5183 / 06695C67` |  | Black satin tuxedo with matching vest, fitted white dress shirt and silk bow-tie. | 头等舱 | 黑色缎面礼服，配同款马甲、修身白色正装衬衫和真丝领结。 | 描述误填为服装名称“头等舱” |
 | `LOCR 018D94E35C8F5183 / 0D6A6280` |  | A black and gold satin tuxedo jacket with black pants and white dress shirt. | 镀金燕尾服 | 黑金配色缎面礼服外套，搭配黑色长裤和白色正装衬衫。 | 描述误填为服装名称 |
+| `LOCR 0192B79AAABA4790 / 4AA52C53` |  | Eliminate the last opponents while using Focus to complete the course | 消灭最后几名对战对手以完成课程。 | 在使用专注的同时消灭最后几名对战对手，以完成课程。 | 漏译“while using Focus”（使用专注） |
+| `LOCR 0192B79AAABA4790 / 8052E388` |  | Focus Headshot | 在专注激活时消灭一名对战对手 | 专注爆头 | 漏译“Headshot”：原译是说明的意思且丢了爆头 |
+| `LOCR 0192B79AAABA4790 / 8E7DDD80` |  | Eliminate the rest while using Focus | 消灭剩余对战对手 | 在使用专注的同时消灭剩余对战对手 | 漏译“while using Focus”（使用专注） |
+| `LOCR 0192B79AAABA4790 / BE13165B` |  | Perform a headshot elimination while Focus is active | 在专注激活时消灭一名敌方对战对手。 | 在专注激活时以爆头消灭一名对战对手。 | 漏译“headshot” |
+| `LOCR 0198A36A63C5750B / FB78EC45` |  | Only gadgets or setpieces count. Not grab, throw or rush. | 装置或场景装置才算在内。擒抱、投掷或冲锋不算。 | 只有装置或场景装置才算在内。擒抱、投掷或冲锋不算。 | 漏译“Only” |
 | `LOCR 019ACD7BF6EEE5FD / 52E64FE4` |  | Keypads | 使用爆炸物或环境危险来破坏仿生人的装甲。 | 密码键盘 | 描述误填：标题“Keypads”显示成了仿生人教程里的一句说明 |
 | `LOCR 019ACD7BF6EEE5FD / F9607BD9` |  | By pressing {ES_QuickMeleeAttack/NoGesture} you can also strike enemies while they are grabbed. | 按{ES_QuickMeleeAttack/NoGesture}擒住敌人并攻击。 | 擒住敌人时，也可以按{ES_QuickMeleeAttack/NoGesture}攻击敌人。 | 漏译：原译读起来像是用这个操作擒住敌人，实际说的是擒住敌人后还可以用它攻击（繁中/日文等均如此） |
+| `LOCR 01B39390AE998B76 / 25928356` |  | Performing melee finishers will reward you with extra gadget resources, of the type you have the least of. | 执行近战终结技可获得额外的小工具资源 | 执行近战终结技可获得额外的装置资源，类型为你目前最少的那种 | gadget 统一为“装置”；补译“of the type you have the least of” |
 | `LOCR 01B39390AE998B76 / 7AD4928D` |  | For this mission we have equipped you with infinite agency resources. Bluff away! | 邦德在此任务中拥有无限特工能力 | 在此任务中，我们为你提供了无限的特工能力资源。尽情虚张声势吧！ | 统一：Agency 是驱动专注、虚张声势、引诱的能力资源，统一为“特工能力”（原译混用特工局能力/情报机构/专注）；并补译漏掉的“Bluff away!” |
 
 ## 人称性别错误（3）
@@ -177,7 +213,7 @@
 | `DLGE 0181F1A5082C41E0 / 0` | 克蕾西达 | Well done, Bond.<br>Now we just need Monroe to scare the socks off her so she calls her boss. | 做得好，邦德。<br>现在我们只需要门罗去把他吓跑，让他给老板打电话 | 做得好，邦德。<br>现在只需要门罗去把她吓个半死，让她给老板打电话 | her 指女性目标，他→她 |
 | `DLGE 01FEBF261430FF73 / 0` | 门罗 | Cressida's our top driver. She'll take you through the drill. | 克蕾西达是我们的顶级司机，他会带着你通过训练 | 克蕾西达是我们的顶级司机，她会带你完成训练 | 克蕾西达是女性，他→她 |
 
-## 人名、术语不统一（65）
+## 人名、术语不统一（87）
 
 | ID | 说话人 | 英文原文 | 现有译文 | 建议译文 | 说明 |
 | --- | --- | --- | --- | --- | --- |
@@ -189,14 +225,26 @@
 | `LOCR 0102E49C3D7707C6 / 35460926` |  | Perform a silent takedown inside a camera's field of view while it is hacked. | 趁摄像头被入侵时，在其监控范围内完成一次无声处决。 | 趁摄像头被入侵时，在其监控范围内完成一次无声击倒。 | 统一：Takedown 是击倒（教程说明为“击晕敌人”），原译“处决”意为杀死；游戏里其余挑战说明已用“击倒” |
 | `LOCR 0102E49C3D7707C6 / 4FC4463E` |  | Take out a guard during "The workshop", by performing a silent takedown from an elevated position. | 在“工作间”任务中，于制高点无声处决一名守卫。 | 在“工作间”任务中，于制高点无声击倒一名守卫。 | 统一：Takedown 是击倒（教程说明为“击晕敌人”），原译“处决”意为杀死；游戏里其余挑战说明已用“击倒” |
 | `LOCR 0102E49C3D7707C6 / 7D22BFE9` |  | Take out the guards in the reception before completing the mission on any tier. | 在前台处决所有守卫，再完成任意等级的任务。 | 在前台击倒所有守卫，再完成任意等级的任务。 | 统一：Takedown 是击倒（教程说明为“击晕敌人”），原译“处决”意为杀死；游戏里其余挑战说明已用“击倒” |
+| `LOCR 0102E49C3D7707C6 / 82063F37` |  | Complete "Extraction Avenues" on any tier without getting spotted. | 完成任意等级的"撤离路线"，且全程不被发现。 | 完成任意等级的“撤离通道”，且全程不被发现。 | 半角引号改为中文引号；Extraction Avenues 统一为“撤离通道”（同组其他条目的译名） |
+| `LOCR 0102E49C3D7707C6 / 8F69D3A0` |  | Complete any tier of the mission without discharging a firearm. | 在不开一枪的情况下完成本任务的任意难度。 | 在不开一枪的情况下完成本任务的任意等级。 | tier 统一为“等级”（同组其他挑战都用等级） |
+| `LOCR 01031B2E6CC6A7E3 / 1984A842` |  | Grab and rush ({ES_GrabRush}) an enemy over a ledge to knock them out. | 抓住并冲刺（{ES_GrabRush/NoGesture}）将敌人推下边缘以将其击倒 | 抓住并冲刺（{ES_GrabRush/NoGesture}）将敌人推下边缘以将其击晕 | knock out 统一为“击晕”（同组其他条目） |
 | `LOCR 01031B2E6CC6A7E3 / AA2788CB` |  | Use your dart phone on a concrete bag to create a smoke screen, then perform a silent takedown or finisher while hidden inside. | 对水泥袋使用飞镖电话制造烟雾屏障，然后在烟雾中执行无声处决或终结技。 | 对水泥袋使用飞镖电话制造烟雾屏障，然后在烟雾中执行无声击倒或终结技。 | 统一：Takedown 是击倒（教程说明为“击晕敌人”），原译“处决”意为杀死；游戏里其余挑战说明已用“击倒” |
+| `LOCR 010A962C5D1FE762 / FD7BDF1B` |  | Exit the workshop through the server room rack undetected. | 在不被发现的情况下，通过服务器机房机架以离开车间。 | 在不被发现的情况下，通过服务器机房机架离开工作间。 | workshop 统一为“工作间”（同组挑战和任务目标都用工作间） |
+| `LOCR 010D69121F8D00D0 / 0CDD4547` |  | Untouchable | 无法触碰 | 无懈可击 | 挑战名与“突击：为了英格兰”说明里引用的“无懈可击”不统一 |
+| `LOCR 011E1D540ED7C499 / 1F861CEF` |  | Crush the rogue android. | 碾碎叛变的机器人。 | 碾碎叛变的仿生人。 | android 统一为“仿生人”（与界面上敌人的名称一致） |
 | `LOCR 01231BC0C60DA43A / 01AA93FC` |  | Chunk added | 数据块已添加 | 特工能力格已增加 | 统一：Agency 是驱动专注、虚张声势、引诱的能力资源，统一为“特工能力”（原译混用特工局能力/情报机构/专注）；Chunk 指能力槽的一格，不是“数据块” |
 | `LOCR 01231BC0C60DA43A / 543BFF2E` |  | Agency gained | 获得特工局能力 | 获得特工能力 | 统一：Agency 是驱动专注、虚张声势、引诱的能力资源，统一为“特工能力”（原译混用特工局能力/情报机构/专注） |
 | `LOCR 01231BC0C60DA43A / BAAB9263` |  | Agency max | 特工局能力已满值 | 特工能力已满 | 统一：Agency 是驱动专注、虚张声势、引诱的能力资源，统一为“特工能力”（原译混用特工局能力/情报机构/专注） |
 | `LOCR 012AEE294C87AB81 / 2D120BDD`<br>`LOCR 012AEE294C87AB81 / 56B3F1AC`<br>`LOCR 012AEE294C87AB81 / F57DC0EE`<br>`LOCR 0191FD901264FC15 / 10AFEC89`<br>`LOCR 0191FD901264FC15 / B17F5081`<br>`LOCR 019ACD7BF6EEE5FD / 834D335F` |  | Takedown | 处决 | 击倒 | 统一：Takedown 是击倒（教程说明为“击晕敌人”），原译“处决”意为杀死；游戏里其余挑战说明已用“击倒” |
+| `LOCR 012B2BCE40B783D2 / 59D91A41` |  | Get through the library without harming any guards. | 在不伤害任何守卫的情况下穿过书房。 | 在不伤害任何守卫的情况下穿过图书馆。 | library 统一为“图书馆”（任务目标和道具说明都用图书馆） |
+| `LOCR 012B2BCE40B783D2 / 683100DC` |  | Get through the library without getting spotted. | 在不被发现的情况下穿过书房。 | 在不被发现的情况下穿过图书馆。 | library 统一为“图书馆”（任务目标和道具说明都用图书馆） |
+| `LOCR 012B2BCE40B783D2 / F3A042CA` |  | Don't get spotted by any of the other recruits. | 不被其他新人发现。 | 不被其他学员发现。 | recruit 统一为“学员”（00 计划学员，对白和说话人名都已改为学员） |
 | `LOCR 012BEB206C0B1897 / B513FB3D` |  | Take down the intruder. | 处决入侵者 | 击倒入侵者 | 统一：Takedown 是击倒（教程说明为“击晕敌人”），原译“处决”意为杀死；游戏里其余挑战说明已用“击倒” |
 | `LOCR 012FE9B5D6943262 / 1D5F1FD4` |  | Do three takedowns from above in a mission. | 在一次任务中从高处完成三次击杀。 | 在一次任务中从高处完成三次击倒。 | 统一：Takedown 是击倒（教程说明为“击晕敌人”），原译“击杀”意为杀死；游戏里其余挑战说明已用“击倒” |
 | `LOCR 0133ECB47979E665 / 6D962ECE` |  | Take down the guards to access the ID upgrade station. | 处决守卫们以到达身份证明升级站。 | 击倒守卫们以到达身份证明升级站。 | 统一：Takedown 是击倒（教程说明为“击晕敌人”），原译“处决”意为杀死；游戏里其余挑战说明已用“击倒” |
+| `LOCR 0135785354E4C414 / 254622D4` |  | Take down every enemy in In at the deep end. | 在“深水区”中击倒所有敌人。 | 在“初试水深”中击倒所有敌人。 | 任务名 In at the deep end 统一为“初试水深”（任务列表的译名） |
+| `LOCR 0135785354E4C414 / 6F62AB0D` |  | Complete a full stealth run in In at the deep end. | 在“深水区”任务中完成一次全程潜行。 | 在“初试水深”任务中完成一次全程潜行。 | 任务名 In at the deep end 统一为“初试水深”（任务列表的译名） |
+| `LOCR 0135785354E4C414 / A3D2507A` |  | Complete In at the deep end without knocking down any soldier. | 在不击倒任何士兵的情况下完成“深水区”。 | 在不击倒任何士兵的情况下完成“初试水深”。 | 任务名 In at the deep end 统一为“初试水深”（任务列表的译名） |
 | `LOCR 013C9CB95EEBC692 / 5E87880A` |  | {ES_CloseCombat_Finisher} to perform a takedown. | {ES_CloseCombat_Finisher}处决。 | {ES_CloseCombat_Finisher}击倒。 | 统一：Takedown 是击倒（教程说明为“击晕敌人”），原译“处决”意为杀死；游戏里其余挑战说明已用“击倒” |
 | `LOCR 0143C985A773BFA7 / EA03EA3E` |  | Not enough agency | 特工局能力不足 | 特工能力不足 | 统一：Agency 是驱动专注、虚张声势、引诱的能力资源，统一为“特工能力”（原译混用特工局能力/情报机构/专注） |
 | `LOCR 0150E1E74D041BAA / 2AC3363B` |  | Murto has learned from the previous encounter. &lt;br&gt;&lt;br&gt;He's armed with a knife. Performing a silent takedown will no longer work. Find different ways … | 穆尔托已经从之前的交锋中学到了教训。&lt;br&gt;&lt;br&gt;他现在手持匕首，无声处决已不再奏效，得想别的办法攻击敌人。 | 穆尔托已经从之前的交锋中学到了教训。&lt;br&gt;&lt;br&gt;他现在手持匕首，无声击倒已不再奏效，得想别的办法攻击敌人。 | 统一：Takedown 是击倒（教程说明为“击晕敌人”），原译“处决”意为杀死；游戏里其余挑战说明已用“击倒” |
@@ -206,12 +254,18 @@
 | `LOCR 0150E1E74D041BAA / 9EEAE132` |  | {ES_SilentTakedown} to do a takedown from above. | {ES_SilentTakedown}从高处执行处决 | {ES_SilentTakedown}从高处执行击倒 | 统一：Takedown 是击倒（教程说明为“击晕敌人”），原译“处决”意为杀死；游戏里其余挑战说明已用“击倒” |
 | `LOCR 0150E1E74D041BAA / E78B3625` |  | {ES_SilentTakedown} to do a cover takedown. | 按{ES_SilentTakedown/NoGesture}从掩体中执行处决 | 按{ES_SilentTakedown/NoGesture}从掩体中执行击倒 | 统一：Takedown 是击倒（教程说明为“击晕敌人”），原译“处决”意为杀死；游戏里其余挑战说明已用“击倒” |
 | `LOCR 01679BA07B61C09F / F0D48C1E` |  | Bridget - Critical gadgets field certified. Waiting for next batch to test.<br>Gary - Equipment requests have been sent off to procurement.<br>Henry - Q-W… | 布里奇特：重要装置已通过实战认证。正在等待下一批测试。<br>盖瑞：已向采购部门提交设备需求。<br>亨利：Q博士腕表已通过实战认证。当前正在进行压力测试，等待最终审核。<br>沃特斯：最新一代配枪已送达。已被记录在案、存放于军械库。 | 布里奇特：重要装置已通过实战认证。正在等待下一批测试。<br>加里：已向采购部门提交设备需求。<br>亨利：Q博士腕表已通过实战认证。当前正在进行压力测试，等待最终审核。<br>沃特斯：最新一代配枪已送达。已被记录在案、存放于军械库。 | Gary 统一译为“加里”（说话人名和大部分对白都用加里） |
+| `LOCR 016A34D8F646BA50 / 76ED7763` |  | This time, the exfiltration route will run through the eastern part of the security area. Enemies will be more lethal and gadget resources will have t… | 这一次，撤离路线将途经东部安保区。敌人会更加致命，所有战术道具均需就地取材或自行获取。倒计时一旦归零，将有更多武装部队赶到。 | 这一次，撤离路线将途经东部安保区。敌人会更加致命，装置资源只能拾取或挣得。倒计时一旦归零，将有更多武装部队赶到。 | gadget resources 统一为“装置资源”，原译“战术道具”“就地取材” |
 | `LOCR 017019D55AFCAD6F / 8798D850` |  | Take down eight guards in the data centre, hack the three servers and return to Greenway without alerting anyone. | 在不惊动任何人的情况下，处决数据中心的八名守卫，黑入三个服务器，然后回到格林威身边。 | 在不惊动任何人的情况下，击倒数据中心的八名守卫，黑入三个服务器，然后回到格林威身边。 | 统一：Takedown 是击倒（教程说明为“击晕敌人”），原译“处决”意为杀死；游戏里其余挑战说明已用“击倒” |
 | `LOCR 0176ED1012C4CEAB / BD985CB2` |  | Time to see if you can stay in the shadows and not get seen. While this may challenge your ego, in this mission we only allow silent takedowns. No gun… | 现在，是时候考验你融入暗影的能力了。这也许会让你觉得有些憋屈，但本次任务仅限无声处决。禁止开枪，禁止投掷，更别指望能拿茶壶当手雷扔。记住，一旦暴露，直接出局！ | 现在，是时候考验你融入暗影的能力了。这也许会让你觉得有些憋屈，但本次任务仅限无声击倒。禁止开枪，禁止投掷，更别指望能拿茶壶当手雷扔。记住，一旦暴露，直接出局！ | 统一：Takedown 是击倒（教程说明为“击晕敌人”），原译“处决”意为杀死；游戏里其余挑战说明已用“击倒” |
+| `LOCR 0176ED1012C4CEAB / F8FB098A` |  | Sharpen your infiltration skills by taking out all hostiles in this simulated version of the museum workshop in Kensington, London, by increasingly st… | 在这座位于伦敦肯辛顿的博物馆工坊模拟场景中，以越发隐秘的手段清除所有敌人，磨练你的潜入技巧。 | 在这座位于伦敦肯辛顿的博物馆工作间模拟场景中，以越发隐秘的手段清除所有敌人，磨练你的潜入技巧。 | workshop 统一为“工作间”（同组挑战和任务目标都用工作间） |
 | `LOCR 01815574989C4717 / 5825AF3E` |  | After being resigned to the dust bin of history for the better part of a decade, the newly appointed M resurrected the defunct 00 branch. <br>Seven outs… | …勤团行动人员。<br>克蕾西达·布赖特，国防情报局网络情报官。<br>… | …勤团行动人员。<br>克蕾西达·布莱特，国防情报局网络情报官。<br>… | Bright 统一译为“布莱特” |
 | `LOCR 01815574989C4717 / FE52A48A` |  | &lt;b&gt;Age:&lt;/b&gt; 60.&lt;br&gt;&lt;b&gt;Nationality:&lt;/b&gt; British.&lt;br&gt;&lt;b&gt;Occupation:&lt;/b&gt; UK Foreign Secretary.&lt;br&gt;&lt;b&gt;Background:&lt;/b&gt; Belongs to one of Britain’s wealthie… | …00部门并在斯洛伐克受伤后，布赖特大臣变得愈发反对重启00部门… | …00部门并在斯洛伐克受伤后，布莱特大臣变得愈发反对重启00部门… | Bright 统一译为“布莱特” |
+| `LOCR 0192B79AAABA4790 / 17AC445C` |  | Tier 3: The Showdown | 第三级：考试 | 第3级：考试 | TacSim 级别标题统一为“第N级：” |
+| `LOCR 0192B79AAABA4790 / 5A64E557` |  | Tier 1: The Training | 第一级：教学 | 第1级：训练 | TacSim 级别标题统一为“第N级：”；The Training 与“高级近战格斗训练”的同名级别统一为“训练” |
 | `LOCR 0192B79AAABA4790 / 6A2A658C` |  | For this training exercise you are provided with unlimited agency resource to practice with. | 在此训练练习中，为你提供了无限的专注以供练习。 | 在此训练练习中，你拥有无限的特工能力资源可供练习。 | 统一：Agency 是驱动专注、虚张声势、引诱的能力资源，统一为“特工能力”（原译混用特工局能力/情报机构/专注） |
 | `LOCR 0192B79AAABA4790 / 98319D8C` |  | Gamechanger: Unlimited Agency | 游戏规则变化：无限使用专注 | 游戏规则变化：无限特工能力 | 统一：Agency 是驱动专注、虚张声势、引诱的能力资源，统一为“特工能力”（原译混用特工局能力/情报机构/专注） |
+| `LOCR 0192B79AAABA4790 / DCF097F9` |  | Tier 2: The Test | 第二级：测试 | 第2级：测试 | TacSim 级别标题统一为“第N级：” |
+| `LOCR 0198A36A63C5750B / 052D1523` |  | Arctic skies | 北极天空 | 极地天空 | Arctic skies 统一为“极地天空” |
 | `LOCR 019ACD7BF6EEE5FD / 11A073BA` |  | Use the environment to stay hidden and distract/lure guards: &lt;br&gt;- Hack objects with the Q-Lens ({ES_GadgetView/NoGesture} and {ES_ActivateGadget/NoGe… | 利用环境保持隐蔽、分散或吸引守卫注意力：&lt;br&gt;-{ES_GadgetView/NoGesture}和{ES_ActivateGadget/NoGesture}激活Q眼镜并黑入物体。&lt;br&gt;-吹口哨({ES_Whistle/NoGesture})，将守卫引诱到邦德的位置。&lt;br&gt;-在隐蔽状态下按{ES_QuickMeleeAttack/NoGesture}处决敌人。 | 利用环境保持隐蔽、分散或吸引守卫注意力：&lt;br&gt;-{ES_GadgetView/NoGesture}和{ES_ActivateGadget/NoGesture}激活Q眼镜并黑入物体。&lt;br&gt;-吹口哨（{ES_Whistle/NoGesture}），将守卫引诱到邦德的位置。&lt;br&gt;-在隐蔽状态下按{ES_QuickMeleeAttack/NoGesture}击倒敌人。 | 统一：Takedown 是击倒（教程说明为“击晕敌人”），原译“处决”意为杀死；游戏里其余挑战说明已用“击倒”；半角括号改为全角，与其他教程说明一致 |
 | `LOCR 019ACD7BF6EEE5FD / 3978D9B5` |  | Takedown finisher | 处决终结技 | 击倒终结技 | 统一：Takedown 是击倒（教程说明为“击晕敌人”），原译“处决”意为杀死；游戏里其余挑战说明已用“击倒” |
 | `LOCR 019ACD7BF6EEE5FD / 4E7FE923` |  | Disarm finisher | 缴械处决 | 缴械终结技 | 统一：finisher 为“终结技”（同 Takedown finisher），原译“缴械处决” |
@@ -225,18 +279,22 @@
 | `LOCR 01B39390AE998B76 / 14415C26` |  | Only silent takedowns allowed. | 只能进行无声处决。 | 只能进行无声击倒。 | 统一：Takedown 是击倒（教程说明为“击晕敌人”），原译“处决”意为杀死；游戏里其余挑战说明已用“击倒” |
 | `LOCR 01B39390AE998B76 / 3F37AC14` |  | Silent takedowns not allowed. | 禁止无声处决。 | 禁止无声击倒。 | 统一：Takedown 是击倒（教程说明为“击晕敌人”），原译“处决”意为杀死；游戏里其余挑战说明已用“击倒” |
 | `LOCR 01B39390AE998B76 / 50B0D0E6` |  | No agency resources available. | 无情报机构资源可用。 | 无特工能力资源可用。 | 统一：Agency 是驱动专注、虚张声势、引诱的能力资源，统一为“特工能力”（原译混用特工局能力/情报机构/专注） |
+| `LOCR 01B39390AE998B76 / 70045104` |  | Rewarding finishers | 终结技给予小工具资源 | 终结技给予装置资源 | gadget 统一为“装置”（同组其他条目） |
 | `LOCR 01B39390AE998B76 / 88B0A0C8` |  | No silent takedowns | 禁用无声处决 | 禁用无声击倒 | 统一：Takedown 是击倒（教程说明为“击晕敌人”），原译“处决”意为杀死；游戏里其余挑战说明已用“击倒” |
 | `LOCR 01B39390AE998B76 / 98C54C03` |  | Infinite agency resource. | 无限情报机构资源。 | 无限特工能力资源。 | 统一：Agency 是驱动专注、虚张声势、引诱的能力资源，统一为“特工能力”（原译混用特工局能力/情报机构/专注） |
 | `LOCR 01B39390AE998B76 / A3C650FA` |  | Silent takedowns only | 仅用无声处决 | 仅用无声击倒 | 统一：Takedown 是击倒（教程说明为“击晕敌人”），原译“处决”意为杀死；游戏里其余挑战说明已用“击倒” |
 | `LOCR 01B39390AE998B76 / DD26729A` |  | For the duration of this mission, silent takedowns of all kinds have been disabled. | 此任务禁用无声处决 | 本次任务期间，所有类型的无声击倒均已禁用。 | 统一：Takedown 是击倒（教程说明为“击晕敌人”），原译“处决”意为杀死；并补全原译省略的“所有类型” |
 | `LOCR 01B39390AE998B76 / F65082A8` |  | This mission will only allow silent takedowns. Get the jump on hostiles from above, from behind a cover or sneak up on them while they look the other … | 此任务仅允许进行无声处决。你可以从高处或掩体后突袭敌人，也可以趁他们不注意时悄悄靠近将其制服。 | 此任务仅允许进行无声击倒。你可以从高处或掩体后突袭敌人，也可以趁他们不注意时悄悄靠近将其制服。 | 统一：Takedown 是击倒（教程说明为“击晕敌人”），原译“处决”意为杀死；游戏里其余挑战说明已用“击倒” |
 | `LOCR 01C238405C7C62CA / 2F7C486E` |  | Eliminate all enemies with stealthy takedowns only. | 仅使用潜行处决消灭所有敌人。 | 仅使用潜行击倒消灭所有敌人。 | 统一：Takedown 是击倒（教程说明为“击晕敌人”），原译“处决”意为杀死；游戏里其余挑战说明已用“击倒” |
+| `LOCR 01C86A4727BCAB1F / 1CEA5A91` |  | Complete tier 2 or 3 of "Advanced close combat" only eliminating enemies with gut punches. | 只通过腹部重击消灭敌人以完成“高级近战格斗”第二或第三级。 | 只通过击腹拳消灭敌人以完成“高级近战格斗”第二或第三级。 | gut punch 统一为“击腹拳” |
 | `LOCR 01C907E04C9A964E / 098C2DDF` |  | Do a takedown and a bluff in the span of 10 seconds. | 在10秒内，完成一次处决和一次虚张声势。 | 在10秒内，完成一次击倒和一次虚张声势。 | 统一：Takedown 是击倒（教程说明为“击晕敌人”），原译“处决”意为杀死；游戏里其余挑战说明已用“击倒” |
 | `LOCR 01C907E04C9A964E / 33864CAF` |  | Do a silent takedown every 30 seconds until you complete the mission. | 每30秒无声处决一人，直至完成任务。 | 每30秒无声击倒一人，直至完成任务。 | 统一：Takedown 是击倒（教程说明为“击晕敌人”），原译“处决”意为杀死；游戏里其余挑战说明已用“击倒” |
 | `LOCR 01C907E04C9A964E / 3A0F40D7` |  | Takedown marathon | 处决马拉松 | 击倒马拉松 | 统一：Takedown 是击倒（教程说明为“击晕敌人”），原译“处决”意为杀死；游戏里其余挑战说明已用“击倒” |
 | `LOCR 01C907E04C9A964E / 9C784B63` |  | Toxic takedown | 毒气中的处决 | 毒气击倒 | 统一：Takedown 是击倒（教程说明为“击晕敌人”），原译“处决”意为杀死；游戏里其余挑战说明已用“击倒” |
 | `LOCR 01C907E04C9A964E / F8DA9F0A` |  | Do 3 silent takedowns inside a gas leak. | 在毒气泄漏区域内完成3次无声处决。 | 在毒气泄漏区域内完成3次无声击倒。 | 统一：Takedown 是击倒（教程说明为“击晕敌人”），原译“处决”意为杀死；游戏里其余挑战说明已用“击倒” |
 | `LOCR 01E796AB9E4791E5 / 124D0C92` |  | Perform 5 silent takedowns while hidden inside foliage. | 隐藏在植物丛中时进行5次无声处决。 | 隐藏在植物丛中时进行5次无声击倒。 | 统一：Takedown 是击倒（教程说明为“击晕敌人”），原译“处决”意为杀死；游戏里其余挑战说明已用“击倒” |
+| `LOCR 01EA4C1B4215A6E3 / 17BFBF16` |  | Complete "Wraith" and "Unlicenced to kill". | 完成“幽灵”和“未经许可，不得杀戮”。 | 完成“幽魂”和“未经许可，不得杀戮”。 | 挑战名 Wraith 改为“幽魂”以区别于 Ghost（幽灵），引用处统一 |
+| `LOCR 01F2A4226E95C932 / EF460E97` |  | Knock 5 enemies over the edge using the shockwave camera gadget. | 使用冲击波相机将5名敌人从边缘击落 | 使用冲击波摄像头将5名敌人从边缘击落 | Shockwave camera 统一为“冲击波摄像头”（装置名） |
 | `LOCR 01F66B96654B7259 / 9C25E056` |  | Gary | 盖瑞 | 加里 | Gary 统一译为“加里”（说话人名和大部分对白都用加里） |
 | `LOCR 01F66B96654B7259 / E41C6709` |  | Hack | 骇入 | 黑入 | Hack 统一为“黑入”（其余 35 处都不用“骇入”） |
 | `LOCR 01FAB37E89190CAE / 066DCFF6` |  | Strike / stealth takedown | 攻击/潜行处决 | 攻击/潜行击倒 | 统一：Takedown 是击倒（教程说明为“击晕敌人”），原译“处决”意为杀死；游戏里其余挑战说明已用“击倒” |
@@ -264,14 +322,17 @@
 | `DLGE 01FD621EFDB446DE / 0` | 雇佣兵 | [scoff] Sounds like my Christmas lights. Go ahead, do your thing. | [scoff]听着跟我家那圣诞彩灯一个德行。行了，干你的活儿吧 | [嗤笑]听着跟我家那圣诞彩灯一个德行。行了，干你的活儿吧 | 音效标注未翻译 |
 | `DLGE 01FEA750FD9E4ED6 / 2` | 平民 | [sigh] Sir, we are very busy today! | [sigh]先生，我们今天非常忙！ | [叹气]先生，我们今天非常忙！ | 音效标注未翻译 |
 
-## 错别字与繁体字（7）
+## 错别字与繁体字（10）
 
 | ID | 说话人 | 英文原文 | 现有译文 | 建议译文 | 说明 |
 | --- | --- | --- | --- | --- | --- |
 | `DLGE 012053C30BD16737 / 2` | 安保 | Excuse me? Are you meant to be here? | 打扰一下？你又在这里的权限吗？ | 打扰一下？你有在这里的权限吗？ | 错别字：“又”应为“有” |
 | `DLGE 0197BE20955D0E59 / 1` | 门罗 | Flipping hell. If you're trying to break character you're doing a cracking job. | 该死，你再这样下去，身份可就要曝露了 | 该死，你再这样下去，身份可就要暴露了 | 错别字：身份“曝露”应为“暴露” |
+| `LOCR 01031B2E6CC6A7E3 / 7E6AE853` |  | Let's see if you paid attention in the tutorial, as you have to use the new moves in an open-ended scenario. | 让我们看看你是否在有用心学习，接下来你需要在开放式场景中使用新动作。 | 让我们看看你在教程中是否用心学习了，接下来你需要在开放式场景中使用新动作。 | 错别字：“是否在有用心学习”多了“在” |
 | `LOCR 01179467BC0E9F2F / 461CCE33` |  | Playing 007 First Light with a guest profile is not supported. | 我们不支持使用游客帐号玩《007 初露锋芒》。 | 我们不支持使用游客账号玩《007 初露锋芒》。 | “帐号”→规范写法“账号” |
 | `LOCR 01179467BC0E9F2F / DA4F27C9` |  | You must be signed into a profile to play 007 First Light. | 你必须登录帐号才能玩《007 初露锋芒》。 | 你必须登录账号才能玩《007 初露锋芒》。 | “帐号”→规范写法“账号” |
+| `LOCR 011B8BA546DF6F29 / CCC6B2C7` |  | Test your skills under the open sunny skies of Mauritania, or rather a simulated version of it, where we want to see you take out all hostile pirates … | 在毛里塔尼亚阳光明媚的天空下，或者更确切地说是在对其模拟得环境中，测试你的技能，我们希望看到你快速高效地消灭该地区的所有敌对海盗 | 在毛里塔尼亚阳光明媚的天空下，或者更确切地说是在对其模拟的环境中，测试你的技能，我们希望看到你快速高效地消灭该地区的所有敌对海盗。 | 错别字：“模拟得环境”应为“模拟的环境”；补句末句号 |
+| `LOCR 017019D55AFCAD6F / 4B282327` |  | Close four metallic window shutters. | 关闭四扇金属窗百叶窗。 | 关闭四扇金属百叶窗。 | 错别字：“金属窗百叶窗”多了一个“窗” |
 | `LOCR 019ACD7BF6EEE5FD / 8629037D` |  | Use armour piercing weapons like rifles or heavy pistols. When those are unavailable aim for unarmored parts, power through with volume of fire or res… | 使用步枪或重型手枪等穿甲武器，若没有上诉武器，则瞄准未装甲部位，用密集火力压制，或诉诸近战。 | 使用步枪或重型手枪等穿甲武器，若没有上述武器，则瞄准未装甲部位，用密集火力压制，或诉诸近战。 | 错别字：“上诉”应为“上述” |
 | `LOCR 01C5D7160A3D5566 / BB23292F` |  | Lift | 電梯 | 电梯 | 繁体字 |
 | `LOCR 01FAB37E89190CAE / F113F136` |  | Charged strike | 畜力攻击 | 蓄力攻击 | 错别字 |
@@ -296,8 +357,8 @@
 | `DLGE 01B5F8E57978CA20 / 0` | 员工{0} | Ugh, puppy eyes and that "cute" raised eyebrow.<br>Or the pulling off the sweatshirt and the tee "accidentally" lifts to reveal the six-pack. | 呃，睁着那双"无辜"大眼，还故意挑眉"装可爱"<br>要么就是脱卫衣时"不小心"把T恤卷起来，秀他们的腹肌 | 呃，睁着那双“无辜”大眼，还故意挑眉“装可爱”<br>要么就是脱卫衣时“不小心”把T恤卷起来，秀他们的腹肌 | 半角引号改为中文引号 |
 | `DLGE 01BEBBD67043913B / 2` | 钱班霓 | Som– thi- | 有——点- | 有——点—— | 标点：中文里用连字符表示话被打断，应为破折号 |
 | `DLGE 01CA63BA0BD1F2B1 / 0` | 客人{0} | I didn't ask.<br>I did ask the barman though, he said he'd heard the stories too,<br>that they would come here to have their souls cleansed by the ocean. | 我没问,不过我倒是问过酒保，<br>他说他也听过这些故事，说他们会来这里通过海洋净化灵魂 | 我没问，不过我倒是问过酒保，<br>他说他也听过这些故事，说他们会来这里通过海洋净化灵魂 | 半角逗号改为全角 |
-| `LOCR 0102E49C3D7707C6 / 82063F37` |  | Complete "Extraction Avenues" on any tier without getting spotted. | 完成任意等级的"撤离路线"，且全程不被发现。 | 完成任意等级的“撤离路线”，且全程不被发现。 | 半角引号改为中文引号 |
 | `LOCR 01031B2E6CC6A7E3 / 6ADAD993` |  | Grab and throw ({ES_Grab/NoGesture}) an enemy into an object to knock them out | 抓取并投掷({ES_Grab/NoGesture})一名敌人撞向物体以将其击晕。 | 抓取并投掷（{ES_Grab/NoGesture}）一名敌人撞向物体以将其击晕。 | 半角括号改为全角，与其他教程说明一致 |
+| `LOCR 01031B2E6CC6A7E3 / C8E75C22` |  | Perform a heavy kick by performing a combo attack. Quick heavy kick ({ES_QuickMeleeAttack/NoGesture}+{ES_ChargedMeleeAttack}), simple heavy kick ({ES_… | …eeAttack}），简单重踢 （{ES_QuickMelee… | …eeAttack}），简单重踢（{ES_QuickMelee… | 括号前多余空格 |
 | `LOCR 010A962C5D1FE762 / 4609E417` |  | Complete "Green fingers", "All clear", "Health &amp; safety" and "Art attack". | 完成“园艺能手”、“一切正常”、“健康与安全“和”艺术袭击“。 | 完成“园艺能手”、“一切正常”、“健康与安全”和“艺术袭击”。 | 引号方向用错 |
 | `LOCR 012B2BCE40B783D2 / 9E8B9ADB` |  | Complete "Getting Dirty" and "Indiscrete". | 完成“衣衫褴褛“和”粗枝大叶“。 | 完成“衣衫褴褛”和“粗枝大叶”。 | 引号方向用错 |
 | `LOCR 0150E1E74D041BAA / C1E2AD65` |  | When in Q-Lens ({ES_GadgetView/NoGesture}), with the dart phone equipped: &lt;br&gt;-{ES_ActivateGadget} with an enemy selected to disorient them. &lt;br&gt;-{ES_… | 在装备飞镖手机的Q眼镜({ES_GadgetView/NoGesture})后：&lt;br&gt;-选中敌人时按{ES_ActivateGadget}使其迷惑。&lt;br&gt;-未选中敌人时按{ES_ActivateGadget}向目标发射飞镖以引诱敌人。 | 在装备飞镖手机的Q眼镜（{ES_GadgetView/NoGesture}）后：&lt;br&gt;-选中敌人时按{ES_ActivateGadget}使其迷惑。&lt;br&gt;-未选中敌人时按{ES_ActivateGadget}向目标发射飞镖以引诱敌人。 | 半角括号改为全角，与其他教程说明一致 |
