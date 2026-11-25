@@ -2,7 +2,9 @@
 
 > 适用版本：1.3.2（Steam BuildID 10870473，2026-11-24）
 
-本表列出游戏简体中文文本中需要更正的 2,441 条字符串，每条附建议译文。其中 1,930 条只是省略号或问叹号的写法，批量替换即可，见文末“标点”一节；其余 511 条按类别逐条列出。
+> 本表持续更新，以仓库中的最新版本为准（2026-11-24 提交给官方的是当时的版本）。
+
+本表列出游戏简体中文文本中需要更正的 2,503 条字符串，每条附建议译文。其中 1,930 条只是省略号或问叹号的写法，批量替换即可，见文末“标点”一节；其余 573 条按类别逐条列出。
 
 **范围**：每条都对照了英文，必要时也对照了繁中、日、法、德版本。只收简中独有的错误；与英文不一致、但与繁中意思相同的（多半依据了配音台本）不在此列。
 
@@ -18,14 +20,14 @@
 | 类别 | 条数 | 说明 |
 | --- | --- | --- |
 | 标签或按键提示错误 | 7 | 格式标签或按键占位符与英文不一致，导致显示异常或提示了错误的按键。 |
-| 错译 | 215 | 意思与英文不符，多因缺少上下文：多义词（armed、handler、commander、tank、Roger、recruit、No shit 等）、邦德自言自语被译成对别人说、车内台词、菜单短词（Back、Campaign、Buy），以及生造难懂的译名（Knightfall 译作“骑陨”）。 |
+| 错译 | 278 | 意思与英文不符，多因缺少上下文：多义词（armed、handler、commander、tank、Roger、recruit、No shit 等）、邦德自言自语被译成对别人说、车内台词、菜单短词（Back、Campaign、Buy），以及生造难懂的译名（Knightfall 译作“骑陨”）。 |
 | 漏译或残留旧稿 | 19 | 英文的一部分没有译出、残留旧版台本的文字，或显示成了另一条字符串的内容。 |
 | 人称性别错误 | 3 | 人称代词“他”“她”用错。 |
 | 人名、术语不统一 | 87 | 同一人名或术语有多种译法，或译名会造成误解（如 Takedown 译作“处决”，教程说明却是击晕敌人）。 |
 | 音效标注未翻译 | 24 | 方括号里的音效描述保留了英文。 |
 | 错别字与繁体字 | 10 | 错别字和混入的繁体字。 |
 | 字幕说话人名 | 129 | 说话人名译错或不统一，如 MI6 Handler 应为“军情六处联络员”，不是“指挥官”。 |
-| 标点 | 1,947 | 省略号和问叹号的写法（1,930 条，批量替换即可，见文末），以及半角标点、引号方向、多余空格等。都以 GB/T 15834-2011 为准。 |
+| 标点 | 1,946 | 省略号和问叹号的写法（1,930 条，批量替换即可，见文末），以及半角标点、引号方向、多余空格等。都以 GB/T 15834-2011 为准。 |
 
 ## 标签或按键提示错误（7）
 
@@ -39,7 +41,7 @@
 | `LOCR 01C60F7F0A636F7D / 86D50E2C` |  | Gadgets Online | ['Ivy_Setpieces_ExoDamien_GadgetsOnline_D'] | 装置已上线 | 译文是内部字符串 ID |
 | `LOCR 01F66B96654B7259 / 8DC570D6` |  | Authority | 官方 | 官员 | Authority 是 NPC 身份标签，指当权人员，不是“官方” |
 
-## 错译（215）
+## 错译（278）
 
 | ID | 说话人 | 英文原文 | 现有译文 | 建议译文 | 说明 |
 | --- | --- | --- | --- | --- | --- |
@@ -106,18 +108,44 @@
 | `DLGE 01F7E680D52E6B52 / 0` | 邦德 | Roger. He wasn't needing it. | 收到，反正他也用不着了 | 罗杰的，反正他也用不着了 | Roger 指罗杰·芬奇（门禁卡是他的；日文作“ロジャーのだ”），不是“收到” |
 | `LOCR 01016CE7AFD99CDA / 5423389F` |  | Bond travels to Vietnam on a covert solo operation. THEIA, it appears, has detected another big data “phantom pattern”, mistaking the statistically un… | 邦德受命单兵潜入越南展开调查。目前看起来，THEIA再一次在大数据中识别出了所谓的“幽灵模式”——将两位绿色能源先驱在统计上极为罕见、而又毫无关联的死亡事件，误判为神秘恐怖分子卡利班所为。然而，国际刑警组织的最新报告早已确认卡利班数月前就已身亡。为了掩盖这场算法误判，达米安正悄然前往海岸的豪华度假村“珍珠酒店”，策划一起模仿杀人案，以“证明”卡利班依然在行动。 | 邦德受命独自潜入越南展开调查。目前看起来，THEIA再一次在大数据中识别出了所谓的“幽灵模式”——将两位绿色能源先驱在统计上极为罕见、而又毫无关联的死亡事件，误判为神秘恐怖分子卡利班所为。然而，国际刑警组织的最新报告早已确认卡利班数月前就已身亡。为了掩盖这场算法误判，达米安正悄然前往海岸的豪华度假村“珍珠酒店”，策划一起模仿杀人案，以“证明”卡利班依然在行动。 | solo 指独自行动，不是士兵 |
 | `LOCR 01016CE7AFD99CDA / 56176FE3` |  | Bond goes on a covert solo operation at The Pearl, a luxury resort in Vietnam, to stop Damien Webb from covering up another of THEIA’s mistakes and re… | 邦德单兵前往越南豪华度假村“珍珠酒店”展开调查，以阻止达米安·韦伯掩盖THEIA的另一项错误，并获取韦伯家族不当行为的确凿证据。 | 邦德独自前往越南豪华度假村“珍珠酒店”展开调查，以阻止达米安·韦伯掩盖THEIA的另一项错误，并获取韦伯家族不当行为的确凿证据。 | solo 指独自行动，不是士兵 |
+| `LOCR 0102E49C3D7707C6 / 719835A2` |  | Watch this | 瞧瞧这个 | 看我的表 | 挑战名：条件是只带Q博士腕表，Watch this 双关“看好了”和“腕表” |
 | `LOCR 0102E49C3D7707C6 / 74CD176D` |  | Complete "The garden party" operation without discharging a firearm. | 在不伤害任何人的情况下完成“花园派对”行动。 | 在不开一枪的情况下完成“花园派对”行动。 | 误译：without discharging a firearm 是“不开一枪”（同类“和平主义者”挑战都这样译），不是“不伤害任何人” |
+| `LOCR 0102E49C3D7707C6 / AA0CB2D9` |  | Unarmed | 徒手搏斗 | 赤手空拳 | 挑战名：条件是不开枪，原译“徒手搏斗”偏成了近战 |
 | `LOCR 0102E49C3D7707C6 / FFBF8023` |  | Crush 5 enemies with an object. | 用一个物体砸死5名敌人 | 用物体砸死5名敌人 | 误译：an object 泛指物体，原译“用一个物体”像是要一次砸死5人 |
 | `LOCR 01031B2E6CC6A7E3 / 1FBCF19D` |  | Hit a heavily staggered enemy near the rail to slam | 在滑轨附近对严重踉跄的敌人进行猛击 | 在缆绳附近对严重踉跄的敌人进行猛击 | 误译：擂台的 rail / railing 指四周的围绳，与同组“撞向缆绳”“扔过缆绳”统一，不是“滑轨” |
 | `LOCR 01031B2E6CC6A7E3 / E8E22A99` |  | Throw an enemy near the railing to slam | 将敌人扔到滑轨附近进行猛击 | 将敌人扔到缆绳附近进行猛击 | 误译：擂台的 rail / railing 指四周的围绳，与同组“撞向缆绳”“扔过缆绳”统一，不是“滑轨” |
+| `LOCR 0107B7F6E0D15EAB / 349BFC10` |  | Fast learner | 快速学习者 | 一点就通 | 挑战名：“快速学习者”直译生硬 |
+| `LOCR 0107B7F6E0D15EAB / 4EACFC0A` |  | Mind the Gap | 小心脚下有空隙 | 小心空隙 | 挑战名：Mind the gap 是伦敦地铁提示语“小心空隙” |
+| `LOCR 0107B7F6E0D15EAB / 5FCA68A4` |  | Every bullet counts | 弹无虚发 | 一匣清场 | 挑战名：条件是不换弹消灭所有敌人，原译“弹无虚发”与 Make them count 撞名 |
+| `LOCR 0107B7F6E0D15EAB / A3D8D8C8` |  | Slow learner | 慢速学习者 | 慢工细活 | 挑战名：条件是只在专注（子弹时间）下射击，“慢速学习者”直译生硬 |
+| `LOCR 0107B7F6E0D15EAB / E7D92E22` |  | Four your eyes only | 双倍高效 | 仅限四人 | 挑战名：条件是只消灭不多于4人，Four your eyes only 化用《最高机密》（For Your Eyes Only，仅供阁下过目），原译“双倍高效”无关 |
+| `LOCR 010A962C5D1FE762 / 0BC1451C` |  | Complete "A quiet night", "Just passing through" and "Workplace agreement". | 完成“寂静之夜”、“只是借过”和“工作场所协议”。 | 完成“平静之夜”、“只是路过”和“相安无事”。 | 引用的挑战名随标题一起改 |
+| `LOCR 010A962C5D1FE762 / 1995ACF2` |  | Just passing through | 只是借过 | 只是路过 | 挑战名：“只是借过”不通顺 |
 | `LOCR 010A962C5D1FE762 / 2B223C06` |  | Get to the CCTV room without getting spotted. | 在不被发现的情况下穿过监控室。 | 在不被发现的情况下抵达监控室。 | 误译：Get to 是“抵达”，不是“穿过” |
+| `LOCR 010A962C5D1FE762 / 40A7E9BF` |  | Workplace agreement | 工作场所协议 | 相安无事 | 挑战名：条件是不伤人通过，原译“工作场所协议”直译生硬 |
+| `LOCR 010A962C5D1FE762 / 50BAC165` |  | 8 for 8 | 矢无虚发 | 八战八捷 | 挑战名：8 for 8 指八次全成功（击倒8名守卫），原译“矢无虚发”说的是射击 |
+| `LOCR 010A962C5D1FE762 / 5BB0AB8F` |  | Behind the scenes | 幕后机密 | 走后台 | 挑战名：条件是走新闻发布室后台的门，原译“幕后机密”意思不对 |
+| `LOCR 010A962C5D1FE762 / 9C10C1FB` |  | Dropping in | 意外到访 | 从天而降 | 挑战名：条件是从天窗进入监控室，Dropping in 双关“顺道来访”和“从上面落下”，原译“意外到访”丢了后者 |
 | `LOCR 010A962C5D1FE762 / 9C5E5435` |  | Eliminate 15 guards in the courtyard. | 在安保室消灭15名守卫。 | 在庭院消灭15名守卫。 | 误译：courtyard 是“庭院”，原译照抄上一条写成了“安保室” |
+| `LOCR 010A962C5D1FE762 / ADF8DB66` |  | Gate crasher | 不请自来者 | 闯门而入 | 挑战名：原译“不请自来者”生硬，且与“不请自来”撞名 |
+| `LOCR 010A962C5D1FE762 / BFE2A746` |  | A quiet night | 寂静之夜 | 平静之夜 | 挑战名：原译“寂静之夜”与 Silent night 撞名 |
+| `LOCR 010A962C5D1FE762 / F6CDCAD1` |  | Rack n' roll | 机架难题 | 机架摇滚 | 挑战名：Rack n' roll 谐音 rock and roll，原译“机架难题”丢了双关 |
+| `LOCR 010D69121F8D00D0 / 3D355FDA` |  | Bring a fist to a gun fight | 用拳头参加枪战 | 以拳对枪 | 挑战名：条件是电梯对决不用武器，原译“用拳头参加枪战”生硬 |
+| `LOCR 010D69121F8D00D0 / 59BB1109` |  | Complete "Lock, stock and 1 trapped hostile" and "Bring a fist to a gun fight". | 完成“锁定、枪托和1名被困的敌人”以及“用拳头参加枪战”。 | 完成“关门捉贼”和“以拳对枪”。 | 引用的挑战名随标题一起改 |
+| `LOCR 010D69121F8D00D0 / 66004E6D` |  | Lock, stock and 1 trapped hostile | 锁定、枪托和1名被困的敌人 | 关门捉贼 | 挑战名：条件是把敌人锁进拘留室，原译“锁定、枪托和1名被困的敌人”是对电影名《两杆大烟枪》的直译，读不通 |
+| `LOCR 010D69121F8D00D0 / 6F0D707D` |  | Reduce your screen time | 减少你看屏幕的时间 | 减少屏幕时间 | 挑战名：原译冗长 |
 | `LOCR 010D87B96C8BC0BF / 6B6C072D` |  | How you dune? | 我名声臭了 | 沙丘狂飙 | 挑战名（毛里塔尼亚海滩越野驾驶，谐音 How you doin'），原译“我名声臭了”与内容无关 |
 | `LOCR 0119FDF6FA06C404 / 48E05D3F` |  | The recruits accompany Greenway on an undercover mission to apprehend the rogue 009 during the World Chess Championship in Slovakia. But Greenway, who… | 新兵们跟随格林威执行一项卧底任务，目标是在斯洛伐克举行的世界国际象棋锦标赛期间抓捕叛逃的009。但格林威不信任邦德，不想让他参与行动，于是安排他担任司机。 | 学员们跟随格林威执行一项卧底任务，目标是在斯洛伐克举行的世界国际象棋锦标赛期间抓捕叛逃的009。但格林威不信任邦德，不想让他参与行动，于是安排他担任司机。 | recruit 指 00 计划学员，不是军队新兵 |
 | `LOCR 0119FDF6FA06C404 / 787D46DD` |  | 009, a rogue MI6 operative guilty of high treason, has resurfaced after years off the grid. He claims to hold evidence of a conspiracy against the sta… | 009是一名犯了叛国罪的叛变军情六处特工，在脱离监控多年后重新出现。<br>他声称掌握证据，指向一起针对国内的阴谋，并打算将其交给约翰·格林威以换取赦免。<br>会面将在斯洛伐克大喀尔巴阡酒店的世界国际象棋锦标赛期间举行，M派遣00新兵作为卧底后援。<br>然而格林威并不信任邦德，想让他远离行动场地，派他担任司机这个平平无奇的角色。<br>看来邦德的第一次外勤任务将受限于停车场。 | 009是一名犯了叛国罪的叛变军情六处特工，在脱离监控多年后重新出现。<br>他声称掌握证据，指向一起针对国内的阴谋，并打算将其交给约翰·格林威以换取赦免。<br>会面将在斯洛伐克大喀尔巴阡酒店的世界国际象棋锦标赛期间举行，M派遣00学员作为卧底后援。<br>然而格林威并不信任邦德，想让他远离行动场地，派他担任司机这个平平无奇的角色。<br>看来邦德的第一次外勤任务将受限于停车场。 | recruit 指 00 计划学员，不是军队新兵 |
 | `LOCR 011B8BA546DF6F29 / 05ED6BD9` |  | Eliminate all hostiles, be aware of reinforcement as this time all of them pack a harder punch. All enemies do more damage. | 消灭所有敌人，注意援军，但这次所有敌人的攻击力都更强。所有敌人造成的伤害都更高。 | 消灭所有敌人，注意援军，因为这次所有敌人的攻击力都更强。所有敌人造成的伤害都更高。 | 误译：as 是“因为”，原译“但”与前文不连贯 |
+| `LOCR 011E1D540ED7C499 / 363F22E7` |  | Pacifist protocols | 和平主义者协议 | 和平协议 | 挑战名：“和平主义者协议”冗长 |
+| `LOCR 011E1D540ED7C499 / 4345DE63` |  | Complete "Pacifist protocols" and "Surrender". | 完成“和平主义者协议”和“投降”。 | 完成“和平协议”和“投降”。 | 引用的挑战名随标题一起改 |
 | `LOCR 011E1D540ED7C499 / 524EBDE4` |  | Use Wreckie to destroy 10 androids in one roll during "Wreaking havoc" or "A daring escape". | 在“大肆破坏”和“大胆逃亡”中，使用破坏王一次滚动摧毁10个机器人。 | 在“大肆破坏”或“大胆逃亡”中，使用破坏王一次滚动摧毁10个仿生人。 | 误译：or 是“或”，不是“和”；android 统一为“仿生人” |
+| `LOCR 011E1D540ED7C499 / 64070D40` |  | Knock knock | 有人在家吗 | 有人吗？ | 挑战名：条件是在厕所击晕目标，敲厕所门问“有人吗”，原译“有人在家吗”不合场景 |
+| `LOCR 011E1D540ED7C499 / 9B4243B9` |  | Icecap-tain | 冰盖队长 | 冰山船长 | 挑战名：Icecap-tain 是 ice + captain 的双关（快艇借冰山起跳），原译“冰盖队长”不通 |
+| `LOCR 011E1D540ED7C499 / B8B02504` |  | Expert marksman | 神射手专家 | 射击专家 | 挑战名：原译“神射手专家”重复，且与“神射手”（Dead eye）撞名 |
 | `LOCR 011E1D540ED7C499 / D4DACF4A` |  | Use Wreckie to destroy 15 androids without taking any damage during "Wreaking havoc" or "A daring escape". | 在“大肆破坏”和“大胆逃亡”中，且自身未受到任何伤害的情况下，使用破坏王一次滚动摧毁15个机器人。 | 在“大肆破坏”或“大胆逃亡”中，使用破坏王摧毁15个仿生人，且自身不受任何伤害。 | 误译：英文没有“一次滚动”（那是上一个挑战的条件）；or 是“或”；android 统一为“仿生人” |
+| `LOCR 011E1D540ED7C499 / DB60103E` |  | Perfect strike | 完美打击 | 完美全中 | 挑战名：破坏王滚动一次撞倒10个，strike 是保龄球的“全中” |
 | `LOCR 011E1D540ED7C499 / F837E56F` |  | Takedown 3 Webb guards from above in the Utility space. | 从上方公用区击倒3名韦伯警卫。 | 在公用区从上方击倒3名韦伯警卫。 | 误译：from above 是击倒方式，原译“从上方公用区”把方式和地点混在一起 |
 | `LOCR 011E219C785493F4 / 3C6AC1B8` |  | Complete "Knightfall". | 完成“骑陨”。 | 完成“骑士陨落”。 | Knightfall 是行动代号，“骑陨”不是现成词语，容易误读；繁中版译作“騎士隕落” |
 | `LOCR 011E219C785493F4 / B9D3299D` |  | Knightfall | 骑陨 | 骑士陨落 | Knightfall 是行动代号，“骑陨”不是现成词语，容易误读；繁中版译作“騎士隕落” |
@@ -127,18 +155,37 @@
 | `LOCR 012A22CFB455E37C / 91F0AFAC` |  | Adjust the rotation degree per snap. | 调节每次吸附旋转的角度。 | 调节每次分段转向的角度。 | VR 的 snap rotation 是分段转向，不是“吸附”（瞄准辅助的 aim snap 才是吸附） |
 | `LOCR 012A22CFB455E37C / CB2D562F` |  | Smooth snap | 平滑吸附 | 平滑分段 | VR 的 snap rotation 是分段转向，不是“吸附”（瞄准辅助的 aim snap 才是吸附） |
 | `LOCR 012B2BCE40B783D2 / 25F9A1D7` |  | Get through the laundry without getting spotted. | 在不被发现的情况下，进入洗衣房。 | 在不被发现的情况下，通过洗衣房。 | 误译：Get through 是“通过”，不是“进入” |
+| `LOCR 012B2BCE40B783D2 / 36FFE993` |  | Self check-in | 不请自来 | 自助入场 | 挑战名：Self check-in 是“自助登记”，原译“不请自来”丢了双关 |
+| `LOCR 012B2BCE40B783D2 / 55D7497E` |  | Complete "Squeaky clean" and "Silent Study". | 完成“纤尘不染”和“寂静书房”。 | 完成“纤尘不染”和“静默自习”。 | 引用的挑战名随标题一起改 |
 | `LOCR 012B2BCE40B783D2 / 9967B209` |  | Reach top speed during the car chase. | 在追车戏中达到最高速度。 | 在追车过程中达到最高速度。 | 误译：car chase 指游戏里的追车段落，“追车戏”是影视用语 |
+| `LOCR 012B2BCE40B783D2 / 9E8B9ADB` |  | Complete "Getting Dirty" and "Indiscrete". | 完成“衣衫褴褛“和”粗枝大叶“。 | 完成“弄脏双手”和“大张旗鼓”。 | 引用的挑战名随标题一起改 |
+| `LOCR 012B2BCE40B783D2 / A367AC40` |  | Getting dirty | 衣衫褴褛 | 弄脏双手 | 挑战名：条件是打倒洗衣工，Getting dirty 指亲自动手，原译“衣衫褴褛”意思不对 |
+| `LOCR 012B2BCE40B783D2 / A86DC6AA` |  | Press only | 新闻通道 | 仅限媒体 | 挑战名：Press only 是告示用语 |
+| `LOCR 012B2BCE40B783D2 / B870EE70` |  | Indiscreet | 粗枝大叶 | 大张旗鼓 | 挑战名：Indiscreet 是行事张扬，原译“粗枝大叶”是粗心 |
+| `LOCR 012B2BCE40B783D2 / F358D71D` |  | Silent study | 寂静书房 | 静默自习 | 挑战名：条件是潜行通过图书馆，Silent study 双关“书房”和“自习”，与 library 改为“图书馆”配合 |
 | `LOCR 0133F8407AD41C5B / 5DEB62E8` |  | Bond impersonates Pike and successfully makes her call her handler. The recruits are informed that extraction will take place outside the club in 2 mi… | 在派克被成功制伏后，邦德只得假冒派克与指挥官会面。会面结束时，新晋特工们已掌握全部所需情报。任务完成之际，新晋特工们收到指令，2分钟后于夜店外进行撤离。 | 在派克被成功制伏后，邦德只得假冒派克联系其上线。会面结束时，新晋特工们已掌握全部所需情报。任务完成之际，新晋特工们收到指令，2分钟后于夜店外进行撤离。 | handler 指派克的上线，不是指挥官 |
+| `LOCR 0135785354E4C414 / 05A55BCE` |  | Complete "Monroe's way" and "Party crasher". | 完成“门罗的方式”和“派对终结者”。 | 完成“门罗的方式”和“派对闯入者”。 | 引用的挑战名随标题一起改 |
+| `LOCR 0135785354E4C414 / 486DFAC5` |  | Complete "Something to prove" and "White flag". | 完成“有所证明”和“白旗”。 | 完成“证明自己”和“白旗”。 | 引用的挑战名随标题一起改 |
+| `LOCR 0135785354E4C414 / 5BB923B9` |  | Party crasher | 派对终结者 | 派对闯入者 | 挑战名：party crasher 是不请自来的人，原译“派对终结者”意思反了 |
+| `LOCR 0135785354E4C414 / A4FC6D40` |  | Always do the unexpected | 总要出人意料才行 | 出其不意 | 挑战名：原译“总要出人意料才行”冗长 |
+| `LOCR 0135785354E4C414 / CC263290` |  | Something to prove | 有所证明 | 证明自己 | 挑战名：Something to prove 是“要证明自己”，原译“有所证明”不通 |
+| `LOCR 0135785354E4C414 / CEF9886B` |  | Complete "Cressida's way" and "Always do the unexpected". | 完成“克蕾西达的方式”和“总要出人意料才行”。 | 完成“克蕾西达的方式”和“出其不意”。 | 引用的挑战名随标题一起改 |
 | `LOCR 01404AF21B80A07E / 752604DC` |  | In Iceland Bond defied the advice of his impromptu MI6 handler and, against all odds, saved an MI6 retrieval team. But his actions caused the destruct… | 在冰岛，邦德不顾临时军情六处指挥官的劝告，冒险救出了一个回收小组。但他的行为却导致任务目标——一枚具有战略价值的敌方卫星被毁，使英国错失重大情报优势。<br>如今重返伦敦总部，等待他的不知是嘉奖还是审判。 | 在冰岛，邦德不顾临时军情六处联络员的劝告，冒险救出了一个回收小组。但他的行为却导致任务目标——一枚具有战略价值的敌方卫星被毁，使英国错失重大情报优势。<br>如今重返伦敦总部，等待他的不知是嘉奖还是审判。 | handler 指联络员 |
 | `LOCR 0143C985A773BFA7 / 9EE22280` |  | Jump railing | 翻越滑轨 | 翻越栏杆 | railing 是栏杆，不是“滑轨” |
+| `LOCR 014DF438F45FCCF3 / 1289F6C5` |  | Complete "Sightseeing", "Easy does it" and "Silent line". | 完成“观光”、“轻松完成”和“无声之线”。 | 完成“观光”、“悠着点”和“无声之线”。 | 引用的挑战名随标题一起改 |
 | `LOCR 014DF438F45FCCF3 / 58AD7F1C` |  | Defeat Omar by throwing him over the railing. | 将奥马尔扔出滑轨以击败他。 | 将奥马尔扔过栏杆以击败他。 | 误译：railing 是“栏杆”，不是“滑轨” |
 | `LOCR 014DF438F45FCCF3 / 8516E7EC` |  | Eliminate 6 enemies with one pistol magazine during the last stand. | 在最后防线阶段，用最后一弹夹的子弹消灭6名敌人。 | 在最后防线阶段，用一个手枪弹匣消灭6名敌人。 | 误译：one pistol magazine 是“一个手枪弹匣”，不是“最后一弹夹” |
+| `LOCR 014DF438F45FCCF3 / A4A6894C` |  | Cupped | 受制 | 杯具了 | 挑战名：条件是玩杯子戏法，原译“受制”难懂 |
 | `LOCR 014DF438F45FCCF3 / B4FEFD71` |  | Use a disguise inside the Scorpius hideout. | 用伪装进入天蝎座据点。 | 在天蝎座据点内使用伪装。 | 误译：是在据点内使用伪装，不是用伪装进入据点 |
+| `LOCR 014DF438F45FCCF3 / CC7CD69C` |  | Easy does it | 轻松完成 | 悠着点 | 挑战名：条件是不触发对峙，Easy does it 是“慢慢来、悠着点”，原译“轻松完成”意思不对 |
 | `LOCR 014DF8359D8104B3 / 6D67C33B` |  | Photo of recruits | 新兵合影 | 学员合影 | recruit 指 00 计划学员，不是军队新兵 |
 | `LOCR 015FCF054DF3FE72 / 496713B2` |  | Social engineering | 社交工程学 | 社会工程学 | 误译：social engineering 的通行译名是“社会工程学” |
 | `LOCR 016A34D8F646BA50 / 1A4B2A88` |  | Museum security | 肯辛顿 | 博物馆安保区 | 误译：Museum security 原译成了“肯辛顿” |
+| `LOCR 017019D55AFCAD6F / 15BEE534` |  | Server crash | 服务器崩溃 | 服务器宕机 | 挑战名：原译“服务器崩溃”与 Server breakdown 撞名 |
+| `LOCR 017019D55AFCAD6F / 21EFD3E4` |  | Complete "Server Crash", "All the time in the world" and "Makeover". | 完成“服务器崩溃”、“时间充裕”和“改头换面”。 | 完成“服务器宕机”、“时间充裕”和“改头换面”。 | 引用的挑战名随标题一起改 |
 | `LOCR 017019D55AFCAD6F / 4C8CA079` |  | Pacifist: Knightfall | 和平主义者：骑陨 | 和平主义者：骑士陨落 | Knightfall 是行动代号，“骑陨”不是现成词语，容易误读；繁中版译作“騎士隕落” |
 | `LOCR 017019D55AFCAD6F / 7D64BAE4` |  | Ghost: Knightfall | 幽灵：骑陨 | 幽灵：骑士陨落 | Knightfall 是行动代号，“骑陨”不是现成词语，容易误读；繁中版译作“騎士隕落” |
+| `LOCR 017019D55AFCAD6F / 9936B62D` |  | Moving target | 移动枪靶 | 移动靶 | 挑战名：“移动枪靶”不是通常说法 |
 | `LOCR 017019D55AFCAD6F / A77BA14A` |  | Complete all challenges in "Knightfall" to unlock the white tux for TacSim. | 完成“骑陨”的所有挑战，即可解锁战术模拟系统的白色礼服。 | 完成“骑士陨落”的所有挑战，即可解锁战术模拟系统的白色礼服。 | Knightfall 是行动代号，“骑陨”不是现成词语，容易误读；繁中版译作“騎士隕落” |
 | `LOCR 017019D55AFCAD6F / DB13B150` |  | Assault: Knightfall | 突击：骑陨 | 突击：骑士陨落 | Knightfall 是行动代号，“骑陨”不是现成词语，容易误读；繁中版译作“騎士隕落” |
 | `LOCR 017019D55AFCAD6F / EAFBABCD` |  | Completionist: Knightfall | 完美主义者：骑陨 | 完美主义者：骑士陨落 | Knightfall 是行动代号，“骑陨”不是现成词语，容易误读；繁中版译作“騎士隕落” |
@@ -151,6 +198,9 @@
 | `LOCR 018D94E35C8F5183 / 97179838` |  | A special edition Royal Navy Commander uniform and dress cap with yellow stripes on the hems. | 一套皇家海军指挥官特别版制服和礼帽，帽檐饰有黄色条纹。 | 一套皇家海军中校特别版制服和礼帽，帽檐饰有黄色条纹。 | Commander 是海军军衔“中校” |
 | `LOCR 018D94E35C8F5183 / 996FCB63` |  | Obsidian Gold Suit | 黑曜金西装 | 黑曜金服装 | 这套是黑色战术服配金色面具（见描述），不是西装；与繁中“黑曜金服裝”一致 |
 | `LOCR 0192B79AAABA4790 / 25F5693D` |  | Complete all exercises; eliminate all dummies | 完成所有练习，消灭所有对战对手 | 完成所有练习，消灭所有假人 | 误译：dummies 是“假人” |
+| `LOCR 0192B79AAABA4790 / 5CD8FE90` |  | Reinforcements Incoming | 增援到达 | 增援即将到达 | Incoming 是“即将到达”，不是已到达 |
+| `LOCR 0192B79AAABA4790 / 60B6209A` |  | Shot Disarm | 射击打掉对战对手手中的武器 | 射击缴械 | 挑战名：原译“射击打掉对战对手手中的武器”太长 |
+| `LOCR 0192B79AAABA4790 / 91905D13` |  | Double Leg shot | 双腿射击制服 | 双腿射击 | 挑战名：“双腿射击制服”多出“制服” |
 | `LOCR 01943AA090EC58E6 / 3E621F02` |  | Throw 3 enemies over a railing. | 将3名敌人扔过滑轨 | 将3名敌人扔过栏杆 | 误译：railing 是“栏杆”，不是“滑轨” |
 | `LOCR 0196341B19836B90 / 3CE8A154` |  | KNIGHTFALL, WEBB INDUSTRIES | 骑陨，韦伯工业 | 骑士陨落，韦伯工业 | Knightfall 是行动代号，“骑陨”不是现成词语，容易误读；繁中版译作“騎士隕落” |
 | `LOCR 0196341B19836B90 / C6D1542B` |  | KNIGHTFALL | 骑陨 | 骑士陨落 | Knightfall 是行动代号，“骑陨”不是现成词语，容易误读；繁中版译作“騎士隕落” |
@@ -164,16 +214,31 @@
 | `LOCR 01AB1EEECEA509BF / 28079E47` |  | Group photo of the recruits | 新兵合照 | 学员合照 | recruit 指 00 计划学员，不是军队新兵 |
 | `LOCR 01AE4D67D3D72FCE / 04B3D04C` |  | Buy | 升级 | 购买 | 商城按钮 Buy 应为“购买”，原译“升级”与下一条 Upgrade 重复 |
 | `LOCR 01AE4D67D3D72FCE / 0B20DCD1` |  | Campaign | 活动 | 战役 | 主菜单进入“故事”后顶部的层级名，Campaign 指战役（剧情模式）；原译“活动”与 Activities 撞名 |
+| `LOCR 01AEA68D4B4DFFDD / 30DE1F32` |  | 00 to become | 初露锋芒 | 00之路 | 挑战名：原译“初露锋芒”与游戏名撞名 |
 | `LOCR 01AFE843D8688CA8 / 6A7CB2C5` |  | What is Operation Knightfall? | 什么是“骑陨行动”？ | 什么是“骑士陨落行动”？ | Knightfall 是行动代号，“骑陨”不是现成词语，容易误读；繁中版译作“騎士隕落” |
+| `LOCR 01B39390AE998B76 / 0EB8D910` |  | Slow healing | 缓慢治疗 | 缓慢恢复 | 条件是生命恢复变慢，原译“缓慢治疗”不准确 |
 | `LOCR 01B39390AE998B76 / 53D6FEE4` |  | Gadget resources will be removed at mission start and will not passively regenerate during this mission. Resources can still be located within the mis… | 任务开始时，所有装置资源将被移除，且在任务过程中不会自动恢复。但其他资源仍然可以在任务中找到。 | 任务开始时，所有装置资源将被移除，且在任务过程中不会自动恢复。但仍可在任务中找到资源。 | 误译：任务中能找到的就是这些资源，不是“其他资源” |
 | `LOCR 01B83ECB108C9A33 / 1A7C1121` |  | Eye to eye | 违规者 | 当面对质 | 对话选项按现行英文 Eye to eye（繁中正面交锋、日、德同）；原译“违规者”对应旧版英文（法语 Fauteurs de troubles 同） |
+| `LOCR 01C238405C7C62CA / D67048F5` |  | Silent running | 静默运行 | 静默潜行 | 挑战名：条件是只用潜行击倒，原译“静默运行”像机器状态 |
+| `LOCR 01C86A4727BCAB1F / 22E1B5D5` |  | The runner | 冲锋者 | 飞毛腿 | 挑战名：条件是3分钟内完成，原译“冲锋者”意思不对 |
+| `LOCR 01C86A4727BCAB1F / 3842EBF5` |  | Fly like a butterfly | 翩然飞舞 | 如蝶飞舞 | 挑战名：出自阿里名言“如蝶飞舞，如蜂蜇人”，与下一个挑战成对 |
+| `LOCR 01C86A4727BCAB1F / AC880E79` |  | Sting like a bee | 蜂螫之痛 | 如蜂蜇人 | 挑战名：出自阿里名言“如蝶飞舞，如蜂蜇人”，原译“蜂螫之痛”不成对 |
+| `LOCR 01C86A4727BCAB1F / FB41316A` |  | Gut feeling | 直觉 | 腹有成竹 | 挑战名：条件是只用击腹拳，Gut feeling 双关“直觉”和“腹部”，原译“直觉”丢了双关 |
 | `LOCR 01C907E04C9A964E / 0BE75A4A` |  | No setpieces | 戒骄戒躁 | 不碰场景装置 | 挑战说明是不与场景装置互动；原译“戒骄戒躁”与内容无关 |
+| `LOCR 01C907E04C9A964E / 1178B044` |  | Hayhem | 草木皆兵 | 干草乱飞 | 挑战名：Hayhem 是 hay + mayhem，条件是射击30捆干草，原译“草木皆兵”意思不对 |
 | `LOCR 01C907E04C9A964E / 634BDD1C` |  | Destroy all bags with the ultra clean washing powder. | 用超洁净洗衣粉毁掉所有袋子。 | 毁掉所有装有超洁净洗衣粉的袋子。 | 误译：是毁掉装超洁净洗衣粉的袋子，不是用洗衣粉毁掉袋子 |
 | `LOCR 01C907E04C9A964E / B5123E01` |  | Don't interact or use gadgets on any setpiece. | 不与任何场景装置互动，也不使用任何道具。 | 不与任何场景装置互动，也不对其使用装置。 | 误译：use gadgets on any setpiece 是不对场景装置使用装置，不是完全不用道具 |
+| `LOCR 01C907E04C9A964E / FFA87E59` |  | Wash day | 洗衣日 | 洗衣停工 | 挑战名：条件是让所有洗衣机停转，原译“洗衣日”与 Laundry day 撞名 |
 | `LOCR 01CF5B1F67C9AC83 / 87885B2E` |  | Back | 后退 | 返回 | 菜单按钮 Back 应为“返回”，不是“后退” |
+| `LOCR 01D5DCFD9502468A / B447AA55` |  | Boats galore | 船只多多 | 千帆竞渡 | 挑战名：快艇赛，原译“船只多多”平淡 |
 | `LOCR 01D9E3EC689A6B6E / 38BFFFE6` |  | Deflect | 转向 | 格开 | 互动提示 Deflect（格开、拨开），不是“转向” |
 | `LOCR 01DBF9AE296DD042 / ADB5BCFE` |  | Poisoned | 感染者 | 中毒 | Poisoned 是“中毒”，不是“感染者” |
+| `LOCR 01EA4C1B4215A6E3 / 17BFBF16` |  | Complete "Wraith" and "Unlicenced to kill". | 完成“幽灵”和“未经许可，不得杀戮”。 | 完成“幽魂”和“无杀人执照”。 | 引用的挑战名随标题一起改 |
+| `LOCR 01EA4C1B4215A6E3 / 1D0E37DF` |  | Party crasher | 派对终结者 | 派对闯入者 | 挑战名：party crasher 是不请自来混进派对的人，原译“派对终结者”意思反了 |
 | `LOCR 01EA4C1B4215A6E3 / 4B7C7D9A` |  | Throw the Webb merc over the railing of the mining truck. | 将韦伯雇佣兵从采矿车的滑轨上扔下去。 | 将韦伯雇佣兵从采矿车的栏杆上扔下去。 | 误译：railing 是“栏杆”，不是“滑轨” |
+| `LOCR 01EA4C1B4215A6E3 / 77D33CF5` |  | Thief | 盗贼 | 抢人头 | 挑战名：条件是抢格林威的击杀，原译“盗贼”不贴切 |
+| `LOCR 01EA4C1B4215A6E3 / 819B4C1C` |  | Unlicenced to kill | 未经许可，不得杀戮 | 无杀人执照 | 挑战名：Unlicenced to kill 反用 licence to kill（杀人执照），原译“未经许可，不得杀戮”冗长且丢了梗 |
+| `LOCR 01EA4C1B4215A6E3 / 988B5AD6` |  | Watch your step | 小心点 | 小心脚下 | 挑战名：条件是把达米安踢进缺口，Watch your step 是“小心脚下” |
 | `LOCR 01EA4C1B4215A6E3 / B0735681` |  | Wraith | 幽灵 | 幽魂 | 挑战名 Wraith 原译“幽灵”，与“幽灵”类挑战（Ghost）重名，改为“幽魂” |
 | `LOCR 01F2A4226E95C932 / 1D2A1118` |  | Push 2 enemies over the edge at the same time using a wind fan. | 使用风扇将3名敌人同时推下边缘 | 使用风扇将2名敌人同时推下边缘 | 误译：英文是2名，原译写成3名 |
 | `LOCR 01F2A4226E95C932 / 347295C6` |  | Complete tier 1 of the Arctic skies mission. | 完成极地天空任务的第一级 | 完成极地天空任务的第二级 | 英文原文误作 tier 1（这是“极地天空2”的说明），应为第二级 |
@@ -227,6 +292,7 @@
 | `LOCR 0102E49C3D7707C6 / 7D22BFE9` |  | Take out the guards in the reception before completing the mission on any tier. | 在前台处决所有守卫，再完成任意等级的任务。 | 在前台击倒所有守卫，再完成任意等级的任务。 | 统一：Takedown 是击倒（教程说明为“击晕敌人”），原译“处决”意为杀死；游戏里其余挑战说明已用“击倒” |
 | `LOCR 0102E49C3D7707C6 / 82063F37` |  | Complete "Extraction Avenues" on any tier without getting spotted. | 完成任意等级的"撤离路线"，且全程不被发现。 | 完成任意等级的“撤离通道”，且全程不被发现。 | 半角引号改为中文引号；Extraction Avenues 统一为“撤离通道”（同组其他条目的译名） |
 | `LOCR 0102E49C3D7707C6 / 8F69D3A0` |  | Complete any tier of the mission without discharging a firearm. | 在不开一枪的情况下完成本任务的任意难度。 | 在不开一枪的情况下完成本任务的任意等级。 | tier 统一为“等级”（同组其他挑战都用等级） |
+| `LOCR 0102E49C3D7707C6 / E955A3A4` |  | Never spotted | 从未暴露 | 神不知鬼不觉 | 挑战名：同一资源里另一个 Never spotted 译“神不知鬼不觉”，统一 |
 | `LOCR 01031B2E6CC6A7E3 / 1984A842` |  | Grab and rush ({ES_GrabRush}) an enemy over a ledge to knock them out. | 抓住并冲刺（{ES_GrabRush/NoGesture}）将敌人推下边缘以将其击倒 | 抓住并冲刺（{ES_GrabRush/NoGesture}）将敌人推下边缘以将其击晕 | knock out 统一为“击晕”（同组其他条目） |
 | `LOCR 01031B2E6CC6A7E3 / AA2788CB` |  | Use your dart phone on a concrete bag to create a smoke screen, then perform a silent takedown or finisher while hidden inside. | 对水泥袋使用飞镖电话制造烟雾屏障，然后在烟雾中执行无声处决或终结技。 | 对水泥袋使用飞镖电话制造烟雾屏障，然后在烟雾中执行无声击倒或终结技。 | 统一：Takedown 是击倒（教程说明为“击晕敌人”），原译“处决”意为杀死；游戏里其余挑战说明已用“击倒” |
 | `LOCR 010A962C5D1FE762 / FD7BDF1B` |  | Exit the workshop through the server room rack undetected. | 在不被发现的情况下，通过服务器机房机架以离开车间。 | 在不被发现的情况下，通过服务器机房机架离开工作间。 | workshop 统一为“工作间”（同组挑战和任务目标都用工作间） |
@@ -293,7 +359,6 @@
 | `LOCR 01C907E04C9A964E / 9C784B63` |  | Toxic takedown | 毒气中的处决 | 毒气击倒 | 统一：Takedown 是击倒（教程说明为“击晕敌人”），原译“处决”意为杀死；游戏里其余挑战说明已用“击倒” |
 | `LOCR 01C907E04C9A964E / F8DA9F0A` |  | Do 3 silent takedowns inside a gas leak. | 在毒气泄漏区域内完成3次无声处决。 | 在毒气泄漏区域内完成3次无声击倒。 | 统一：Takedown 是击倒（教程说明为“击晕敌人”），原译“处决”意为杀死；游戏里其余挑战说明已用“击倒” |
 | `LOCR 01E796AB9E4791E5 / 124D0C92` |  | Perform 5 silent takedowns while hidden inside foliage. | 隐藏在植物丛中时进行5次无声处决。 | 隐藏在植物丛中时进行5次无声击倒。 | 统一：Takedown 是击倒（教程说明为“击晕敌人”），原译“处决”意为杀死；游戏里其余挑战说明已用“击倒” |
-| `LOCR 01EA4C1B4215A6E3 / 17BFBF16` |  | Complete "Wraith" and "Unlicenced to kill". | 完成“幽灵”和“未经许可，不得杀戮”。 | 完成“幽魂”和“未经许可，不得杀戮”。 | 挑战名 Wraith 改为“幽魂”以区别于 Ghost（幽灵），引用处统一 |
 | `LOCR 01F2A4226E95C932 / EF460E97` |  | Knock 5 enemies over the edge using the shockwave camera gadget. | 使用冲击波相机将5名敌人从边缘击落 | 使用冲击波摄像头将5名敌人从边缘击落 | Shockwave camera 统一为“冲击波摄像头”（装置名） |
 | `LOCR 01F66B96654B7259 / 9C25E056` |  | Gary | 盖瑞 | 加里 | Gary 统一译为“加里”（说话人名和大部分对白都用加里） |
 | `LOCR 01F66B96654B7259 / E41C6709` |  | Hack | 骇入 | 黑入 | Hack 统一为“黑入”（其余 35 处都不用“骇入”） |
@@ -345,7 +410,7 @@
 | 人型机器人 | 仿生人 | 英文为 Android，与界面敌人标签“仿生人”统一 | 凡说话人名为“人型机器人”的字幕，全部 11 条 |
 | 新兵 | 学员们 | 英文为 Recruits，指 00 计划的学员，不是军队新兵 | `DLGE 013E0A9B2BB46171 / 0` |
 
-## 标点（1,947）
+## 标点（1,946）
 
 | ID | 说话人 | 英文原文 | 现有译文 | 建议译文 | 说明 |
 | --- | --- | --- | --- | --- | --- |
@@ -360,7 +425,6 @@
 | `LOCR 01031B2E6CC6A7E3 / 6ADAD993` |  | Grab and throw ({ES_Grab/NoGesture}) an enemy into an object to knock them out | 抓取并投掷({ES_Grab/NoGesture})一名敌人撞向物体以将其击晕。 | 抓取并投掷（{ES_Grab/NoGesture}）一名敌人撞向物体以将其击晕。 | 半角括号改为全角，与其他教程说明一致 |
 | `LOCR 01031B2E6CC6A7E3 / C8E75C22` |  | Perform a heavy kick by performing a combo attack. Quick heavy kick ({ES_QuickMeleeAttack/NoGesture}+{ES_ChargedMeleeAttack}), simple heavy kick ({ES_… | …eeAttack}），简单重踢 （{ES_QuickMelee… | …eeAttack}），简单重踢（{ES_QuickMelee… | 括号前多余空格 |
 | `LOCR 010A962C5D1FE762 / 4609E417` |  | Complete "Green fingers", "All clear", "Health &amp; safety" and "Art attack". | 完成“园艺能手”、“一切正常”、“健康与安全“和”艺术袭击“。 | 完成“园艺能手”、“一切正常”、“健康与安全”和“艺术袭击”。 | 引号方向用错 |
-| `LOCR 012B2BCE40B783D2 / 9E8B9ADB` |  | Complete "Getting Dirty" and "Indiscrete". | 完成“衣衫褴褛“和”粗枝大叶“。 | 完成“衣衫褴褛”和“粗枝大叶”。 | 引号方向用错 |
 | `LOCR 0150E1E74D041BAA / C1E2AD65` |  | When in Q-Lens ({ES_GadgetView/NoGesture}), with the dart phone equipped: &lt;br&gt;-{ES_ActivateGadget} with an enemy selected to disorient them. &lt;br&gt;-{ES_… | 在装备飞镖手机的Q眼镜({ES_GadgetView/NoGesture})后：&lt;br&gt;-选中敌人时按{ES_ActivateGadget}使其迷惑。&lt;br&gt;-未选中敌人时按{ES_ActivateGadget}向目标发射飞镖以引诱敌人。 | 在装备飞镖手机的Q眼镜（{ES_GadgetView/NoGesture}）后：&lt;br&gt;-选中敌人时按{ES_ActivateGadget}使其迷惑。&lt;br&gt;-未选中敌人时按{ES_ActivateGadget}向目标发射飞镖以引诱敌人。 | 半角括号改为全角，与其他教程说明一致 |
 | `LOCR 015E489BBC58ABAD / E367B54B` |  | Valhalla protocol: Night | Valhalla协议 夜间 | Valhalla协议：夜间 | 标点：缺冒号，与“Valhalla协议：日间”一致 |
 | `LOCR 0196341B19836B90 / 9BEB286B` |  | BEYOND THE GRAVE, MAURITANIA | 死亡之后， 毛里塔尼亚 | 死亡之后，毛里塔尼亚 | 标点：逗号后多余空格 |
