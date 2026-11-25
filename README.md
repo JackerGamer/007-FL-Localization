@@ -1,6 +1,6 @@
-# 007 FL Localization
+# 007 First Light Localization
 
-《007 初露锋芒》（007 First Light，IO Interactive，Glacier 2 引擎）简体中文译文修正项目（字体替换进行中）。
+《007 初露锋芒》（IO Interactive，Glacier 2 引擎）简体中文本地化修正项目（字体替换仍在开发中）。
 
 基于游戏版本 1.3.2（Steam BuildID 10870473，2026-11-24）。**游戏更新后密钥、偏移和 packagedefinition 都可能变化**，见文末“游戏更新后”。
 
