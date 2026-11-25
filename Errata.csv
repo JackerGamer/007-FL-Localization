@@ -14,50 +14,28 @@ LOCR 01C60F7F0A636F7D / 86D50E2C,标签或按键,,Gadgets Online,['Ivy_Setpieces
 LOCR 01F66B96654B7259 / 8DC570D6,标签或按键,,Authority,官方,官员,Authority 是 NPC 身份标签，指当权人员，不是“官方”
 DLGE 01002E3BD8CE1EE8 / 0,错译,敌人{0},"Yeah.
 This one's armed.",是啊，这个人居然有枪,是啊，这个已经激活了,armed 指炸弹已激活（日“作動してる”、德“scharf”），不是“有枪”
-DLGE 01016D39A402D224 / 0,错译,雇佣兵,No shit. You need some extra muscle?,我服了。你需要帮手吗？,还用你说。你需要帮手吗？,No shit 意为“这还用说”，原译“我服了”意思不对
-DLGE 01043A525DA3BFC1 / 0,错译,安保,No shit. You need some extra muscle?,我服了。你需要帮手吗？,还用你说。你需要帮手吗？,No shit 意为“这还用说”，原译“我服了”意思不对
-DLGE 0107D662BEF6484C / 0,错译,平民,No shit. Have a look around.,别瞎说，四下看看吧,还用你说，四下看看吧,No shit 意为“这还用说”，原译“别瞎说”意思不对（繁中作“還用說”）
-DLGE 0108DD3DD4436878 / 0,错译,雇佣兵,No shit. You need some extra muscle?,我服了。你需要帮手吗？,还用你说。你需要帮手吗？,No shit 意为“这还用说”，原译“我服了”意思不对
-DLGE 0109EC69DDC890AE / 0,错译,雇佣兵,No shit. Have a look around.,别瞎说。四下看看吧,还用你说。四下看看吧,No shit 意为“这还用说”，原译“别瞎说”意思不对（繁中作“還用說”）
 DLGE 010B04836E3ED263 / 0,错译,Valhalla,Arming missiles. Twelve per cent complete. Stand by.,导弹武装中。完成12%。待命,导弹激活中。已完成12%。请待命,arming 指武器激活
 DLGE 010ECAC45B3AED08 / 0,错译,海盗{0},"Hey, you wouldn't happen to have spare engine block kicking around?
 Something that won't blow up if we breathe on it would be nice.",嘿，你们这儿有没有多余的发动机组？最好是那种不会一碰就炸的,嘿，你们这儿有没有多余的发动机缸体？最好是那种不会一碰就炸的,engine block 是发动机缸体，不是“发动机组”
 DLGE 010FBF8BA3DA6CC2 / 0,错译,军情六处员工{0},Good. But put that on slow burn for now and await the results from the diplomacy.,好，我们在斯洛伐克的常驻人员用得上吗？,好。不过这事先缓一缓，等外交那边的结果吧,原译“我们在斯洛伐克的常驻人员用得上吗？”与原文无关
 DLGE 01113020711155AC / 0,错译,加里,That drone nearly gave our new recruit a free haircut. Keep your test flights tighter.,那架无人机差点给新兵免费理发，试飞范围控制得更严格些,那架无人机差点给我们的新学员免费理发，试飞范围控制得更严格些,recruit 指 00 计划学员，不是军队新兵
-DLGE 011271BCB7F2A68E / 0,错译,雇佣兵,No shit. Have a look around.,别瞎说。四下看看吧,还用你说。四下看看吧,No shit 意为“这还用说”，原译“别瞎说”意思不对（繁中作“還用說”）
 DLGE 011526C71F5BE19C / 0,错译,军情六处员工,"Ah, recruit Bond. Check out the latest styles. Whatever you fancy.",啊，新兵邦德，看看最新的款式，喜欢什么随便挑,啊，学员邦德，看看最新的款式，喜欢什么随便挑,recruit 指 00 计划学员，不是军队新兵
-DLGE 011841ABB4BA07BF / 0,错译,安保,No shit. You need some extra muscle?,我服了。你需要帮手吗？,还用你说。你需要帮手吗？,No shit 意为“这还用说”，原译“我服了”意思不对
-DLGE 0118EBFB923400BD / 0,错译,安保,No shit. You need some extra muscle?,我服了。你需要帮手吗？,还用你说。你需要帮手吗？,No shit 意为“这还用说”，原译“我服了”意思不对
-DLGE 0119C15ADA3F0C94 / 0,错译,安保,No shit. Have a look around.,别瞎说，四下看看吧,还用你说，四下看看吧,No shit 意为“这还用说”，原译“别瞎说”意思不对（繁中作“還用說”）
 DLGE 011AE605800900F6 / 2,错译,格林威,Serious? Serious? Serious? Serious? Serious? No wait... Serious?,当然？,认真的？认真的？认真的？认真的？认真的？不对，等等……认真的？,误译：Serious? 不是“当然”
-DLGE 011B957C49410D84 / 0,错译,雇佣兵,No shit. You need some extra muscle?,我服了。你需要帮手吗？,还用你说。你需要帮手吗？,No shit 意为“这还用说”，原译“我服了”意思不对
 DLGE 011BD9B549AE1B87 / 0,错译,门罗,You shouldn't even be here!,你傲慢又自私,你根本就不该在这儿！,原译“你傲慢又自私”与原文无关；繁中/日/法均为“你根本不该在这里”
 DLGE 011DEC168B8E9E63 / 0,错译,邦德,Better get that mission briefing from Moneypenny.,建议你去找钱班霓拿任务简报,我最好去找钱班霓拿任务简报,邦德自言自语（同组“我应该去找钱班霓”），原译“建议你去”变成了对别人说
-DLGE 012089750CE0F5E9 / 0,错译,雇佣兵,No shit. Have a look around.,别瞎说。四下看看吧,还用你说。四下看看吧,No shit 意为“这还用说”，原译“别瞎说”意思不对（繁中作“還用說”）
 DLGE 012192CEB51AEB25 / 0,错译,客人,Oh... they did? What do you think I should do?,"哦......她们真这么问？
 你觉得我该去吗？","哦……她们真这么问？
 你觉得我该怎么办？",后半句是“我该怎么办”，不是“我该去吗”（繁中/日文均如此）
-DLGE 01233308C37A17CF / 0,错译,安保,No shit. You need some extra muscle?,我服了。你需要帮手吗？,还用你说。你需要帮手吗？,No shit 意为“这还用说”，原译“我服了”意思不对
 DLGE 0123C8684A19B2F9 / 0,错译,军情六处员工,Commander Bond. The bridge is yours.,邦德指挥官，舰桥由您指挥,邦德中校，舰桥交给您了,Commander 是海军军衔“中校”
 DLGE 0125B27F2DCCA9B7 / 0,错译,邦德,Alright? Ali said I could take a look around operations. We just bought at the auction.,好了！阿里说我可以参观参观你们的运营，我们刚在拍卖会上买下了,你好啊！阿里说我可以参观参观你们的运营，我们刚在拍卖会上买下了,句首 Alright? 是英式打招呼，不是“好了！”
 DLGE 012713ED38987CFA / 0,错译,平民,Excuse me!? I think you should leave.,请原谅！？我想你应该离开了,喂？！我想你应该离开了,“Excuse me!?”在这里是不满地质问，不是“请原谅”
 DLGE 01280168F66D493C / 0,错译,门罗,"Okay, Aircrew, you're up.
 If you're serious about earning your place, let's go.",行了，空军来的家伙，到你了。如果你真想证明自己，跟我来,行了，机组成员先生，到你了。如果你真想证明自己，跟我来,邦德是皇家海军机组人员，不是空军；门罗别处称他“机组成员先生”（Mr Aircrewman）
-DLGE 01281A87D2A81376 / 0,错译,安保,No shit. You need some extra muscle?,我服了。你需要帮手吗？,还用你说。你需要帮手吗？,No shit 意为“这还用说”，原译“我服了”意思不对
-DLGE 012975FF3E3ACB76 / 0,错译,平民,No shit. You need some extra muscle?,我服了。你需要帮手吗？,还用你说。你需要帮手吗？,No shit 意为“这还用说”，原译“我服了”意思不对
-DLGE 012BBED9F5F80030 / 0,错译,平民,No shit. You need some extra muscle?,我服了。你需要帮手吗？,还用你说。你需要帮手吗？,No shit 意为“这还用说”，原译“我服了”意思不对
 DLGE 012C1A33D08DE722 / 0,错译,平民,Excuse me!? I think you should leave.,请原谅！？我想你应该离开了,喂？！我想你应该离开了,“Excuse me!?”在这里是不满地质问，不是“请原谅”
 DLGE 012C9595BE409D5B / 0,错译,邦德,Enjoyed that.,尝尝这个！,真过瘾,车内台词 Enjoyed that（刚才真好玩），原译“尝尝这个！”
-DLGE 012E1A7F5B8BA261 / 0,错译,雇佣兵,No shit. You need some extra muscle?,我服了。你需要帮手吗？,还用你说。你需要帮手吗？,No shit 意为“这还用说”，原译“我服了”意思不对
-DLGE 012F05CE65D6787D / 0,错译,安保,No shit. You need some extra muscle?,我服了。你需要帮手吗？,还用你说。你需要帮手吗？,No shit 意为“这还用说”，原译“我服了”意思不对
-DLGE 0131192032EB8E0D / 0,错译,安保,No shit. Do you need some extra muscle?,我服了。你需要帮手吗？,还用你说。你需要帮手吗？,No shit 意为“这还用说”，原译“我服了”意思不对
 DLGE 013136123F6A239C / 0,错译,韦伯员工,"Look, hey, if you can't cut the mustard,
 don't get on a helicopter in the middle of the Southern Ocean, am I right?",听着，要是受不了噪音，就别在暴风雪天坐直升机，我说得对不对？,听着，要是受不了噪音，就别跑到南大洋中间去坐直升机，我说得对不对？,Southern Ocean 是南大洋，原译“暴风雪天”
 DLGE 01320A042883DF8A / 1,错译,邦德,"Right, Q's waiting.",去吧，Q在等你,对，Q还在等着呢,邦德自言自语（Q 在等他），原译“去吧，Q在等你”像是叫别人去
-DLGE 0133919A552E8B40 / 0,错译,雇佣兵,No shit. You need some extra muscle?,我服了。你需要帮手吗？,还用你说。你需要帮手吗？,No shit 意为“这还用说”，原译“我服了”意思不对
-DLGE 0133AF40241A3CFC / 0,错译,安保,No shit. Have a look around.,别瞎说，四下看看吧,还用你说，四下看看吧,No shit 意为“这还用说”，原译“别瞎说”意思不对（繁中作“還用說”）
-DLGE 01366C101A8D8BBF / 0,错译,安保,No shit. You need some extra muscle?,我服了。你需要帮手吗？,还用你说。你需要帮手吗？,No shit 意为“这还用说”，原译“我服了”意思不对
-DLGE 01399BF07C42E9D1 / 0,错译,雇佣兵,"No shit. Yeah, have a look around.",别瞎说。好啊，四下看看吧,还用你说。好啊，四下看看吧,No shit 意为“这还用说”，原译“别瞎说”意思不对（繁中作“還用說”）
 DLGE 013AE83D63FA7F7C / 0,错译,尼古拉斯爵士,"Health monitoring device.
 Like all tech, its purpose can be redirected,
 such as dumping every last bit of MI6 data the moment that my heart stops beating.","健康监测装置，和所有科技产品一样，它的功能可以被重设
@@ -69,109 +47,49 @@ DLGE 013E77BC9DA0AEEE / 0,错译,钱班霓,Whoa. That's... beautiful.,"哇哦
 真是……太美了",beautiful 是“美”，原译“帅”不对
 DLGE 01439DE225FD1A55 / 0,错译,辛格,"Give her hell, okay?
 We need her to call her handler.",给她点颜色瞧瞧，明白吗？我们得逼她联系指挥官,给她点颜色瞧瞧，明白吗？我们得逼她联系上线,handler 指派克的上线，不是指挥官
-DLGE 0143BB0C466E1E9E / 0,错译,平民,No shit. You need some extra muscle?,我服了，你需要帮手吗？,还用你说，你需要帮手吗？,No shit 意为“这还用说”，原译“我服了”意思不对
-DLGE 0144D25B13468EC9 / 0,错译,平民,No shit. You need some extra muscle?,我服了。你需要帮手吗？,还用你说。你需要帮手吗？,No shit 意为“这还用说”，原译“我服了”意思不对
 DLGE 01450F0B1B3250CC / 0,错译,邦德,I would've handled it my way.,你本可以用我的方式处理,我本可以用自己的方式解决,人称错：邦德说的是自己
-DLGE 014911CEAF472828 / 0,错译,平民,No shit. Have a look around.,别瞎说。四下看看吧,还用你说。四下看看吧,No shit 意为“这还用说”，原译“别瞎说”意思不对（繁中作“還用說”）
-DLGE 014BB77E9284B36E / 0,错译,雇佣兵,No shit. You need some extra muscle?,我服了。你需要帮手吗？,还用你说。你需要帮手吗？,No shit 意为“这还用说”，原译“我服了”意思不对
 DLGE 014CF05779861820 / 0,错译,敌人{0},They are all armed.,他们全都有枪,它们全都已经激活了,armed 指炸弹已激活（日“作動中”、德“scharf”），不是“有枪”
-DLGE 014DF7485EC888B1 / 0,错译,安保,No shit. Have a look around.,别瞎说，四下看看吧,还用你说，四下看看吧,No shit 意为“这还用说”，原译“别瞎说”意思不对（繁中作“還用說”）
 DLGE 0150D81E466EBE90 / 0,错译,军情六处员工,"Nine hours engaged, 30 to handover. I need an extension. Let me check. I'll get back to you.",已经开始9小时，30小时后交接。我需要延期。我先确认一下，稍后回复你,已经工作9小时，还有30分钟交接。我需要延期。我先确认一下，稍后回复你,30 to handover 是 30 分钟后交接（繁中同），原译“30小时”
-DLGE 015375B36503A3CF / 0,错译,雇佣兵,No shit. Have a look around.,别瞎说。四下看看吧,还用你说。四下看看吧,No shit 意为“这还用说”，原译“别瞎说”意思不对（繁中作“還用說”）
-DLGE 01576220911527CA / 0,错译,安保,No shit. You need extra muscle?,我服了。你需要帮手吗？,还用你说。你需要帮手吗？,No shit 意为“这还用说”，原译“我服了”意思不对
 DLGE 0157F76188239140 / 0,错译,邦德,Reception. Good man.,大厅啊，你真是个好人,前台是吧，多谢,Reception 是前台；Good man 在此是道谢，原译“你真是个好人”
-DLGE 015E720954026AB4 / 0,错译,安保,No shit. Have a look around.,别瞎说，四下看看吧,还用你说，四下看看吧,No shit 意为“这还用说”，原译“别瞎说”意思不对（繁中作“還用說”）
 DLGE 015FD179379AF5CE / 0,错译,邦德,Just keeping you on your toes.,只管保持警觉,我只是想让你保持警觉,车内对白 Just keeping you on your toes，原译“只管保持警觉”变成了祈使句
 DLGE 01611BB2396B4AB3 / 0,错译,邦德,Back into character.,集中精神,该入戏了,邦德在执行伪装身份，get back in character 指回到角色，不是“集中精神”
 DLGE 01611BB2396B4AB3 / 1,错译,邦德,Let's get back in character.,让我们集中精神,继续演戏吧,邦德在执行伪装身份，get back in character 指回到角色，不是“集中精神”
 DLGE 01611BB2396B4AB3 / 2,错译,邦德,Time to get back in character.,该集中精神了,是时候重新入戏了,邦德在执行伪装身份，get back in character 指回到角色，不是“集中精神”
-DLGE 01628B35435CFBFE / 0,错译,安保,No shit. Have a look around.,别瞎说，四下看看吧,还用你说，四下看看吧,No shit 意为“这还用说”，原译“别瞎说”意思不对（繁中作“還用說”）
-DLGE 0163371FFA030919 / 0,错译,雇佣兵,No shit. Have a look around.,别瞎说。四下看看吧,还用你说。四下看看吧,No shit 意为“这还用说”，原译“别瞎说”意思不对（繁中作“還用說”）
-DLGE 0163E589E68C2AAB / 0,错译,雇佣兵,No shit. Have a look around.,别瞎说。四下看看吧,还用你说。四下看看吧,No shit 意为“这还用说”，原译“别瞎说”意思不对（繁中作“還用說”）
 DLGE 0166D1ADE67A641E / 0,错译,Valhalla,Machine guns armed and ready to fire.,机枪已武装，准备开火,机枪已激活，准备开火,armed 指武器已激活
 DLGE 0168E5FB5420C7AD / 0,错译,特种空勤团,"Damn it, recruit. If you're gonna stand and stare like that,
 you might as well join in!",还愣着干什么，新兵！再发呆就给我滚去训练场和他们一起！,还愣着干什么，学员！再发呆就给我滚去训练场和他们一起！,recruit 指 00 计划学员，不是军队新兵
-DLGE 016A424A6F942FAD / 0,错译,平民,No shit. You need some extra muscle?,我服了，你需要帮手吗？,还用你说，你需要帮手吗？,No shit 意为“这还用说”，原译“我服了”意思不对
-DLGE 0170F66917DE99DB / 0,错译,平民,No shit. You need some extra muscle?,我服了，你需要帮手吗？,还用你说，你需要帮手吗？,No shit 意为“这还用说”，原译“我服了”意思不对
-DLGE 01710F8B2E561EEC / 0,错译,雇佣兵,No shit. You need some extra muscle?,我服了。你需要帮手吗？,还用你说。你需要帮手吗？,No shit 意为“这还用说”，原译“我服了”意思不对
 DLGE 01718E6F7D9563E7 / 0,错译,格林威,Operation Knightfall.,骑陨行动,骑士陨落行动,Knightfall 是行动代号，“骑陨”不是现成词语，容易误读；繁中版译作“騎士隕落”
-DLGE 01727D559256BCE2 / 0,错译,平民,No shit. You need some extra muscle?,我服了。你需要帮手吗？,还用你说。你需要帮手吗？,No shit 意为“这还用说”，原译“我服了”意思不对
-DLGE 0174E2E453F4B2DA / 0,错译,安保,No shit. Have a look around.,别瞎说，四下看看吧,还用你说，四下看看吧,No shit 意为“这还用说”，原译“别瞎说”意思不对（繁中作“還用說”）
-DLGE 01771DB9EE4FA890 / 0,错译,安保,No shit. Have a look around.,别瞎说，四下看看吧,还用你说，四下看看吧,No shit 意为“这还用说”，原译“别瞎说”意思不对（繁中作“還用說”）
-DLGE 0178A4CDA3D463AB / 0,错译,雇佣兵,No shit. You need some extra muscle?,我服了。你需要帮手吗？,还用你说。你需要帮手吗？,No shit 意为“这还用说”，原译“我服了”意思不对
 DLGE 01798AE2BD32D1A9 / 0,错译,门罗,"They knew each other though. That much is clear.
 Something to do with an operation called Knightfall.",不过，他们认识彼此，这点我是知道的。他们在一场名为骑陨的行动中有过交集,不过，他们认识彼此，这点我是知道的。他们在一场名为骑士陨落的行动中有过交集,Knightfall 是行动代号，“骑陨”不是现成词语，容易误读；繁中版译作“騎士隕落”
-DLGE 0179AC26D4A21E46 / 0,错译,安保,No shit. You need some extra muscle?,我服了。你需要帮手吗？,还用你说。你需要帮手吗？,No shit 意为“这还用说”，原译“我服了”意思不对
-DLGE 017C4CA73EF5C632 / 0,错译,平民,No shit. You need some extra muscle?,我服了。你需要帮手吗？,还用你说。你需要帮手吗？,No shit 意为“这还用说”，原译“我服了”意思不对
-DLGE 017E6883405F3F95 / 0,错译,安保,No shit. You need some extra muscle?,我服了。你需要帮手吗？,还用你说。你需要帮手吗？,No shit 意为“这还用说”，原译“我服了”意思不对
-DLGE 017E918AF6A50EBA / 0,错译,平民,No shit. Have a look around.,别瞎说，四下看看吧,还用你说，四下看看吧,No shit 意为“这还用说”，原译“别瞎说”意思不对（繁中作“還用說”）
-DLGE 0180A6810A550944 / 0,错译,平民,No shit. You need some extra muscle?,我服了。你需要帮手吗？,还用你说。你需要帮手吗？,No shit 意为“这还用说”，原译“我服了”意思不对
 DLGE 0180C15F95E1FBB0 / 0,错译,平民,Excuse me!? I think you should leave.,请原谅！？我想你应该离开了,喂？！我想你应该离开了,“Excuse me!?”在这里是不满地质问，不是“请原谅”
 DLGE 0180D9543A5056D0 / 0,错译,邦德,Excuse you.,借过一下,真没礼貌,Excuse you 是回敬对方无礼（日 失敬だね、法 On dit « pardon »），不是“借过一下”
-DLGE 01817477ABDEB1B9 / 0,错译,安保,No shit. Have a look around.,别瞎说，四下看看吧,还用你说，四下看看吧,No shit 意为“这还用说”，原译“别瞎说”意思不对（繁中作“還用說”）
-DLGE 01870F106EE23CC8 / 0,错译,平民,No shit. You need some extra muscle?,我服了。你需要帮手吗？,还用你说。你需要帮手吗？,No shit 意为“这还用说”，原译“我服了”意思不对
 DLGE 018BE74914C92E44 / 0,错译,邦德,Still looking?,好，我马上就搞定,还在找吗？,原文是问句（繁中、日、法均同），原译与原文无关
 DLGE 018C816F95128BA9 / 0,错译,平民,Excuse me!? I think you should leave.,请原谅！？我想你应该离开了,喂？！我想你应该离开了,“Excuse me!?”在这里是不满地质问，不是“请原谅”
-DLGE 0195076CF56C15E4 / 0,错译,安保,No shit. You need some backup?,我服了。你需要帮手吗？,还用你说。你需要帮手吗？,No shit 意为“这还用说”，原译“我服了”意思不对
-DLGE 0196CE7BDA69AE90 / 0,错译,平民,No shit. You need some extra muscle?,我服了。你需要帮手吗？,还用你说。你需要帮手吗？,No shit 意为“这还用说”，原译“我服了”意思不对
 DLGE 0197FBDC2015A063 / 0,错译,平民,Excuse me!? I think you should leave.,请原谅！？我想你应该离开了,喂？！我想你应该离开了,“Excuse me!?”在这里是不满地质问，不是“请原谅”
 DLGE 0199A45F872B15DF / 0,错译,门罗,Don't let him beat you up this time.,这次别让他揍趴下,这次别被他揍趴下,原译“别让他揍趴下”有语病（像是让对手倒下）；对手为男性
-DLGE 019D0B295723ACA2 / 0,错译,平民,No shit. You need some extra muscle?,我服了。你需要帮手吗？,还用你说。你需要帮手吗？,No shit 意为“这还用说”，原译“我服了”意思不对
-DLGE 01A19D216550DCE9 / 0,错译,安保,No shit. You need some extra muscle?,我服了。你需要帮手吗？,还用你说。你需要帮手吗？,No shit 意为“这还用说”，原译“我服了”意思不对
-DLGE 01A780D0222EDA29 / 0,错译,平民,No shit. Have a look around.,别瞎说，四下看看吧,还用你说，四下看看吧,No shit 意为“这还用说”，原译“别瞎说”意思不对（繁中作“還用說”）
 DLGE 01A8F5CC340EE338 / 0,错译,军情六处员工{0},Ah... so it wasn't a terrorist strike. It was a heist. The plot thickens.,"啊......所以是恐怖袭击,是场抢劫案。剧情变复杂了",啊……所以不是恐怖袭击，是场抢劫案。剧情变复杂了,误译：wasn't 译成了“是”，意思反了；半角逗号
-DLGE 01B031464B228378 / 0,错译,平民,No shit. You need some extra muscle?,我服了，你需要帮手吗？,还用你说，你需要帮手吗？,No shit 意为“这还用说”，原译“我服了”意思不对
 DLGE 01B1F2C4D54EA242 / 0,错译,邦德,"Hello, gorgeous.",你好啊，美人,你好啊，帅哥,"Hello, gorgeous 的对象为男性（繁中帅哥、日 イケメン君、德 Hübscher），原译“美人”"
 DLGE 01B366B770E014A4 / 0,错译,特种空勤团,"Report to your superior officer, recruit.",去向你的上级军官报到，新兵,去向你的上级报到，学员,recruit 指 00 计划学员，不是军队新兵；邦德的上级是军情六处的人，不是军官（繁中“上級”、日文“上官”也不限定军官）
 DLGE 01B3823EE0DEA704 / 0,错译,海盗{0},"Next time I'm staying on dry land.
 [Sighs] I'll go see what I can do about that engine block.","下次我要留在陆地上
 我去看看发动机组还能不能修","下次我要留在陆地上
 我去看看发动机缸体还能不能修",engine block 是发动机缸体，不是“发动机组”
-DLGE 01B67EC685218B22 / 0,错译,安保,No shit. Have a look around.,别瞎说，四下看看吧,还用你说，四下看看吧,No shit 意为“这还用说”，原译“别瞎说”意思不对（繁中作“還用說”）
-DLGE 01B9C618DB06EACB / 0,错译,安保,No shit. You need some extra muscle?,我服了。你需要帮手吗？,还用你说。你需要帮手吗？,No shit 意为“这还用说”，原译“我服了”意思不对
-DLGE 01BA0C93DAA37930 / 0,错译,安保,No shit. You need some extra muscle?,我服了。你需要帮手吗？,还用你说。你需要帮手吗？,No shit 意为“这还用说”，原译“我服了”意思不对
-DLGE 01BA8238E4FCB071 / 0,错译,安保,No shit. You need some extra muscle?,我服了。你需要帮手吗？,还用你说。你需要帮手吗？,No shit 意为“这还用说”，原译“我服了”意思不对
-DLGE 01BB85D9A88894F5 / 0,错译,安保,No shit. You need some extra muscle.,我服了。你需要帮手吗？,还用你说。你需要几个帮手,No shit 意为“这还用说”，原译“我服了”意思不对；后半句是陈述“你得多带几个人”，不是问句（繁中“你應該多帶點人”）
-DLGE 01BD8757B7235257 / 0,错译,雇佣兵,No shit. Have a look around.,别瞎说。四下看看吧,还用你说。四下看看吧,No shit 意为“这还用说”，原译“别瞎说”意思不对（繁中作“還用說”）
 DLGE 01BEDF85C0A98A99 / 0,错译,钱班霓,"They served together as 00's.
 Right up until Operation Knightfall.",他们曾经是00计划的同僚，直到骑陨行动,他们曾经是00计划的同僚，直到骑士陨落行动,Knightfall 是行动代号，“骑陨”不是现成词语，容易误读；繁中版译作“騎士隕落”
-DLGE 01BFB8254D3E12C4 / 0,错译,雇佣兵,No shit. Have a look around.,别瞎说。四下看看吧,还用你说。四下看看吧,No shit 意为“这还用说”，原译“别瞎说”意思不对（繁中作“還用說”）
 DLGE 01C27CA0516665DD / 0,错译,邦德,Hold on.,等等,抓稳,车内台词 Hold on 是“抓稳”（繁中、日、法、德同），不是“等等”
 DLGE 01C2C895DB3F6ED0 / 0,错译,特种空勤团{0},Luck like that just isn't natural.,我自认倒霉,那种运气根本不正常,原译“我自认倒霉”意思不对；繁中/日/法均为“运气好得不正常”
 DLGE 01C6B723AE1A3230 / 0,错译,特种空勤团,"Go find your squad, recruit.",去找你的小队，新兵,去找你的小队，学员,recruit 指 00 计划学员，不是军队新兵
-DLGE 01C6BE460376D7E0 / 0,错译,雇佣兵,No shit. You need some extra muscle?,我服了。你需要帮手吗？,还用你说。你需要帮手吗？,No shit 意为“这还用说”，原译“我服了”意思不对
-DLGE 01CB1EE064F60E13 / 0,错译,雇佣兵,No shit. Have a look around.,别瞎说。四下看看吧,还用你说。四下看看吧,No shit 意为“这还用说”，原译“别瞎说”意思不对（繁中作“還用說”）
-DLGE 01CBC2FEB1CCE0A1 / 0,错译,平民,No shit. You need some extra muscle?,我服了。你需要帮手吗？,还用你说。你需要帮手吗？,No shit 意为“这还用说”，原译“我服了”意思不对
 DLGE 01CE00E9FA714A93 / 2,错译,平民,Excuse me!? I think you should leave.,请原谅！？我想你应该离开了,喂？！我想你应该离开了,“Excuse me!?”在这里是不满地质问，不是“请原谅”
 DLGE 01D177A8D2D07C65 / 0,错译,平民,Excuse me!? I think you should leave.,请原谅！？我想你应该离开了,喂？！我想你应该离开了,“Excuse me!?”在这里是不满地质问，不是“请原谅”
-DLGE 01D6042123B9BB84 / 0,错译,安保,No shit. You need some extra muscle?,我服了。你需要帮手吗？,还用你说。你需要帮手吗？,No shit 意为“这还用说”，原译“我服了”意思不对
-DLGE 01D74D8F8AFC3646 / 0,错译,平民,No shit. Have a look around.,别瞎说，四下看看吧,还用你说，四下看看吧,No shit 意为“这还用说”，原译“别瞎说”意思不对（繁中作“還用說”）
-DLGE 01D7CD3A74EF867B / 0,错译,雇佣兵,No shit. You need some extra muscle.,我服了。你需要几个帮手,还用你说。你需要几个帮手,No shit 意为“这还用说”，原译“我服了”意思不对
 DLGE 01D8FC4FE3210D83 / 2,错译,平民,Excuse me!? I think you should leave.,请原谅！？我想你应该离开了,喂？！我想你应该离开了,“Excuse me!?”在这里是不满地质问，不是“请原谅”
 DLGE 01D98DE38E58E6C8 / 0,错译,Valhalla,Missiles armed and loaded.,导弹已武装并装载,导弹已激活并装填完毕,armed 指武器已激活
 DLGE 01E1B131CE259B4D / 0,错译,邦德,"Q, what do you know of Operation Knightfall?",Q，你对“骑陨行动”了解多少？,Q，你对“骑士陨落行动”了解多少？,Knightfall 是行动代号，“骑陨”不是现成词语，容易误读；繁中版译作“騎士隕落”
-DLGE 01E422B42597C618 / 0,错译,安保,No shit. Have a look around.,别瞎说，四下看看吧,还用你说，四下看看吧,No shit 意为“这还用说”，原译“别瞎说”意思不对（繁中作“還用說”）
-DLGE 01E61D2D8AFF325D / 0,错译,安保,No shit. Have a look around.,别瞎说，四下看看吧,还用你说，四下看看吧,No shit 意为“这还用说”，原译“别瞎说”意思不对（繁中作“還用說”）
 DLGE 01E68E18C997CC19 / 0,错译,安保,Farewell.,永别了,再见,安保送客用语 Farewell，原译“永别了”
-DLGE 01E6D77B63806048 / 0,错译,平民,No shit. You need some extra help?,我服了。你需要帮手吗？,还用你说。你需要帮手吗？,No shit 意为“这还用说”，原译“我服了”意思不对
-DLGE 01E781FB34DA6EBA / 0,错译,安保,No shit. You need some extra muscle?,我服了。你需要帮手吗？,还用你说。你需要帮手吗？,No shit 意为“这还用说”，原译“我服了”意思不对
-DLGE 01EB40CC98787E64 / 0,错译,雇佣兵,No shit. You need some extra muscle?,我服了。你需要帮手吗？,还用你说。你需要帮手吗？,No shit 意为“这还用说”，原译“我服了”意思不对
-DLGE 01EB535A6863E660 / 0,错译,雇佣兵,No shit. Have a look around.,别瞎说。四下看看吧,还用你说。四下看看吧,No shit 意为“这还用说”，原译“别瞎说”意思不对（繁中作“還用說”）
 DLGE 01EDA25C52A24270 / 0,错译,员工,"Yes, sir.",遵命，长官,好的，先生,"员工对客人说 Yes, sir，不是“遵命，长官”"
-DLGE 01EDDA5A1307BBC5 / 0,错译,平民,No shit. You need some extra muscle?,我服了。你需要帮手吗？,还用你说。你需要帮手吗？,No shit 意为“这还用说”，原译“我服了”意思不对
-DLGE 01F17ADD324DA309 / 0,错译,平民,No shit. Have a look around.,别瞎说，四下看看吧,还用你说，四下看看吧,No shit 意为“这还用说”，原译“别瞎说”意思不对（繁中作“還用說”）
-DLGE 01F18E7A952AF2D1 / 0,错译,安保,No shit. Have a look around.,别瞎说，四下看看吧,还用你说，四下看看吧,No shit 意为“这还用说”，原译“别瞎说”意思不对（繁中作“還用說”）
-DLGE 01F5D1F9C003CD59 / 0,错译,安保,No shit. Need some extra muscle?,我服了。需要帮手吗？,还用你说。需要帮手吗？,No shit 意为“这还用说”，原译“我服了”意思不对
-DLGE 01F5D9DEA3B6E611 / 0,错译,平民,No shit. Have a look around.,别瞎说。四下看看吧,还用你说。四下看看吧,No shit 意为“这还用说”，原译“别瞎说”意思不对（繁中作“還用說”）
-DLGE 01F7E244BBB95F80 / 0,错译,雇佣兵,No shit. Have a look around.,别瞎说。四下看看吧,还用你说。四下看看吧,No shit 意为“这还用说”，原译“别瞎说”意思不对（繁中作“還用說”）
 DLGE 01F7E680D52E6B52 / 0,错译,邦德,Roger. He wasn't needing it.,收到，反正他也用不着了,罗杰的，反正他也用不着了,Roger 指罗杰·芬奇（门禁卡是他的；日文作“ロジャーのだ”），不是“收到”
-DLGE 01FA07307517149E / 0,错译,平民,No shit. Have a look around.,别瞎说，四下看看吧,还用你说，四下看看吧,No shit 意为“这还用说”，原译“别瞎说”意思不对（繁中作“還用說”）
-DLGE 01FB9E92C6BCD152 / 0,错译,雇佣兵,No shit. You need some extra muscle?,我服了。你需要帮手吗？,还用你说。你需要帮手吗？,No shit 意为“这还用说”，原译“我服了”意思不对
-DLGE 01FC3A8CC49711A3 / 0,错译,雇佣兵,No shit. Have a look around.,别瞎说。四下看看吧,还用你说。四下看看吧,No shit 意为“这还用说”，原译“别瞎说”意思不对（繁中作“還用說”）
 LOCR 01016CE7AFD99CDA / 5423389F,错译,,"Bond travels to Vietnam on a covert solo operation. THEIA, it appears, has detected another big data “phantom pattern”, mistaking the statistically unlikely but entirely unrelated deaths of two green energy pioneers as the work of elusive terrorist Caliban. However, according to a recent report from INTERPOL, Caliban has been dead for months. To cover up THEIA’s mistake, Damien is en-route to The Pearl, a luxury resort on the coast, where he intends to stage a copycat killing to prove Caliban is still active.",邦德受命单兵潜入越南展开调查。目前看起来，THEIA再一次在大数据中识别出了所谓的“幽灵模式”——将两位绿色能源先驱在统计上极为罕见、而又毫无关联的死亡事件，误判为神秘恐怖分子卡利班所为。然而，国际刑警组织的最新报告早已确认卡利班数月前就已身亡。为了掩盖这场算法误判，达米安正悄然前往海岸的豪华度假村“珍珠酒店”，策划一起模仿杀人案，以“证明”卡利班依然在行动。,邦德受命独自潜入越南展开调查。目前看起来，THEIA再一次在大数据中识别出了所谓的“幽灵模式”——将两位绿色能源先驱在统计上极为罕见、而又毫无关联的死亡事件，误判为神秘恐怖分子卡利班所为。然而，国际刑警组织的最新报告早已确认卡利班数月前就已身亡。为了掩盖这场算法误判，达米安正悄然前往海岸的豪华度假村“珍珠酒店”，策划一起模仿杀人案，以“证明”卡利班依然在行动。,solo 指独自行动，不是士兵
 LOCR 01016CE7AFD99CDA / 56176FE3,错译,,"Bond goes on a covert solo operation at The Pearl, a luxury resort in Vietnam, to stop Damien Webb from covering up another of THEIA’s mistakes and retrieve solid proof of the Webbs’ wrongdoings.",邦德单兵前往越南豪华度假村“珍珠酒店”展开调查，以阻止达米安·韦伯掩盖THEIA的另一项错误，并获取韦伯家族不当行为的确凿证据。,邦德独自前往越南豪华度假村“珍珠酒店”展开调查，以阻止达米安·韦伯掩盖THEIA的另一项错误，并获取韦伯家族不当行为的确凿证据。,solo 指独自行动，不是士兵
 LOCR 0102E49C3D7707C6 / 719835A2,错译,,Watch this,瞧瞧这个,看我的表,挑战名：条件是只带Q博士腕表，Watch this 双关“看好了”和“腕表”
-LOCR 0102E49C3D7707C6 / 74CD176D,错译,,"Complete ""The garden party"" operation without discharging a firearm.",在不伤害任何人的情况下完成“花园派对”行动。,在不开一枪的情况下完成“花园派对”行动。,误译：without discharging a firearm 是“不开一枪”（同类“和平主义者”挑战都这样译），不是“不伤害任何人”
 LOCR 0102E49C3D7707C6 / AA0CB2D9,错译,,Unarmed,徒手搏斗,赤手空拳,挑战名：条件是不开枪，原译“徒手搏斗”偏成了近战
 LOCR 0102E49C3D7707C6 / FFBF8023,错译,,Crush 5 enemies with an object.,用一个物体砸死5名敌人,用物体砸死5名敌人,误译：an object 泛指物体，原译“用一个物体”像是要一次砸死5人
 LOCR 01031B2E6CC6A7E3 / 1FBCF19D,错译,,Hit a heavily staggered enemy near the rail to slam,在滑轨附近对严重踉跄的敌人进行猛击,在缆绳附近对严重踉跄的敌人进行猛击,误译：擂台的 rail / railing 指四周的围绳，与同组“撞向缆绳”“扔过缆绳”统一，不是“滑轨”
@@ -315,7 +233,6 @@ LOCR 01EA4C1B4215A6E3 / 77D33CF5,错译,,Thief,盗贼,抢人头,挑战名：条�
 LOCR 01EA4C1B4215A6E3 / 819B4C1C,错译,,Unlicenced to kill,未经许可，不得杀戮,无杀人执照,挑战名：Unlicenced to kill 反用 licence to kill（杀人执照），原译“未经许可，不得杀戮”冗长且丢了梗
 LOCR 01EA4C1B4215A6E3 / 988B5AD6,错译,,Watch your step,小心点,小心脚下,挑战名：条件是把达米安踢进缺口，Watch your step 是“小心脚下”
 LOCR 01EA4C1B4215A6E3 / B0735681,错译,,Wraith,幽灵,幽魂,挑战名 Wraith 原译“幽灵”，与“幽灵”类挑战（Ghost）重名，改为“幽魂”
-LOCR 01F2A4226E95C932 / 1D2A1118,错译,,Push 2 enemies over the edge at the same time using a wind fan.,使用风扇将3名敌人同时推下边缘,使用风扇将2名敌人同时推下边缘,误译：英文是2名，原译写成3名
 LOCR 01F2A4226E95C932 / 347295C6,错译,,Complete tier 1 of the Arctic skies mission.,完成极地天空任务的第一级,完成极地天空任务的第二级,英文原文误作 tier 1（这是“极地天空2”的说明），应为第二级
 LOCR 01F66B96654B7259 / 5B113302,错译,,Disorient,迷失,迷乱,状态效果 Disorient（失去方向感），与眩晕、踉跄并列，不是“迷失”
 LOCR 01F66B96654B7259 / 76202997,错译,,Tank,坦克,重装兵,Tank 是敌人类型（重甲精英雇佣兵），不是坦克
@@ -333,10 +250,6 @@ LOCR 01179467BC0E9F2F / 755FDDD7,漏译,,"In this game you will encounter a vari
 LOCR 011E1D540ED7C499 / B5FF4464,漏译,,Complete Gantries and Utility Floor without shooting anyone.,在起重机平台和公用设施层中不向任何人开枪。,在不向任何人开枪的情况下完成门架和公用设施层。,漏译“Complete”；Gantries 统一为“门架”（任务目标的译名）
 LOCR 018D94E35C8F5183 / 06695C67,漏译,,"Black satin tuxedo with matching vest, fitted white dress shirt and silk bow-tie.",头等舱,黑色缎面礼服，配同款马甲、修身白色正装衬衫和真丝领结。,描述误填为服装名称“头等舱”
 LOCR 018D94E35C8F5183 / 0D6A6280,漏译,,A black and gold satin tuxedo jacket with black pants and white dress shirt.,镀金燕尾服,黑金配色缎面礼服外套，搭配黑色长裤和白色正装衬衫。,描述误填为服装名称
-LOCR 0192B79AAABA4790 / 4AA52C53,漏译,,Eliminate the last opponents while using Focus to complete the course,消灭最后几名对战对手以完成课程。,在使用专注的同时消灭最后几名对战对手，以完成课程。,漏译“while using Focus”（使用专注）
-LOCR 0192B79AAABA4790 / 8052E388,漏译,,Focus Headshot,在专注激活时消灭一名对战对手,专注爆头,漏译“Headshot”：原译是说明的意思且丢了爆头
-LOCR 0192B79AAABA4790 / 8E7DDD80,漏译,,Eliminate the rest while using Focus,消灭剩余对战对手,在使用专注的同时消灭剩余对战对手,漏译“while using Focus”（使用专注）
-LOCR 0192B79AAABA4790 / BE13165B,漏译,,Perform a headshot elimination while Focus is active,在专注激活时消灭一名敌方对战对手。,在专注激活时以爆头消灭一名对战对手。,漏译“headshot”
 LOCR 0198A36A63C5750B / FB78EC45,漏译,,"Only gadgets or setpieces count. Not grab, throw or rush.",装置或场景装置才算在内。擒抱、投掷或冲锋不算。,只有装置或场景装置才算在内。擒抱、投掷或冲锋不算。,漏译“Only”
 LOCR 019ACD7BF6EEE5FD / 52E64FE4,漏译,,Keypads,使用爆炸物或环境危险来破坏仿生人的装甲。,密码键盘,描述误填：标题“Keypads”显示成了仿生人教程里的一句说明
 LOCR 019ACD7BF6EEE5FD / F9607BD9,漏译,,By pressing {ES_QuickMeleeAttack/NoGesture} you can also strike enemies while they are grabbed.,按{ES_QuickMeleeAttack/NoGesture}擒住敌人并攻击。,擒住敌人时，也可以按{ES_QuickMeleeAttack/NoGesture}攻击敌人。,漏译：原译读起来像是用这个操作擒住敌人，实际说的是擒住敌人后还可以用它攻击（繁中/日文等均如此）
