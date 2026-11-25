@@ -1,0 +1,10 @@
+# 本机生成，可随时重建
+build/
+backup/
+__pycache__/
+*.pyc
+check.txt
+# 从游戏导出的原文，版权归 IO Interactive，不进仓库（用 tools/export.py 生成）
+text/original/
+# 宣传片素材与输出（截图、配乐、视频），不进仓库
+promo/
