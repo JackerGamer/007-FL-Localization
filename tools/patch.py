@@ -181,7 +181,7 @@ def uninstall():
         print('没有备份，已把 patchlevel 改回 0')
 
 
-PLAYER_README = f'''《007 初露锋芒》简体中文译文修正
+PLAYER_README = f'''《007 初露锋芒》简体中文本地化修正
 
 适用游戏版本：{glacier.GAME_VERSION}（Steam）。游戏是其他版本时请勿使用。
 修正了 2,000 多条简体中文字幕和界面文本：错译、漏译、术语和人名不统一、错别字、标点等。
