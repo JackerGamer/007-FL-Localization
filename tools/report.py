@@ -27,6 +27,7 @@ CATS = {
     'typo': ('错别字', ['错别字', '繁体', '账号']),
     'speaker': ('说话人名', []),
     'punct': ('标点', ['引号', '半角', '标点', '括号']),
+    'bulk': ('省略号和问叹号', []),  # 只差批量规则的条目，单独统计
 }
 ORDER = list(CATS)
 
@@ -47,7 +48,7 @@ def collect():
             if f and 'cn' in f:
                 cat, note = category(f.get('note', '')), f.get('note', '')
             else:  # 只差批量规则
-                cat = 'punct'
+                cat = 'bulk'
                 note = '；'.join(BULK_NOTE[n] for n, pat, rep in fix.BULK if pat.sub(rep, o['cn']) != o['cn'])
             rows.append(dict(base, 类别=cat, 现有译文=o['cn'], 建议译文=e['cn'], 说明=note))
         if f and 'speaker' in f:
