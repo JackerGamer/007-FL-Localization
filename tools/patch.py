@@ -149,6 +149,13 @@ def patched():
         return re.search(r'patchlevel=[1-9]', glacier.decrypt_config(f.read()).decode('utf-8')) is not None
 
 
+def print_partitions(data):
+    """打印加密的 packagedefinition 内容里的分区行。"""
+    for line in glacier.decrypt_config(data).decode('utf-8').splitlines():
+        if line.startswith('@partition'):
+            print('  ' + line)
+
+
 def install():
     made = build()
     if not patched():  # 原版：首次安装，或被游戏更新、验证文件还原（旧备份已过时）
@@ -158,11 +165,9 @@ def install():
     for ci, src in made.items():
         shutil.copy2(src, os.path.join(RUNTIME, os.path.basename(src)))
     set_patchlevels({PARTITION[ci]: PATCH_LEVEL for ci in made})
+    print('已安装。packagedefinition 分区：')
     with open(PKGDEF, 'rb') as f:
-        print('已安装。packagedefinition 分区：')
-        for line in glacier.decrypt_config(f.read()).decode('utf-8').splitlines():
-            if line.startswith('@partition'):
-                print('  ' + line)
+        print_partitions(f.read())
 
 
 def uninstall():
@@ -217,11 +222,8 @@ def package():
             z.writestr(zipfile.ZipInfo(name, date_time=(2026, 1, 1, 0, 0, 0)), data, zipfile.ZIP_DEFLATED)  # 固定时间，重复打包结果相同
     with zipfile.ZipFile(dst) as z:  # 回读校验
         assert {n: z.read(n) for n in z.namelist()} == files
-        pt = glacier.decrypt_config(z.read('Runtime/packagedefinition.txt')).decode('utf-8')
     print(f'{PACKAGE}: {os.path.getsize(dst):,} 字节, 回读校验通过')
-    for line in pt.splitlines():
-        if line.startswith('@partition'):
-            print('  ' + line)
+    print_partitions(files['Runtime/packagedefinition.txt'])
 
 
 if __name__ == '__main__':
