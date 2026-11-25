@@ -18,7 +18,7 @@
 | `python -I tools\patch.py install` | 打包补丁并安装到游戏 |
 | `python -I tools\patch.py uninstall` | 卸载补丁，还原游戏 |
 | `python -I tools\patch.py package` | 打包给玩家的 `build\007FL-zhCN-Fix-<游戏版本>.zip`：补丁包、改好 patchlevel 的 `packagedefinition.txt` 和安装说明，解压复制即可安装，发到 Release |
-| `python -I tools\report.py` | 生成勘误表 `Errata.md`（按类别列出全部更正） |
+| `python -I tools\report.py` | 生成勘误表 `Errata.csv`（见下文“勘误表”） |
 
 登记示例：
 
@@ -38,7 +38,7 @@ python -I tools\fix.py ui 01FF8FD1D37DB622 6262E0D0 --ok --note "各语言都只
 | `text/original/ui.json` | 界面原文 `{LOCR 资源: {字符串 hash: {en, cn}}}`，203 个资源、8,870 条 |
 | `text/original/dialogue.json` | 对白原文 `{DLGE 资源: {元素序号: {en, cn, speaker, cat, unused?}}}`，17,913 个资源、27,891 条。分段字幕各段用换行连接；`unused` 表示只有英文有字幕（应是未使用的台词） |
 | [`text/fixes.json`](text/fixes.json) | 逐条更正和确认 `{"ui"\|"dialogue": {资源: {序号: {cn?, was?, speaker?, was_speaker?, ok?, note}}}}` |
-| [`Errata.md`](Errata.md) | 勘误表：按类别列出全部更正和建议译文，`report.py` 生成 |
+| [`Errata.csv`](Errata.csv) | 勘误表，`report.py` 生成 |
 | `build/` | 打包出的 patch rpkg 和玩家压缩包 |
 | `backup/` | 安装前备份的 `packagedefinition.txt`（卸载时要用，别删） |
 
@@ -46,7 +46,15 @@ python -I tools\fix.py ui 01FF8FD1D37DB622 6262E0D0 --ok --note "各语言都只
 
 `text/original/` 只读；改动只写在 `fixes.json`，`was` / `was_speaker` 自动记下原译和原说话人名，`ok` 表示确认原译无误、检查时跳过。省略号（`......` 等 → `……`）和问叹号（`！？` → `？！`）不逐条登记，由 `fix.py` 的 `BULK` 规则统一套用到全部文本；检查、打包、勘误表用的都是“原文 + 更正 + 批量规则”后的有效文本（`check.effective`）。分段字幕的 `cn` 也按行写，段数必须和原文一致（`fix.py` 会检查），打包时按原来的时间轴拆回各段。
 
-`Errata.md` 每次运行 `report.py` 都会整个重写，手改会被覆盖，要改标题或说明文字请改 `report.py`，版本号和日期在 `glacier.py` 的 `GAME_VERSION` / `BUILD_ID` / `BUILD_DATE`。2026-11-24 已提交给官方，之后持续更新，以仓库中的版本为准。
+## 勘误表
+
+[`Errata.csv`](Errata.csv) 列出全部更正，持续更新（2026-11-24 提交给官方的是当时的版本）。UTF-8 带 BOM，Excel 可直接打开；由 `report.py` 整个重写，不要手改。
+
+- 每条都对照过英文，必要时也对照繁中、日、法、德，只收简中独有的错误（见下节）。
+- 列：`ID`、`类别`、`说话人`、`英文原文`、`现有译文`、`建议译文`、`说明`。说话人名的更正单独一行，译文两列填的是说话人名。
+- `ID`：`LOCR <资源> / <字符串 hash>` 是界面文本，`DLGE <资源> / <元素序号>` 是字幕。
+- 分段字幕每段一行（单元格内换行）。
+- 省略号统一为“……”、问叹号统一为“？！”（GB/T 15834-2011），只差这两项的归入“标点”。
 
 ## 判断原则与当前结果
 
@@ -57,7 +65,7 @@ check.py 的规则：原文已变（`was` 与当前原文不符，或原文里�
 - 只改简中独有的错误：错译、漏译、意思反了、性别错误、术语和人名不统一、错别字、标签损坏。
 - 风格上“改了更好、原译也说得通”的不改。
 
-当前全部检查项均为 0，各类条数见 [`Errata.md`](Errata.md) 开头的分类统计。主要类型：
+当前全部检查项均为 0，各类条数见 `report.py` 的输出。主要类型：
 
 - **一词多义译错**：armed（已激活，不是有枪）、handler（联络员 / 上线）、commander（中校）、Tank（重装兵）、recruit（学员）、Roger（人名）、门罗对邦德的称呼（机组成员，邦德是海军不是空军）、dump（泄露，不是清空）、No shit（还用你说，81 条）等。
 - **标签与按键**：EULA 粗体标签不配对、按键占位符错误、显示内部字符串 ID。
@@ -147,7 +155,7 @@ BIN1 头包裹的 Scaleform GFX v15（未压缩，GFX 数据从偏移 0x54 开�
    - 调用这个函数前的 `lea r8, [rip+X]` 指向 16 字节密钥。当前文本密钥在 `0x2b9f1d0`，`0x8026d` 处的调用指向配置密钥。
    - 填进 `tools\glacier.py` 的 `TEXT_KEY` / `CONFIG_KEY` 后重跑导出。
 3. `fixes.json` 按资源 hash 和序号定位，导出后先跑 `check.py`：“原文已变”列出官方改过或删掉的条目，逐条重新确认（改好了就删掉那条修改，否则按新原文重新登记），再 `patch.py install`。
-4. 改 `tools\glacier.py` 的 `GAME_VERSION` / `BUILD_ID` / `BUILD_DATE`（勘误表、玩家压缩包都用它），重新 `report.py`、`patch.py package`，发新的 Release。
+4. 改 `tools\glacier.py` 的 `GAME_VERSION` / `BUILD_ID` / `BUILD_DATE`（玩家压缩包用它），重新 `report.py`、`patch.py package`，发新的 Release。
 
 ## 进度
 
