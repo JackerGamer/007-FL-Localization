@@ -2,9 +2,9 @@
 
 《007 初露锋芒》（IO Interactive，Glacier 2 引擎）简体中文本地化修正项目（字体替换仍在开发中）。
 
-基于游戏版本 1.3.2（Steam BuildID 10870473，2026-11-24）。**游戏更新后密钥、偏移和 packagedefinition 都可能变化**，见文末“游戏更新后”。
+基于游戏版本 1.3.2（Steam BuildID 26430236，2026-11-05）。**游戏更新后密钥、偏移和 packagedefinition 都可能变化**，见文末“游戏更新后”。
 
-**只想安装补丁**：到 [Releases](https://github.com/JackerGamer/007-FL-Localization/releases/latest) 下载压缩包，解压后按 `安装说明.txt` 操作，不需要下面的工具。
+**只想安装补丁**：到 [Releases](https://github.com/JackerGamer/007FL-Localization/releases/latest) 下载压缩包，按 Release 页面上的说明安装，不需要下面的工具。
 
 ## 快速使用
 
@@ -17,7 +17,7 @@
 | `python -I tools\fix.py ...` | 登记一条修改或确认到 `text\fixes.json` |
 | `python -I tools\patch.py install` | 打包补丁并安装到游戏 |
 | `python -I tools\patch.py uninstall` | 卸载补丁，还原游戏 |
-| `python -I tools\patch.py package` | 打包给玩家的 `build\007FL-zhCN-Fix-<游戏版本>.zip`：补丁包、改好 patchlevel 的 `packagedefinition.txt` 和安装说明，解压复制即可安装，发到 Release |
+| `python -I tools\patch.py package` | 打包给玩家的 `build\007FL-zhCN-Fix-<版本>.zip`（版本号是 `patch.py` 的 `RELEASE`）：补丁包和改好 patchlevel 的 `packagedefinition.txt`，解压复制即可安装，发到 Release |
 | `python -I tools\report.py` | 生成勘误表 `Errata.csv`（见下文“勘误表”） |
 
 登记示例：
@@ -155,7 +155,7 @@ BIN1 头包裹的 Scaleform GFX v15（未压缩，GFX 数据从偏移 0x54 开�
    - 调用这个函数前的 `lea r8, [rip+X]` 指向 16 字节密钥。当前文本密钥在 `0x2b9f1d0`，`0x8026d` 处的调用指向配置密钥。
    - 填进 `tools\glacier.py` 的 `TEXT_KEY` / `CONFIG_KEY` 后重跑导出。
 3. `fixes.json` 按资源 hash 和序号定位，导出后先跑 `check.py`：“原文已变”列出官方改过或删掉的条目，逐条重新确认（改好了就删掉那条修改，否则按新原文重新登记），再 `patch.py install`。
-4. 改 `tools\glacier.py` 的 `GAME_VERSION` / `BUILD_ID` / `BUILD_DATE`（玩家压缩包用它），重新 `report.py`、`patch.py package`，发新的 Release。
+4. 改 `tools\glacier.py` 的 `GAME_VERSION` / `BUILD_ID` / `BUILD_DATE` 和本文开头的版本，`tools\patch.py` 的 `RELEASE` 改成新版本号，重新 `report.py`、`patch.py package`，发新的 Release。
 
 ## 进度
 

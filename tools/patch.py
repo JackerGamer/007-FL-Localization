@@ -4,7 +4,7 @@
   python -I tools/patch.py build       生成 build/chunk0patch1.rpkg、build/chunk1patch1.rpkg 并回读校验
   python -I tools/patch.py install     build + 复制到游戏 Runtime + 提高 packagedefinition 的 patchlevel
   python -I tools/patch.py uninstall   删除补丁文件，还原 packagedefinition.txt
-  python -I tools/patch.py package     build + 打包给玩家的 build/007FL-zhCN-Fix-<游戏版本>.zip（解压后复制即可安装）
+  python -I tools/patch.py package     build + 打包给玩家的 build/007FL-zhCN-Fix-<RELEASE>.zip（解压后复制即可安装）
 
 原版 chunk0.rpkg / chunk1.rpkg 不会被修改。packagedefinition.txt 是原版（patchlevel 都为 0）时先备份到 backup/，
 游戏更新或验证文件后重新安装会刷新备份，卸载时也不会用旧备份覆盖新版。
@@ -186,37 +186,16 @@ def uninstall():
         print('没有备份，已把 patchlevel 改回 0')
 
 
-PLAYER_README = f'''《007 初露锋芒》简体中文本地化修正
-
-适用游戏版本：{glacier.GAME_VERSION}（Steam）。游戏是其他版本时请勿使用。
-修正了简体中文字幕和界面文本里 500 多处错误：错译、漏译、术语和人名不统一、错别字、标点等；
-另按国家标准统一了 1,900 多处省略号和问叹号的写法。
-
-安装
-1. 打开游戏目录：在 Steam 库中右键游戏 → 管理 → 浏览本地文件。
-2. 先把 Runtime 文件夹里的 packagedefinition.txt 复制一份备用。
-3. 把本压缩包 Runtime 文件夹中的 3 个文件复制到游戏的 Runtime 文件夹，替换 packagedefinition.txt。
-4. 启动游戏。启动时的光敏癫痫警告比原版多一句安全提示，就说明补丁已生效。
-
-卸载
-删除 Runtime 文件夹里的 chunk0patch1.rpkg、chunk1patch1.rpkg，再把备份的 packagedefinition.txt 放回去
-（没有备份的话，在 Steam 中右键游戏 → 属性 → 已安装文件 → 验证游戏文件的完整性）。
-
-注意
-- Steam 验证文件完整性后，packagedefinition.txt 会被还原，补丁不再生效；游戏版本没变的话，重新复制即可。
-- 游戏更新后请不要继续使用本补丁，等待对应新版本的补丁。
-- 本补丁只在游戏读取时替换文本，不修改原版 chunk0.rpkg / chunk1.rpkg。
-'''
-PACKAGE = f'007FL-zhCN-Fix-{glacier.GAME_VERSION}.zip'  # 发布给玩家的压缩包，放在 build/
+RELEASE = 'v1.4'  # 发布版本号，发新 Release 前改
+PACKAGE = f'007FL-zhCN-Fix-{RELEASE}.zip'  # 发布给玩家的压缩包，放在 build/；安装说明写在 Release 页面
 
 
 def package():
-    """build + 打包给玩家：Runtime/ 下的补丁包和改好 patchlevel 的 packagedefinition.txt，附安装说明。"""
+    """build + 打包给玩家：Runtime/ 下的补丁包和改好 patchlevel 的 packagedefinition.txt。"""
     import zipfile
     made = build()
     files = {f'Runtime/{os.path.basename(p)}': open(p, 'rb').read() for p in made.values()}
     files['Runtime/packagedefinition.txt'] = with_patchlevels({PARTITION[ci]: PATCH_LEVEL for ci in made})
-    files['安装说明.txt'] = b'\xef\xbb\xbf' + PLAYER_README.replace('\n', '\r\n').encode('utf-8')  # BOM + CRLF，记事本能直接看
     dst = os.path.join(BUILD, PACKAGE)
     with zipfile.ZipFile(dst, 'w', zipfile.ZIP_DEFLATED) as z:
         for name, data in files.items():

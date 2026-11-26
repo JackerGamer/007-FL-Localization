@@ -2,7 +2,7 @@
 import os, struct, zlib
 
 GAME = os.environ.get('FL_GAME_DIR', r'D:\SteamLibrary\steamapps\common\007 First Light')
-GAME_VERSION, BUILD_ID, BUILD_DATE = '1.3.2', 10870473, '2026-11-24'  # 本项目对应的游戏版本（Steam），游戏更新后同步修改
+GAME_VERSION, BUILD_ID, BUILD_DATE = '1.3.2', 26430236, '2026-11-05'  # 本项目对应的游戏版本（Steam），游戏更新后同步修改
 CHUNKS = [os.path.join(GAME, 'Runtime', f'chunk{i}.rpkg') for i in (0, 1)]
 
 # LOCR / DLGE 中的语言槽位（共 16 个，见 README）
