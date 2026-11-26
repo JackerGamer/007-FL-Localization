@@ -186,7 +186,7 @@ def uninstall():
         print('没有备份，已把 patchlevel 改回 0')
 
 
-RELEASE = 'v1.4'  # 发布版本号，发新 Release 前改
+RELEASE = 'v1.5'  # 发布版本号，发新 Release 前改
 PACKAGE = f'007FL-zhCN-Fix-{RELEASE}.zip'  # 发布给玩家的压缩包，放在 build/；安装说明写在 Release 页面
 
 
