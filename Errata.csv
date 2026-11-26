@@ -48,6 +48,7 @@ DLGE 013E77BC9DA0AEEE / 0,错译,钱班霓,Whoa. That's... beautiful.,"哇哦
 DLGE 01439DE225FD1A55 / 0,错译,辛格,"Give her hell, okay?
 We need her to call her handler.",给她点颜色瞧瞧，明白吗？我们得逼她联系指挥官,给她点颜色瞧瞧，明白吗？我们得逼她联系上线,handler 指派克的上线，不是指挥官
 DLGE 01450F0B1B3250CC / 0,错译,邦德,I would've handled it my way.,你本可以用我的方式处理,我本可以用自己的方式解决,人称错：邦德说的是自己
+DLGE 0149C34BB95833E3 / 0,错译,邦德,It's a gift.,我是天煞孤星,这是我的天赋,It's a gift 指天赋（法 talent、德 Gabe、日 才能、繁中 天賦），原译天煞孤星意思相反
 DLGE 014CF05779861820 / 0,错译,敌人{0},They are all armed.,他们全都有枪,它们全都已经激活了,armed 指炸弹已激活（日“作動中”、德“scharf”），不是“有枪”
 DLGE 0150D81E466EBE90 / 0,错译,军情六处员工,"Nine hours engaged, 30 to handover. I need an extension. Let me check. I'll get back to you.",已经开始9小时，30小时后交接。我需要延期。我先确认一下，稍后回复你,已经工作9小时，还有30分钟交接。我需要延期。我先确认一下，稍后回复你,30 to handover 是 30 分钟后交接（繁中同），原译“30小时”
 DLGE 0157F76188239140 / 0,错译,邦德,Reception. Good man.,大厅啊，你真是个好人,前台是吧，多谢,Reception 是前台；Good man 在此是道谢，原译“你真是个好人”
@@ -79,6 +80,8 @@ Right up until Operation Knightfall.",他们曾经是00计划的同僚，直到�
 DLGE 01C27CA0516665DD / 0,错译,邦德,Hold on.,等等,抓稳,车内台词 Hold on 是“抓稳”（繁中、日、法、德同），不是“等等”
 DLGE 01C2C895DB3F6ED0 / 0,错译,特种空勤团{0},Luck like that just isn't natural.,我自认倒霉,那种运气根本不正常,原译“我自认倒霉”意思不对；繁中/日/法均为“运气好得不正常”
 DLGE 01C6B723AE1A3230 / 0,错译,特种空勤团,"Go find your squad, recruit.",去找你的小队，新兵,去找你的小队，学员,recruit 指 00 计划学员，不是军队新兵
+DLGE 01CB208C44F4D0FE / 0,错译,海盗{0},"All for what? A thousand dollars, some phones and a few laptops?
+Not good.",就为这点钱？几千美金，几部手机和笔记本？真不值,就为这点钱？一千美金，几部手机和笔记本？真不值,误译：A thousand dollars 是一千，原译“几千”
 DLGE 01CE00E9FA714A93 / 2,错译,平民,Excuse me!? I think you should leave.,请原谅！？我想你应该离开了,喂？！我想你应该离开了,“Excuse me!?”在这里是不满地质问，不是“请原谅”
 DLGE 01D177A8D2D07C65 / 0,错译,平民,Excuse me!? I think you should leave.,请原谅！？我想你应该离开了,喂？！我想你应该离开了,“Excuse me!?”在这里是不满地质问，不是“请原谅”
 DLGE 01D8FC4FE3210D83 / 2,错译,平民,Excuse me!? I think you should leave.,请原谅！？我想你应该离开了,喂？！我想你应该离开了,“Excuse me!?”在这里是不满地质问，不是“请原谅”
@@ -93,6 +96,7 @@ LOCR 0102E49C3D7707C6 / 719835A2,错译,,Watch this,瞧瞧这个,看我的表,�
 LOCR 0102E49C3D7707C6 / AA0CB2D9,错译,,Unarmed,徒手搏斗,赤手空拳,挑战名：条件是不开枪，原译“徒手搏斗”偏成了近战
 LOCR 0102E49C3D7707C6 / FFBF8023,错译,,Crush 5 enemies with an object.,用一个物体砸死5名敌人,用物体砸死5名敌人,误译：an object 泛指物体，原译“用一个物体”像是要一次砸死5人
 LOCR 01031B2E6CC6A7E3 / 1FBCF19D,错译,,Hit a heavily staggered enemy near the rail to slam,在滑轨附近对严重踉跄的敌人进行猛击,在缆绳附近对严重踉跄的敌人进行猛击,误译：擂台的 rail / railing 指四周的围绳，与同组“撞向缆绳”“扔过缆绳”统一，不是“滑轨”
+LOCR 01031B2E6CC6A7E3 / A0E12495,错译,,Rush over an edge,冲向边缘,擒抱冲锋推下边缘,误译：挑战名，条件是用擒抱冲锋把敌人推下边缘（见下一条说明），原译“冲向边缘”像是邦德自己冲过去
 LOCR 01031B2E6CC6A7E3 / E8E22A99,错译,,Throw an enemy near the railing to slam,将敌人扔到滑轨附近进行猛击,将敌人扔到缆绳附近进行猛击,误译：擂台的 rail / railing 指四周的围绳，与同组“撞向缆绳”“扔过缆绳”统一，不是“滑轨”
 LOCR 0107B7F6E0D15EAB / 349BFC10,错译,,Fast learner,快速学习者,一点就通,挑战名：“快速学习者”直译生硬
 LOCR 0107B7F6E0D15EAB / 4EACFC0A,错译,,Mind the Gap,小心脚下有空隙,小心空隙,挑战名：Mind the gap 是伦敦地铁提示语“小心空隙”
@@ -140,6 +144,7 @@ LOCR 011E1D540ED7C499 / F837E56F,错译,,Takedown 3 Webb guards from above in th
 LOCR 011E219C785493F4 / 3C6AC1B8,错译,,"Complete ""Knightfall"".",完成“骑陨”。,完成“骑士陨落”。,Knightfall 是行动代号，“骑陨”不是现成词语，容易误读；繁中版译作“騎士隕落”
 LOCR 011E219C785493F4 / B9D3299D,错译,,Knightfall,骑陨,骑士陨落,Knightfall 是行动代号，“骑陨”不是现成词语，容易误读；繁中版译作“騎士隕落”
 LOCR 0120ADA8FBD3074E / D2E37A17,错译,,M has called the recruits to MI6. She’s suspending exams to send them on a mission. Rogue agent 009 is coming in from the cold.,M暂停了新兵的考核，召集他们前往军情六处执行新任务。叛变特工009再次现身，开始行动。,M暂停了学员的考核，召集他们前往军情六处执行新任务。叛变特工009再次现身，开始行动。,recruit 指 00 计划学员，不是军队新兵
+LOCR 0128BE2AA9815E60 / C1C2638D,错译,,Look for a way to lower the stairs.,想办法前往楼下。,想办法放下楼梯。,误译：任务目标是把楼梯放下来（lower the stairs），不是“前往楼下”（繁中“降下樓梯”）
 LOCR 012A22CFB455E37C / 39E30F8B,错译,,Snap,吸附,分段,VR 的 snap rotation 是分段转向，不是“吸附”（瞄准辅助的 aim snap 才是吸附）
 LOCR 012A22CFB455E37C / 7C294EAB,错译,,Adjust the speed of the smooth snap rotation.,调节平滑吸附旋转的速度。,调节平滑分段转向的速度。,VR 的 snap rotation 是分段转向，不是“吸附”（瞄准辅助的 aim snap 才是吸附）
 LOCR 012A22CFB455E37C / 91F0AFAC,错译,,Adjust the rotation degree per snap.,调节每次吸附旋转的角度。,调节每次分段转向的角度。,VR 的 snap rotation 是分段转向，不是“吸附”（瞄准辅助的 aim snap 才是吸附）
@@ -172,6 +177,7 @@ LOCR 014DF438F45FCCF3 / A4A6894C,错译,,Cupped,受制,杯具了,挑战名：条
 LOCR 014DF438F45FCCF3 / B4FEFD71,错译,,Use a disguise inside the Scorpius hideout.,用伪装进入天蝎座据点。,在天蝎座据点内使用伪装。,误译：是在据点内使用伪装，不是用伪装进入据点
 LOCR 014DF438F45FCCF3 / CC7CD69C,错译,,Easy does it,轻松完成,悠着点,挑战名：条件是不触发对峙，Easy does it 是“慢慢来、悠着点”，原译“轻松完成”意思不对
 LOCR 014DF8359D8104B3 / 6D67C33B,错译,,Photo of recruits,新兵合影,学员合影,recruit 指 00 计划学员，不是军队新兵
+LOCR 0150E1E74D041BAA / FEF60487,错译,,"While on a ladder, {ES_Accelerate/NoGesture} to climb/descend faster.",在梯子上，{ES_Accelerate}以更快速度爬行或下降,在梯子上，{ES_Accelerate}以更快速度攀爬或下降,误译：梯子上 climb 是“攀爬”，不是“爬行”
 LOCR 015FCF054DF3FE72 / 496713B2,错译,,Social engineering,社交工程学,社会工程学,误译：social engineering 的通行译名是“社会工程学”
 LOCR 016A34D8F646BA50 / 1A4B2A88,错译,,Museum security,肯辛顿,博物馆安保区,误译：Museum security 原译成了“肯辛顿”
 LOCR 017019D55AFCAD6F / 15BEE534,错译,,Server crash,服务器崩溃,服务器宕机,挑战名：原译“服务器崩溃”与 Server breakdown 撞名
@@ -185,6 +191,7 @@ LOCR 017019D55AFCAD6F / EAFBABCD,错译,,Completionist: Knightfall,完美主义�
 LOCR 01815574989C4717 / 280B4797,错译,,"<b>Age:</b> 57 (deceased).<br><b>Nationality:</b> British.<br><b>Occupation:</b> Criminal consultant.<br><b>Background:</b> A top-ranking 00 agent, Beckett (009) was framed for high treason by Sir Nicholas Webb in the first THEIA cover-up. Went underground in the aftermath of Operation Knightfall, and became an advisor to the criminal king pin ‘Bawma' in Aleph, Mauritania. Continuing his investigation from the shadows, Beckett discovered the truth about THEIA and Webb Industries' deadly campaign to cover it up. Assassinated by Niko and Tero Murto, Beckett took steps to ensure that John Greenway would uncover the evidence in case of his death.<br><b>Assessment:</b> Posthumously exonerated of all wrongdoing. Beckett died in service of the nation. The SIS is grateful for his sacrifice.",<b>年龄：</b>57（已故）。<br><b>国籍：</b>英国。<br><b>职业：</b>犯罪顾问。<br><b>背景：</b>一位高级别00号特工，贝克特（009）在首次THEIA掩盖事件中被尼古拉斯·韦伯爵士诬陷犯有叛国罪。在骑陨行动后转入地下，并成为毛里塔尼亚阿列夫犯罪头目巴瓦马的顾问。在暗处继续调查的贝克特发现了关于THEIA的真相，以及韦伯工业为掩盖这件事而展开的致命行动。贝克特被尼科和特罗·穆尔托刺杀，但他采取措施确保自己一旦身亡，约翰·格林威能够揭露证据。<br><b>评估：</b>死后所有不当行为指控均被撤销。贝克特为国捐躯。秘密情报局对其牺牲表示感激。,<b>年龄：</b>57（已故）。<br><b>国籍：</b>英国。<br><b>职业：</b>犯罪顾问。<br><b>背景：</b>一位高级别00号特工，贝克特（009）在首次THEIA掩盖事件中被尼古拉斯·韦伯爵士诬陷犯有叛国罪。在骑士陨落行动后转入地下，并成为毛里塔尼亚阿列夫犯罪头目巴瓦马的顾问。在暗处继续调查的贝克特发现了关于THEIA的真相，以及韦伯工业为掩盖这件事而展开的致命行动。贝克特被尼科和特罗·穆尔托刺杀，但他采取措施确保自己一旦身亡，约翰·格林威能够揭露证据。<br><b>评估：</b>死后所有不当行为指控均被撤销。贝克特为国捐躯。秘密情报局对其牺牲表示感激。,Knightfall 是行动代号，“骑陨”不是现成词语，容易误读；繁中版译作“騎士隕落”
 LOCR 01815574989C4717 / B4762D53,错译,,"<b>Age:</b> 56. <br><b>Nationality:</b> British. <br><b>Occupation:</b> MI6 Officer and 00 Training Instructor.<br><b>Background:</b> Starting out a Scotland Yard investigator, he joined the Secret Service as a 00 agent during the the post 9/11 era. Played a key role in Operation Knightfall when tasked to capture or kill three rogue 00 agents. Post suspension of the 00 branch, he spent a decade as special advisor to the Joint Intelligence Committee before taking on the role of training director to a new generation of 00s.<br><b>Assessment:</b> Veteran field operative and skilled investigator. Dutiful, pragmatic and unsentimental. Follows orders without question. Meticulous, perceptive and focused. Crafty and discreet but brutally efficient when the need arises.",<b>年龄：</b>56。<br><b>国籍：</b>英国。<br><b>职业：</b>军情六处官员兼00部门训练教官。<br><b>背景：</b>最初是苏格兰场的调查员，在911事件后加入秘密情报局成为00特工。在奉命追捕或清除三名叛变00特工的“骑陨”行动中扮演了关键角色。00部门暂停运作后，他在联合情报委员会担任了十年的特别顾问，随后担任新一代00特工的训练主管。<br><b>评估：</b>经验丰富的实地行动人员和老练的调查员。尽职、务实且不感情用事。毫无异议地服从命令。细致、敏锐且专注。狡猾而谨慎，但在必要时会变得冷酷高效。,<b>年龄：</b>56。<br><b>国籍：</b>英国。<br><b>职业：</b>军情六处官员兼00部门训练教官。<br><b>背景：</b>最初是苏格兰场的调查员，在911事件后加入秘密情报局成为00特工。在奉命追捕或清除三名叛变00特工的“骑士陨落”行动中扮演了关键角色。00部门暂停运作后，他在联合情报委员会担任了十年的特别顾问，随后担任新一代00特工的训练主管。<br><b>评估：</b>经验丰富的实地行动人员和老练的调查员。尽职、务实且不感情用事。毫无异议地服从命令。细致、敏锐且专注。狡猾而谨慎，但在必要时会变得冷酷高效。,Knightfall 是行动代号，“骑陨”不是现成词语，容易误读；繁中版译作“騎士隕落”
 LOCR 0186AC07B4F4058C / 0960D306,错译,,Hack a grenade before it explodes,在手榴弹爆炸前将其引爆,在手榴弹爆炸前将其黑入,意思反了：hack 是黑入，原译“将其引爆”
+LOCR 0186AC07B4F4058C / 34869AA4,错译,,Tackle an enemy over a ledge,越过边缘对付敌人,将敌人扑下边缘,误译：挑战“软着陆”的条件是把敌人扑下边缘，原译“越过边缘对付敌人”意思不对（繁中“將敵人從窗台推下去”）
 LOCR 0186AC07B4F4058C / 75406890,错译,,Complete your training as a recruit in Malta,在马耳他完成新兵培训,在马耳他完成学员培训,recruit 指 00 计划学员，不是军队新兵
 LOCR 0186AC07B4F4058C / 953FBD04,错译,,Damp squib,事倍功半,哑炮,挑战说明是在手榴弹爆炸前黑入它；Damp squib 意为哑炮、落空，不是“事倍功半”
 LOCR 018D94E35C8F5183 / 273E4F6C,错译,,A uniform and dress cap belonging to a Royal Navy Commander.,皇家海军指挥官的制服和礼帽。,皇家海军中校的制服和礼帽。,Commander 是海军军衔“中校”
@@ -204,6 +211,7 @@ LOCR 0198A36A63C5750B / AEEE3E17,错译,,Throw enemies off the platform using se
 LOCR 0198A36A63C5750B / D36A82A2,错译,,Throw enemies off the platform,将守卫扔下平台,将敌人扔下平台,误译：enemies 是“敌人”，不是“守卫”
 LOCR 019ACD7BF6EEE5FD / 1D50C41D,错译,,Tank,坦克,重装兵,Tank 是敌人类型（重甲精英雇佣兵），不是坦克
 LOCR 019ACD7BF6EEE5FD / 74154357,错译,,Tanks are heavy armoured elite mercenaries that know no fear and will advance relentlessly to eliminate any threat.,坦克是重甲精英雇佣兵，无所畏惧，会无情地推进以消灭任何威胁。,重装兵是重甲精英雇佣兵，无所畏惧，会无情地推进以消灭任何威胁。,Tank 是敌人类型（重甲精英雇佣兵），不是坦克
+LOCR 019ACD7BF6EEE5FD / EE0C489C,错译,,Climb,爬行,攀爬,误译：Climb 是“攀爬”，不是“爬行”（与交互提示“攀爬”一致）
 LOCR 01AB1EEECEA509BF / 28079E47,错译,,Group photo of the recruits,新兵合照,学员合照,recruit 指 00 计划学员，不是军队新兵
 LOCR 01AE4D67D3D72FCE / 04B3D04C,错译,,Buy,升级,购买,商城按钮 Buy 应为“购买”，原译“升级”与下一条 Upgrade 重复
 LOCR 01AE4D67D3D72FCE / 0B20DCD1,错译,,Campaign,活动,战役,主菜单进入“故事”后顶部的层级名，Campaign 指战役（剧情模式）；原译“活动”与 Activities 撞名
@@ -223,6 +231,7 @@ LOCR 01C907E04C9A964E / 634BDD1C,错译,,Destroy all bags with the ultra clean w
 LOCR 01C907E04C9A964E / B5123E01,错译,,Don't interact or use gadgets on any setpiece.,不与任何场景装置互动，也不使用任何道具。,不与任何场景装置互动，也不对其使用装置。,误译：use gadgets on any setpiece 是不对场景装置使用装置，不是完全不用道具
 LOCR 01C907E04C9A964E / FFA87E59,错译,,Wash day,洗衣日,洗衣停工,挑战名：条件是让所有洗衣机停转，原译“洗衣日”与 Laundry day 撞名
 LOCR 01CF5B1F67C9AC83 / 87885B2E,错译,,Back,后退,返回,菜单按钮 Back 应为“返回”，不是“后退”
+LOCR 01D2FE0CBD1CB9F7 / F2F0D9BA,错译,,"An adorable Bernese mountain dog named Humphrey. A stock photo, no doubt.",一只名叫汉弗莱的可爱缅甸山犬，毫无疑问是张素材图。,一只名叫汉弗莱的可爱伯恩山犬，毫无疑问是张素材图。,Bernese mountain dog 是伯恩山犬（缅甸是 Burmese）；法、德、日、繁中都是伯恩山犬
 LOCR 01D5DCFD9502468A / B447AA55,错译,,Boats galore,船只多多,千帆竞渡,挑战名：快艇赛，原译“船只多多”平淡
 LOCR 01D9E3EC689A6B6E / 38BFFFE6,错译,,Deflect,转向,格开,互动提示 Deflect（格开、拨开），不是“转向”
 LOCR 01DBF9AE296DD042 / ADB5BCFE,错译,,Poisoned,感染者,中毒,Poisoned 是“中毒”，不是“感染者”
@@ -234,6 +243,13 @@ LOCR 01EA4C1B4215A6E3 / 819B4C1C,错译,,Unlicenced to kill,未经许可，不�
 LOCR 01EA4C1B4215A6E3 / 988B5AD6,错译,,Watch your step,小心点,小心脚下,挑战名：条件是把达米安踢进缺口，Watch your step 是“小心脚下”
 LOCR 01EA4C1B4215A6E3 / B0735681,错译,,Wraith,幽灵,幽魂,挑战名 Wraith 原译“幽灵”，与“幽灵”类挑战（Ghost）重名，改为“幽魂”
 LOCR 01F2A4226E95C932 / 347295C6,错译,,Complete tier 1 of the Arctic skies mission.,完成极地天空任务的第一级,完成极地天空任务的第二级,英文原文误作 tier 1（这是“极地天空2”的说明），应为第二级
+LOCR 01F42963FB3A4CB7 / AC9EFFE3,错译,,"Bond and Greenway must find a way to get inside the high-end auction that Ali is running. 
+Greenway tells Bond he'll get the invitations required to get inside, leaving Bond to explore the bazaar and find ways to earn enough money to cover the one hundred thousand dollar buy-in fee.","邦德和格林威必须设法进入阿里经营的高端拍卖会。
+
+格林威告诉邦德他会搞定邀请函，而邦德需要探索市场，并想办法筹集足够多的资金支付一百万美金入场费。","邦德和格林威必须设法进入阿里经营的高端拍卖会。
+
+格林威告诉邦德他会搞定邀请函，而邦德需要探索市场，并想办法筹集足够多的资金支付十万美元入场费。",误译：one hundred thousand 是十万，原译“一百万”（任务目标和对白均为十万，繁中同）
+LOCR 01F42963FB3A4CB7 / B9CACB72,错译,,"Having paid the one hundred thousand dollar buy-in fee, Bond and Greenway gain access to the auction.",缴纳一百万美金入场费后，邦德与格林威成功进入拍卖场。,缴纳十万美元入场费后，邦德与格林威成功进入拍卖场。,误译：one hundred thousand 是十万，原译“一百万”（任务目标和对白均为十万，繁中同）
 LOCR 01F66B96654B7259 / 5B113302,错译,,Disorient,迷失,迷乱,状态效果 Disorient（失去方向感），与眩晕、踉跄并列，不是“迷失”
 LOCR 01F66B96654B7259 / 76202997,错译,,Tank,坦克,重装兵,Tank 是敌人类型（重甲精英雇佣兵），不是坦克
 LOCR 01F66B96654B7259 / 9D27F085,错译,,Resistant,抵抗军,抗性,Resistant 是敌人状态（有抗性），不是“抵抗军”
@@ -248,9 +264,12 @@ DLGE 01C2648297F7C28C / 0,漏译,邦德,"Oh no you don't!
 Not without me!",你别想跑！,休想！别想丢下我！,漏译后半句 Not without me（繁中/日/德均译出）；Oh no you don’t 是“休想”，不是“别想跑”
 LOCR 01179467BC0E9F2F / 755FDDD7,漏译,,"In this game you will encounter a variety of visual effects (including but not limited to: strobing light effects, red flashing lights, contrasting patterns, etc.) that can provoke seizures or loss of consciousness in a small percentage of people. These effects can cause seizures in individuals who have no history of prior seizures or epilepsy.<br><br>If you or someone in your family has ever displayed symptoms of epilepsy in the presence of flashing lights, please consult your physician before playing 007 First Light. <br><br>If you experience any of the following symptoms whilst playing: dizziness, altered vision, eye or muscle twitches, loss of awareness, disorientation, any involuntary movement, or convulsions - stop and seek medical attention immediately.<br><br>Tips that may reduce epileptic seizures and other health concerns:<br>- Play in a well-lit room.<br>- Keep your eyes as far away as possible from the screen.<br>- Take regular breaks during play sessions.<br>- Avoid playing when drowsy or fatigued.",在本游戏中，您会遇到各种视觉效果（包括但不限于：频闪灯光效果、红色闪烁灯光、对比图案等），这可能会导致少数人出现癫痫发作或失去意识。<br><br>如果您或您的家人在遇到闪烁灯光时曾出现过癫痫症状，请在游玩《007 初露锋芒》前咨询医生。<br><br>如果您在玩游戏时以下任何症状：头晕、视力改变、眼部或肌肉抽搐、意识丧失、定向障碍、任何非自主动作或抽搐，请立即停止游戏并就医。以下提示可能有助于减少癫痫发作和其他健康问题：<br>- 在光线充足的房间内玩游戏。<br>- 尽量让眼睛远离屏幕。<br>- 游戏过程中定期休息。<br>- 避免在困倦或疲劳时玩游戏。,在本游戏中，您会遇到各种视觉效果（包括但不限于：频闪灯光效果、红色闪烁灯光、对比图案等），这可能会导致少数人出现癫痫发作或失去意识。即使是从未有过癫痫发作史或癫痫病史的人，这些效果也可能引发癫痫发作。<br><br>如果您或您的家人在遇到闪烁灯光时曾出现过癫痫症状，请在游玩《007 初露锋芒》前咨询医生。<br><br>如果您在玩游戏时出现以下任何症状：头晕、视力改变、眼部或肌肉抽搐、意识丧失、定向障碍、任何非自主动作或抽搐，请立即停止游戏并就医。<br><br>以下提示可能有助于减少癫痫发作和其他健康问题：<br>- 在光线充足的房间内玩游戏。<br>- 尽量让眼睛远离屏幕。<br>- 游戏过程中定期休息。<br>- 避免在困倦或疲劳时玩游戏。,补译漏掉的一句安全提示；补“出现”；恢复段落换行
 LOCR 011E1D540ED7C499 / B5FF4464,漏译,,Complete Gantries and Utility Floor without shooting anyone.,在起重机平台和公用设施层中不向任何人开枪。,在不向任何人开枪的情况下完成门架和公用设施层。,漏译“Complete”；Gantries 统一为“门架”（任务目标的译名）
+LOCR 012FE9B5D6943262 / A812961C,漏译,,Grab rush two enemies over a ledge.,在悬崖边向两名敌人使用擒抱冲锋。,用擒抱冲锋将两名敌人推下悬崖。,漏译 over：是把两名敌人推下悬崖，不只是在悬崖边使用擒抱冲锋
 LOCR 018D94E35C8F5183 / 06695C67,漏译,,"Black satin tuxedo with matching vest, fitted white dress shirt and silk bow-tie.",头等舱,黑色缎面礼服，配同款马甲、修身白色正装衬衫和真丝领结。,描述误填为服装名称“头等舱”
 LOCR 018D94E35C8F5183 / 0D6A6280,漏译,,A black and gold satin tuxedo jacket with black pants and white dress shirt.,镀金燕尾服,黑金配色缎面礼服外套，搭配黑色长裤和白色正装衬衫。,描述误填为服装名称
 LOCR 0198A36A63C5750B / FB78EC45,漏译,,"Only gadgets or setpieces count. Not grab, throw or rush.",装置或场景装置才算在内。擒抱、投掷或冲锋不算。,只有装置或场景装置才算在内。擒抱、投掷或冲锋不算。,漏译“Only”
+LOCR 019ACD7BF6EEE5FD / 05DDDDCC,漏译,,"{ES_QuickMeleeAttack}, then hold {ES_ChargedMeleeAttack/NoGesture} to perform a kick that breaks opponent's guard.",{ES_QuickMeleeAttack}，然后{ES_ChargedMeleeAttack}执行破除对手防守的踢击。,{ES_QuickMeleeAttack}，然后按住{ES_ChargedMeleeAttack}执行破除对手防守的踢击。,漏译 hold：重击要长按，原译只写“然后”
+LOCR 019ACD7BF6EEE5FD / 306D3320,漏译,,"When you need to take a sharp turn, hold {ES_Handbrake/NoGesture} to use the handbrake.",需要急转弯时，按{ES_Handbrake/NoGesture}使用手刹。,需要急转弯时，按住{ES_Handbrake/NoGesture}使用手刹。,漏译 hold：手刹要长按，原译只写“按”
 LOCR 019ACD7BF6EEE5FD / 52E64FE4,漏译,,Keypads,使用爆炸物或环境危险来破坏仿生人的装甲。,密码键盘,描述误填：标题“Keypads”显示成了仿生人教程里的一句说明
 LOCR 019ACD7BF6EEE5FD / F9607BD9,漏译,,By pressing {ES_QuickMeleeAttack/NoGesture} you can also strike enemies while they are grabbed.,按{ES_QuickMeleeAttack/NoGesture}擒住敌人并攻击。,擒住敌人时，也可以按{ES_QuickMeleeAttack/NoGesture}攻击敌人。,漏译：原译读起来像是用这个操作擒住敌人，实际说的是擒住敌人后还可以用它攻击（繁中/日文等均如此）
 LOCR 01B39390AE998B76 / 25928356,漏译,,"Performing melee finishers will reward you with extra gadget resources, of the type you have the least of.",执行近战终结技可获得额外的小工具资源,执行近战终结技可获得额外的装置资源，类型为你目前最少的那种,gadget 统一为“装置”；补译“of the type you have the least of”
@@ -390,6 +409,7 @@ LOCR 01F66B96654B7259 / 9C25E056,不统一,,Gary,盖瑞,加里,Gary 统一译为
 LOCR 01F66B96654B7259 / E41C6709,不统一,,Hack,骇入,黑入,Hack 统一为“黑入”（其余 35 处都不用“骇入”）
 LOCR 01FAB37E89190CAE / 066DCFF6,不统一,,Strike / stealth takedown,攻击/潜行处决,攻击/潜行击倒,统一：Takedown 是击倒（教程说明为“击晕敌人”），原译“处决”意为杀死；游戏里其余挑战说明已用“击倒”
 LOCR 01FAB37E89190CAE / 77BE118A,不统一,,Stealth takedown,潜行处决,潜行击倒,统一：Takedown 是击倒（教程说明为“击晕敌人”），原译“处决”意为杀死；游戏里其余挑战说明已用“击倒”
+LOCR 01FAB37E89190CAE / 803B8E8C,不统一,,Grab rush,冲锋擒抱,擒抱冲锋,统一：Grab rush 为“擒抱冲锋”，同英文的另两条都是这个译法，原译“冲锋擒抱”
 DLGE 012EA53F03E19B09 / 0,音效标注,平民,That’s it. [sigh] Again.,很好，[sigh]第二次了,很好，[叹气]第二次了,音效标注未翻译
 DLGE 013EFDFE24DF65C4 / 2,音效标注,平民,[scoff] What is wrong with people today?,[scoff]今天这些人是怎么回事？,[嗤笑]今天这些人是怎么回事？,音效标注未翻译
 DLGE 01485B90B4CCD4A0 / 2,音效标注,平民,Could I just [scoff] squeeze by?,我能[scoff]挤过去吗？,我能[嗤笑]挤过去吗？,音效标注未翻译
@@ -600,6 +620,7 @@ DLGE 010191EE9CC126F6 / 2,标点,钱班霓,"Get over here, Bond. The techs need 
 DLGE 0111006A2BB734B2 / 0,标点,客人{0},"Sure. And ""spiritual stuff"".
 Why don't we all focus inwards and enjoy a bit of silence.",当然，还有”精神修行”。为什么我们大家不都关注内心，享受片刻宁静呢,当然，还有“精神修行”。为什么我们大家不都关注内心，享受片刻宁静呢,引号方向用错
 DLGE 011FEABD66B82043 / 0,标点,园丁,"Oh, I know. It never ends. The Pearl is the gift that keeps on giving.","可不是嘛，活儿永远干不完，珍珠酒店简直是个""福报""不断的地方",可不是嘛，活儿永远干不完，珍珠酒店简直是个“福报”不断的地方,半角引号改为中文引号
+DLGE 015134802ACD5AB9 / 0,标点,敌人,Roger that. Cordell out.,收到科戴尔结束通话,收到，科戴尔结束通话,标点：两句之间缺逗号
 DLGE 0187FD62CEAD9174 / 0,标点,员工,"Indeed. It seems he was most impressed with your presentation at the summit and said,
 I quote, 'ensure she is taken care of in a setting equal to her vision.'
 And so, The Emperor Villa is yours.","正是，他对您在峰会上的演讲印象深刻，
